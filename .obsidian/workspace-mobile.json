@@ -8,18 +8,43 @@
         "type": "tabs",
         "children": [
           {
-            "id": "10fffe330bbdb4dd",
+            "id": "ae1c3905751c5edd",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Matematika.md",
+                "file": "Matematika/Predavanja.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "f1fcf79b2822ab36",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Vaje.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "71d571fa932ff869",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Programiranje.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -85,7 +110,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "Matematika.md",
+            "file": "Programiranje.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -102,7 +127,7 @@
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "Matematika.md",
+            "file": "Programiranje.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
@@ -114,7 +139,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "Matematika.md"
+            "file": "Programiranje.md"
           }
         }
       }
@@ -132,11 +157,24 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "10fffe330bbdb4dd",
+  "active": "71d571fa932ff869",
   "lastOpenFiles": [
-    "Osnove elektrotehnike.md",
+    "Vaje.md",
+    "Programiranje.md",
+    "Matematika/Predavanja.md",
+    "Osnove elektrotehnike/Predavanja.md",
+    "Osnove elektrotehnike/Avditorne vaje.md",
+    "Matematika",
+    "Osnove elektrotehnike/Predavanja.md.md",
+    "Osnove elektrotehnike/Predavanja 1.md",
+    "predavanja.md.md",
+    "Osnoveelektrotehnike/Predavanja.md",
+    "Osnoveelektrotehnike",
+    "Osnove 1.md",
+    "Osnove.md",
+    "predavanja.md 1.md",
+    "Osnove elektrotehnike",
     "Fizika.md",
-    "Matematika.md",
     "/Fizika.md",
     "README.md"
   ]
