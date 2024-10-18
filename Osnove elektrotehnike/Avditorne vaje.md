@@ -32,4 +32,60 @@ $$\int_0^t -1,28 mA \cos(\omega t) dt = -1,28 mA \int_0^t \cos(\omega t) dt = \f
 $$ Q_1 = -4,08 \micro C \sin(\omega t)$$
 
 Domaca naloga:
-Koliko elektronov oditde y desnega telesa med t=0 in t=5ms?
+Koliko elektronov oditde z desnega telesa med t=0 in t=5ms?
+
+
+
+# Coulombov zakon
+
+ $$\vec F_{21} = \frac{Q_1 Q_2}{4 \pi \epsilon_0 R_{21}^3} \vec R_{21} = \frac{Q_1 Q_2}{4 \pi \epsilon_0 R_{21}^2}\vec e_{R_{21}}$$
+$\vec e_{R_{21}}$ - enotski (smerni) vektor
+
+
+## Naloga 1.13
+Dolocite razdaljo x in mnozino naboja Q_x, ki zagotavljajo, da bodo sile na vse 3 naboje enake 0.
+
+($Q = 9\micro C$, $d = 30 mm$)
+
+$Q_x$ je med $Q$ in $4Q$, $x$  je razdalja od $Q$, $d$ je razdalja med $Q$ in $4Q$
+
+
+$$Q: -F_{Q Q_x} - F_{Q 4Q} = 0 \text{N}$$
+$$Q_x: -F_{Q_x 4Q} + F_{Q_x Q} = 0 \text{N}$$
+$$4Q: F_{4Q Q_x} - F_{4Q Q} = 0 \text{N}$$
+
+(Predetrtminiran sistem)
+
+$$\frac 1 {x^2} = \frac 4 {(d - x)^2}$$
+$$x = \frac d 3 = 10 \text{ mm}$$
+
+$$Q_x = \frac{4Q}9 = - 4 \micro \text{C}$$ 
+
+## Naloga 1.14 (NALOGA ZA IZPIT)
+Trije enaki tockasti naboji so razvrsceni v ogljisca enakostranicnega trikotnika. 
+
+a) Koiksna je sila na naboj v teziscu trikotnika? 0N
+b) Koliksen naboj $Q_x$ moramo postaviti  v tezisce, da bodo sile na vse 4 naboje enake nic
+
+Varianta 1: brez Q_x, zracunej silo na zgornji naboj
+
+Varianta 2: V1 ampak 4-kotnik
+
+
+## Naloga od nekje
+V tickah $T_1 (x_1, y_1, z_1)$ in $T_2(1, 3, -4) \text{cm}$ lezita tickasta naboja $Q_1 = 3 \text{nC}$ in $Q_2 = -3 \text{nC}$.
+Dolocite koordinate $T_1$, ce je sila na naboj $Q_1$ enaka $\vec F_{12} = (1, -5, 3) \text{nN}$.
+
+$$\vec F_{12} = \frac{Q_1 Q_2}{4 \pi \epsilon_0 R_{12}^3} \vec R_{12}$$
+$$\vec R_{12} = (x_1, y_1, z_1) - (1, 3, -4) cm = (x_1 - 1, y_1 - 3, z_1 + 4) cm$$
+$$\vec F_{12} = \frac{Q_1 Q_2}{4 \pi \epsilon_0 \sqrt{(x_1 - 1)^2 + (y_1 - 3)^2 + (z_1 + 4)^2}^3} (x_1 - 1, y_1 - 3, z_1 + 4)$$
+
+
+$$\vec F_{12} = F_{12} \vec R_{12} = \sqrt{1^2 + 5^2 + 3^2} \vec R_{12}$$
+$$\vec e_{R_{12}} = \frac{(1, -5, 3)}{5,92} = (0,17; -0,83; 0,5)$$
+$$F_{12} = \frac{Q_1 Q_2}{4 \pi \epsilon_0 R_{12}^2} $$
+$$R_{12} = \sqrt{\frac{Q_1 Q_2}{4 \pi \epsilon_0 F_{12}}}$$
+
+$$\vec R_{12} = R_{12} \vec e_{R_{12}}$$
+
+# Elektricno polje

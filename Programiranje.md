@@ -55,3 +55,79 @@ function isCommon(x, y, n){
 	return false;
 }
 ```
+
+
+
+Naloga
+
+```js
+function kalkulator(a, b, op) {
+   switch(op){
+		case “+”:
+			rezultat = a + b
+			break;
+		case “-“:
+			rezultat = a - b
+			break;
+		case “*”:
+			rezultat = a*b
+			break;
+		case “/“:
+			if (b != 0){
+				rezultat = a/b
+				break;
+			}
+		default:
+			rezultat = “nepaka”
+   }
+   return rezultat;
+}
+```
+
+```js
+function kalkulator(a, b, op) {
+
+    let rezultat;
+
+   switch(op){
+
+        case “+”:
+
+            rezultat = a + b
+
+            break;
+
+        case “-“:
+
+            rezultat = a - b
+
+            break;
+
+        case “*”:
+
+            rezultat = a*b
+
+            break;
+
+        case “/“:
+
+            if (b != 0){
+
+                rezultat = a/b
+
+                break;
+
+            }
+
+        default:
+
+            rezultat = “napaka”;
+
+   }
+
+   return rezultat;
+
+}
+
+document.getElementById("demo").innerHTML = kalkulator(9, -5, "*") + "\n" + kalkulator(1, 0, "/") + "\n" + kalkulator(5, 42, "=") + "\n" + kalkulator(72, -3, "/") + "\n" + kalkulator(-2, 6, "+") + "\n" + kalkulator(34, 7, "-")
+```

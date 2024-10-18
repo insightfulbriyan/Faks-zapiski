@@ -6,7 +6,7 @@ kaka je verjetnost da bo miza stala
 
 # Uvod
 ## Kompleksna stevila
-$$\frac{2-3i}{1+2i}:3i = \frac{2-3i}{(1+2i) \cdot 3i} = \frac{(2-3i) \cdot (1-2i) \cdot -3i}{(1+2i) \cdot (1-2i) \cdot 3i \cdot (-3i)} =$$
+$$$$$$\frac{2-3i}{1+2i}:3i = \frac{2-3i}{(1+2i) \cdot 3i} = \frac{(2-3i) \cdot (1-2i) \cdot -3i}{(1+2i) \cdot (1-2i) \cdot 3i \cdot (-3i)} =$$
 $$\frac{-3i \cdot (2 -4i -3i -6)}{-3i \cdot 3i \cdot 5} = \frac{-3i \cdot (4 -7i)}{9 \cdot 5}$$
 
 Velikost = absolutna vrednost
