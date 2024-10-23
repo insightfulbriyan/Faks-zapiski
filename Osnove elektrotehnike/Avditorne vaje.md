@@ -89,3 +89,34 @@ $$R_{12} = \sqrt{\frac{Q_1 Q_2}{4 \pi \epsilon_0 F_{12}}}$$
 $$\vec R_{12} = R_{12} \vec e_{R_{12}}$$
 
 # Elektricno polje
+$\vec E = \frac{Q}{4 \pi \epsilon_0 r^2} \vec e_r$ - tocka
+$\vec E = \frac{q}{2 \pi \epsilon_0 \rho} \vec e_\rho; q=\frac{dQ}{dl}$ - premica
+$\vec E = \frac{Q \cdot z}{4 \pi \epsilon_0 (a^2 + y^2)^{\frac 2 3}} \vec e_z$ - obroc
+$\vec E = \pm \frac{\sigma}{2 \epsilon_0} \vec e_z; \sigma = \frac{dQ}{dS}$ - ravnina
+
+
+
+
+## Izpit iz leta 2000
+Vzporedni daljnovodni vrvi s $q_1$ in $q_2$ sta polozeni kot na sliki. Kam postaviti tockasto elektrino, $Q_3$, da vbo vektor $\vec E$ v srediscu koorsinatnega sistema enak 0?
+
+
+Tri vzporedne daljnovodne vrvi, so razmescene v ogljisca enakostranicnega trikotnika s stranico $a= 2 m$. Dolocite vektor $\vec E$ na mestu vodnika z nabojem $q_3$ in silo na enoto dolzine, ce je $q_1 = q_2 = 1 \micro C/m$ in $q_3 = 3 \micro C/m$
+
+
+Premica z nabojm $q$ in toska na oddaljenosti $a$ od premice z nabojem $Q$.  
+
+
+# Gausov zakon
+$$\oint_A \vec E  \cdot d \vec a = \frac {Q_{not}} {\epsilon_0}$$
+Krogla:
+$$\oint_A E \cdot da = \frac{Q_{not}}{\epsilon_0}$$
+$$E \oint_A da = \frac{Q_{not}}{\epsilon_0}$$
+$$E \cdot A = \frac{Q_{not}}{\epsilon_0}$$
+$$E \cdot 4 \pi r^2 = \frac{Q_{not}}{\epsilon_0}$$
+Valj:
+$$\int \vec E_{pl} \cdot d \vec a + \int \vec E_{pokrov} \cdot d \vec a + \int \vec E_{dno} \cdot d \vec a = \frac{Q_{not}}{\epsilon_0}$$
+$$\int E \cdot da + 0 + 0 = \frac{Q_{not}}{\epsilon_0}$$
+$$E_{pl} = \frac{Q}{2 \pi \epsilon_0 \rho l} = \frac{q}{2 \pi \epsilon_0 \rho}$$ 
+
+Med krogeljni lupini s polmerom $a = 1 cm$ in $b = 3 cm$ je ujet naboj, ki ima gostoto $\rho = 100 nC/m^3$. Dolocite E na proskvi $r = 2,5 cm$

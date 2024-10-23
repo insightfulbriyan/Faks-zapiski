@@ -187,3 +187,56 @@ $$E_x = \frac \sigma {2 \epsilon_0}$$
 Polje je homogeno - ne spreminja kota in velikosti neglede na to kam postavimo tocko
 
 
+
+# Kroglicni kondenzator
+Krogla in krog okoli tega ki sta enakomerno naelektrena
+
+
+## Zgled
+Zemlja (negativno nabita) in ionosfera (pozitivno nabita)
+
+$R_Z = 6400 \text{ km}$ 
+$d_{ionosfere} = 200 \text{ km} \Rightarrow R_i = 6600 \text{ km}$
+
+$E_{ob\, R_1} \approx 100 \frac{\text{V}}{\text{m}}$ 
+
+$$Q = E \cdot 4 \pi \epsilon_0 \cdot r_z^2 \approx -500 \text{ kC}$$
+
+# Energija v kondenzatorju
+$$W_e = \frac 1 2 QU = \frac 1 2 C U^2 = \frac 1 2 E(r_Z) 4 \pi \epsilon_0 r_Z^2 \cdot E(r_Z) \cdot (r_i - r_Z)$$
+$$W_e = $$
+## Zgled
+
+$$W_{e_Z} =  4,5 \cdot 10^{12} \text{ J}$$
+
+
+neki je caru vmes nimam pojma kaj,…
+
+
+# Naboj krogeljnega oblaka
+Gostota naboja je konstanta (oblak ni prevoden)
+$\rho = konst.$
+
+Izberemo si tocko
+1) T je izven oblaka
+$$ \oint \vec E d \vec a = \frac{Q_{not}}{\epsilon_0}$$
+$E$ in $d \vec a$ sta vzporedna
+$$\oint_A E d \vec a = E \oint_A da = E S = E 4 \pi r^2$$
+$$E 4 \pi r^2 =  \text{ in } $$
+
+
+$$ E \cdot 4 \pi r^2 = \left \{ \begin{array}{lr} \frac{\rho 4 \pi r^3}{3}; r < r_o \\ \frac{\rho 4 \pi r_o^3}{3}; r > r_o \end{array} \right\}$$
+# Naelektren plasc valja
+Ni odvisen od $z$ in on kota $\phi$
+
+$$\oint_A E \cdot da = \int_\text{Levi pokrov} E \cdot da + \int_\text{plasc} E \cdot da + \int_\text{Desni pokrov} E \cdot da = 0 + l \cdot  E \cdot \rho \cdot  2 \pi + 0$$
+$$E = \left\{ \begin{array}{lx} 0; \rho < r \\ \frac{q}{2 \pi \epsilon_0 \rho}; \rho > r \end{array} \right\}$$
+# Enakomerno naelektrena dolga zica
+= Valj sam da ma se neki notr
+
+
+
+# Koaksialni kabel
+$$E = \left\{ \begin{array}{lx} 0; \rho < r_n \\ \frac{q}{2 \pi \epsilon_0 \rho}; r_m<\rho<r_v \\ 0; r_v < r  \end{array}\right\}$$
+
+$$\sigma  = \frac q {2 \pi \rho}$$

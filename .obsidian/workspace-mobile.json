@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "465ba79d0842c67f",
+        "id": "5645f0948ea20026",
         "type": "tabs",
         "children": [
           {
-            "id": "d8176f3e091e3047",
+            "id": "bde5794e2fc1503f",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -132,12 +132,22 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "d8176f3e091e3047",
+  "active": "bde5794e2fc1503f",
   "lastOpenFiles": [
-    "Fizika.md",
-    "Programiranje.md",
     "Osnove elektrotehnike/Avditorne vaje.md",
     "Osnove elektrotehnike/Predavanja.md",
+    "Programiranje/Predavanja.md",
+    "Programiranje",
+    "Fizika/Predavanja.md",
+    "Fizika/Vaje.md",
+    "Fizika",
+    "/Fizika/Predavanja.md",
+    "/Fizika/Vaje.md",
+    "/Programiranje/Predavanja.md",
+    "/Programiranje",
+    "/Fizika",
+    "Fizika.md",
+    "Programiranje.md",
     "Matematika/Predavanja.md",
     "Matematika/Vaje.md",
     "Matematika",
