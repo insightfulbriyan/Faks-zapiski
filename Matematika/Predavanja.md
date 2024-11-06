@@ -23,3 +23,21 @@ $$ g(x) = x + 2 $$
 $$ (f + g)(x) = f(x) + g(x) = x^2+ x + 2$$
 $$ (f \cdot g)(x) = f(x) \cdot g(x) = x^2 \cdot (x + 2)$$
 $$ (f \circ g)(x) = f(g(x)) = (x + 2)^2 $$ 
+
+# Zaporedja
+---
+Cebelca:
+Kocka 
+postavimo se v ogljisce kocke
+za vsako oglisce je enaka verjetnost da gremo v vsako smer
+zelimo pridit na anstprotno stran kocke
+kaka je pricakovana verjetnost, da pridemo na nasprotno stran
+
+---
+
+Zaporedja: Presliakve iz N v C
+
+## Limita
+Pavila za racunanje z limitami !!
+
+

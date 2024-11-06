@@ -240,3 +240,64 @@ $$E = \left\{ \begin{array}{lx} 0; \rho < r \\ \frac{q}{2 \pi \epsilon_0 \rho}; 
 $$E = \left\{ \begin{array}{lx} 0; \rho < r_n \\ \frac{q}{2 \pi \epsilon_0 \rho}; r_m<\rho<r_v \\ 0; r_v < r  \end{array}\right\}$$
 
 $$\sigma  = \frac q {2 \pi \rho}$$
+# Delo elekticne sile
+$$A = \vec F \cdot \vec s$$
+$$m \cdot \vec a(T) = Q \cdot \vec E(T)$$
+$$\int_{T_1}^{T_2} m \cdot \vec a \cdot d \vec l = \int_{T_1}^{T_2} Q \cdot \vec E \cdot d \vec l$$
+$$\Delta W_k = \frac m 2 ({v_k}^2 - {v_z}^2) = A_e(\text{neki neki neki}) = Q \int_{\text{spet neki neki}} \vec E d \vec l =  $$
+$$Q \int_{\text{spet neki neki}} \frac{1}{4 \pi \epsilon_0} \int_{Q_\text{neki}} \frac{\vec e_R \cdot dQ\cdot d \vec l} {R^2} = \frac{Q}{4 \pi \epsilon_0 } \int_Q dQ ~\int_{neki} \frac{\frac{\vec R}{R} \cdot d \vec l}{R^2}$$
+$$\int_{neki} \frac{\frac{\vec R}{R} \cdot d \vec l}{R^2} = \int_{R_1}^{R_2} R^{-2} dR = -\frac 1 R = \frac 1 {R_1} - \frac 1 {R_2}$$
+# Napetost
+$$\frac{A_e(T_1, T_2)}{Q} = U_{1, 2}$$
+Enote:
+$$J / As = VAs/As = V$$
+# II. Kirchhoffov zakon
+$$U_{AB} = \int_{A \rightarrow B} \vec E d\vec l$$
+$$\int_{A \rightarrow B} \vec E d\vec l = - \int_{B \rightarrow A} \vec E d\vec l$$
+$$\int_{A \rightarrow B} \vec E d\vec l + \int_{B \rightarrow A} \vec E d\vec l$ = 0$$
+Ker je pot nepomembna lahko 1. integral predstavlja zgornji del zanke, 2. integral pa spodnji del zanke.
+
+$$\oint_L \vec E d\vec l = 0$$
+$$\sum_j (\pm) U_j = 0 $$
+# Elektricni potencial
+## Elektricna potencialna energija
+$$W_e = A_e(T_1, T_\infty) = \int_{T_1}^{T_\infty} \vec E d \vec l = \frac{Q}{4 \pi \epsilon_0} \int R^{-1} dQ’$$$$\frac{W_e}{Q} = V(T_1) = U_{1, \infty}$$
+
+
+
+# Napetost vs. potencial
+$$U_{AB} = V_A - V_B$$
+
+$$\int_A^{T_\infty}E dl = \int_A^BEdl + \int_b^{T_\infty}Edl$$
+$$V_A = U_{AB} + V_B$$
+
+
+# Recap
+$Q$,$I$
+$$\vec F_L = \vec F_e + \vec F_m$$
+$$\vec F_e = \vec E \cdot dQ$$
+$A_e$, $W_{ep}$ 
+$U = \frac{dA_e}{dQ}$, $V = \frac{dW_{ep}}{dQ}$, 
+$$U_{12} = V(1) - V(2) = \int_A^B \vec E \cdot d \vec l$$
+## Zgleg
+### $V$ tockastega naboja
+Imamo tockast naboj $Q$ in tocko $T$, ki je za $r$ oddaljena od njega
+$$V(T) = \frac{1}{4\pi\epsilon_0} \int_Q \frac{dQ}{R} = \frac{Q}{4 \pi \epsilon _0 r}$$
+ali
+$$V(T) = \int_T^\infty \vec E \cdot d \vec l = \int_{R_1}^\infty \frac{Q}{4\pi\epsilon_0 R^2} \vec e_R \vec e_R dR = \frac{Q}{4\pi\epsilon_0} \int_{R_1}^\infty \frac{dR}{R^2} = \frac{Q}{4 \pi \epsilon_0 R_1}$$
+
+### $V$ gruce enabojev
+imamo gruco nabojev $Q_1$, $Q_2$, …, $Q_n$ 
+$$V(T) = \frac{1}{4 \pi \epsilon_0} \sum_{i=1}^n \frac{Q_i}{R_i}$$
+
+### $V$ v osi obroca
+$$E_z (z) = \frac{Q}{4 \pi \epsilon_0} \frac {z}{(a^2 +z^2)^{3/2}}$$
+### V in ob krogelnem oblaku
+To je narobe!!!
+$$V(T) =  \left \{ \begin{array}{lr} \frac{\rho 4 \pi r^3}{3}; r < r_o \\ \frac{\rho 4 \pi r_o^3}{3}; r > r_o \end{array} \right\}$$
+
+
+
+$$U = \frac{Qd}{S \epsilon_0}$$
+$$Q = \frac{S \epsilon_0 U}{d}$$
+$$\{ Q = C U\}$$

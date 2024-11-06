@@ -120,3 +120,51 @@ $$\int E \cdot da + 0 + 0 = \frac{Q_{not}}{\epsilon_0}$$
 $$E_{pl} = \frac{Q}{2 \pi \epsilon_0 \rho l} = \frac{q}{2 \pi \epsilon_0 \rho}$$ 
 
 Med krogeljni lupini s polmerom $a = 1 cm$ in $b = 3 cm$ je ujet naboj, ki ima gostoto $\rho = 100 nC/m^3$. Dolocite E na proskvi $r = 2,5 cm$
+
+## Naloga
+Kroglasi oblak z radijem $r$ ima prostorsko gostoto $\rho (r) = \rho_0 \frac r {r_0}$; $\rho_0 = 8 \cdot 10 ^ {-6} \frac{\text{C}}{\text{m}^3}, r_0 = 1 \text{ cm}$. Dolocite $\vec E$ na robu oblaka.
+
+
+$$\oint_A \vec E \; d\vec a = \frac{Q_{not}}{\epsilon_0}$$
+
+$$\rho (r) = \frac{dQ}{dV}$$
+$$dQ = \rho(r) \cdot dV$$
+$$dV = S \cdot dr = 4 \pi r^2 \cdot dr$$
+$$dQ = \rho _0 \frac{r}{r_0} \cdot 4 \pi r^2 \cdot dr$$
+$$\int_0^{Q_{not}} dQ = \int_0^{r_0} \rho _0 \frac{r}{r_0} \cdot 4 \pi r^2 \cdot dr$$
+$$Q_{not} - 0 = \frac{\rho_0 \cdot 4 \pi}{r_0} \int_0^{r_0} r^3 dr$$
+$$Q_{not} = \frac{\rho_0 \cdot 4 \pi}{r_0} \frac{r^4}{4} |_0^{r_0}$$
+$$Q_{not} = \rho_0 \cdot \pi \cdot {r_0}^3$$
+$$E \cdot 4 \pi r^2 = \frac{\rho_0 \pi r_0^3}{\epsilon_0}$$
+$$E = \frac{\rho_0 {r_0}^3}{4 \epsilon_0 r^2}$$
+## Naloga
+Dolocite elektricno poljsko jakost v poljubni tocki prostora, ki vsebuje enakomerno naelektren koaksialni valnji lupini.
+
+$$E \cdot 2 \pi \rho l = \frac{q \cdot l}{\epsilon_0}$$
+$$E = \frac{q}{2 \pi \epsilon_0 \rho}$$
+
+## Naloga
+V vodoravnem razsesnem oblaku debeline $h = 10 m$ ima elektricni naboj z gostoto $\rho = 100 \frac{nC}{m^3}$.
+Pod oblakom je kroglica z maso $m = 2g$. Koliksen naboj $Q$ bi morala imeti kroglica, da bi elektricna sila, ki deluje nanjo uravnitezila silo teze.
+
+
+
+
+
+
+
+
+Dolocite elektricno poljsko jakost 
+
+
+
+
+
+# Elektricni potencial
+$$V(T) = - \int_{T(V=0V)}^{T} \vec E \cdot d \vec l$$
+$$dV = -\vec E \cdot d\vec l$$
+## Naloga
+Ozemljena prevodna krogelna lupina ima radij $r_0 = 2 cm$. Notranjost je napolnjena z naelektrenim praskom prostorninske gostote $\rho = -20 \cdot 10^{-6} \frac{C}{m^3}$. Izracunajte potencial v tocki $T$, ki je za $\frac{r_0}{2}$ oddaljena od sredisca krogle.
+
+
+
