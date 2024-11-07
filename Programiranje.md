@@ -131,3 +131,12 @@ function kalkulator(a, b, op) {
 
 document.getElementById("demo").innerHTML = kalkulator(9, -5, "*") + "\n" + kalkulator(1, 0, "/") + "\n" + kalkulator(5, 42, "=") + "\n" + kalkulator(72, -3, "/") + "\n" + kalkulator(-2, 6, "+") + "\n" + kalkulator(34, 7, "-")
 ```
+
+
+
+
+
+
+```js
+
+```

@@ -31,7 +31,8 @@ Kocka
 postavimo se v ogljisce kocke
 za vsako oglisce je enaka verjetnost da gremo v vsako smer
 zelimo pridit na anstprotno stran kocke
-kaka je pricakovana verjetnost, da pridemo na nasprotno stran
+~~kaka je pricakovana verjetnost, da pridemo na nasprotno stran~~
+Povprečno koliko korakov potrebujemo, da oridemo na nasprotno stran
 
 ---
 
@@ -41,3 +42,20 @@ Zaporedja: Presliakve iz N v C
 Pavila za racunanje z limitami !!
 
 
+# Potence z iracionalin eksponentom
+$$a, b = Z, b!= 0, c = R^+$$
+$$c^{\frac a b} = (c^{\frac 1 b})^a$$
+“Racionalna stevila so gosta v realnih stevilih”
+
+Vsakemu iracionalnemu stevilu lahko priredimo tako zaporedje katerega $\lim_{n \rightarrow \infty}$ je enaka temu iracionlanemu stevilu
+
+$$c^i = \lim_{n -> \infty} c^{q_n} ; \lim_{n -> \infty} q_n = i; i = R - Q$$
+
+# Eulerjevo stevilo
+$$e^{\pi i} + 1 = 0$$
+$$e = \lim_{n -> \infty} (1 + \frac 1 n)^n \approx 2,718 $$
+
+
+
+
+$$\lim_{n->\infty} (2 + \frac{3}{5n})^{3n} = $$
