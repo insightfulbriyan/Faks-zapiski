@@ -1,3 +1,6 @@
+
+
+
 # Lorenzova sila 
 
 $$ \vec{F} = Q(\vec{E} + \vec{w} \times \vec{B})$$
@@ -301,3 +304,227 @@ $$V(T) =  \left \{ \begin{array}{lr} \frac{\rho 4 \pi r^3}{3}; r < r_o \\ \frac{
 $$U = \frac{Qd}{S \epsilon_0}$$
 $$Q = \frac{S \epsilon_0 U}{d}$$
 $$\{ Q = C U\}$$
+# Od potenciala $V$ do elektricne poljske jakosti $E$
+
+$$E = odvod(V)$$
+## Ekvipotencialke
+Mnozice tock (klrivulkje, ploskve), ki povezujejo tocke z enakim potencialom.
+
+
+
+1) Premik v tangencialni smeri
+$$dV = \vec E \cdot d\vec l_T = E_T \cdot dl_t = 0$$
+$dV = 0$ ker se premikamo po ekvipotencialki
+
+2) Premik v smeri normale
+$$d\vec l_N = \vec e_N \cdot dl_N$$
+$$\vec E_N = E_N \cdot \vec e_N$$
+$$dV = -E_N \cdot dl_N$$
+$$E_N = - \vec e_N \frac{dV}{dl_N}$$
+
+## Priemr
+Tockast naboj
+
+$$E_N = - \frac{dV}{dR} = - \frac{Q}{4 \pi \epsilon_0} (-1 \cdot R^{-2}) = \frac{Q}{4 \pi \epsilon_0 R^2}$$
+## Primer
+Ploscni kondenzator
+$$\vec E_N = \vec e_N \cdot \frac{\Delta V}{\Delta d}$$
+# Vektor kot trojica komponent
+$$\vec E = (E_x, E_y, E_z)$$
+$$d\vec l = (dx, dy, dz)$$
+
+ ### 1.
+ $$d\vec l = (dx, 0, 0)$$
+$$dV = (E_x, E_y, E_z) \cdot (dx, 0, 0) = E_x \cdot dx + E_y \cdot 0 + E_z \cdot 0 = E_x \cdot dx$$
+$$E_x = - \frac{dV}{dx}$$
+…
+$$E_y = - \frac{dV}{dy}$$
+$$E_z = - \frac{dV}{dz}$$
+$$\vec E = - (\frac{dV}{dx},\frac{dV}{dy},\frac{dV}{dz})$$
+$(\frac{dV}{dx},\frac{dV}{dy},\frac{dV}{dz})$ - gradient $$grad(V)$$
+
+**V VALJU**
+$$\vec E = (E_\rho, E_\phi, E_z) = -(\frac{dV}{d\rho},\frac{dV}{\rho \cdot d\phi},\frac{dV}{dz})$$ ??????
+
+
+
+
+
+
+## Zgled
+Koaksialni kabel
+$$U_{rb} = V(r) - V(b) = \int_r^b E \cdot dl = \frac{Q}{2 \pi \epsilon_0} \int\frac 1 r \vec e_r \vec e_r dr$$ ?????
+
+
+$$Q = q \cdot l = \frac{2 \pi \epsilon_0 l}{\ln\frac b a}U$$
+
+# Potencial (in napetost) v okolici naelektrenih prmeic
+$$U_{AB} = \frac{q}{2\pi\epsilon_0} \ln(\frac b a)$$
+
+# Snov v elektricnem polju
+## Elektricni dipol
+$$dQ \cdot \vec d = d \vec p_e = \text{elektricni dipolski moment}$$
+## Navor na dipol v elektricnem polju
+
+$$d\vec F(T_+) = E \cdot dQ$$
+Dipol se obrne v smeri elektricnega polja.
+
+$$d\vec M = \frac{\vec d}{2} \times \vec F(T_+) + (-\frac{\vec d}{2}) \times \vec F(T_-) = dQ \cdot \vec d \cdot \frac{\vec E(T_+) + \vec E(T_-)}{2} = d\vec p_e \times \vec E$$
+## Sila na dipol v nehomogenem polju
+“V ravnovesju ”
+$$ d \vec F_e = d \vec F_e(T_+) + d \vec F_e(T_-) = dQ \cdot [E(T_+) - E(T_-)]$$
+$$= dQ ………$$
+$$d \vec F_e = dp_e \cdot \frac {d \vec E}{dl} - \text{dielektroforeza}$$
+## Potencialna energija dipola
+$$dW_{ep} = dQ \cdot V(T_+) - dQ \cdot V(T_-) = dQ \cdot 
+[V(T_+) + V(T_-)] = dQ \cdot \int_{T_+}^{T_-} \vec E \cdot d \vec l$$
+$$= - dQ \cdot \vec d \cdot \vec E = -dp_e \cdot \vec E$$
+## Potencial dipola
+$$dV(T) = \frac{dQ}{4 \pi \epsilon_0}(\frac 1 {R_+} - \frac 1 {R_-}) = \frac{dQ}{4 \pi \epsilon_0} \cdot \frac{R_- - R_+}{R_+ R_-} \approx \frac{dQ}{4 \pi \epsilon_0} \cdot \frac{\vec d \cdot \vec R}{R^2} = \frac{d \vec p_e \cdot \vec R}{4 \pi \epsilon_0 R^3}$$
+
+## Elektricno polje dipola 
+$$E_R = \frac{\partial V}{\partial R} = 2 \cdot \frac{dp_e \cdot \cos(\theta)}{4 \pi \epsilon_0 R^3}$$
+$$E_\theta = \frac{dp_e \cdot \sin(\theta)}{4 \pi \epsilon_0}$$
+$$E_\phi = 0$$
+
+
+# Prevodnik in elektricno polje
+- elektricna influenca
+
+Razmik elektronov v prevodniku ustvari elektricno polje, ki nasprotuje zunajemu elektricnem polju.
+
+## Razmisleki
+### 1.
+Polje v notranjosti prevodnika = 0
+$E(T_+) = 0$
+
+### 2. 
+Gausov stavek
+ $$\oint_{A-\text{tik pod povrsjem}} \vec E \cdot d \vec a = 0 = \frac{Q_{not}}{\epsilon_0}$$
+ neki neki ploskovni naboj neki
+
+
+> faj bi blo da je tole na tabli se mal (pobrise tablo)
+
+### 3. 
+Napetost na povrsini (in po celotnem volumnu) prevodnika je konstanta
+aka: povrsina prevodnika predstavlja ekvipotencialno ploskev
+
+### 4.
+Reakcijsko polje v notranjosti nasprotno enako primarnemu polju.
+
+### 5.
+Elektricno polje je pravokotno na povrsino prevodnika
+
+### 6. Skok polja na meji prevodnika
+Noter: $E = 0$
+Na povrsini: $E = \frac{\sigma}{2 \epsilon_0}$ 
+Zunaj: $E = \frac{\sigma}{\epsilon_0}$
+
+
+### 7. Tlak na porvsino prevodnika
+$$\vec p_e = \frac{dF}{da} = \frac{\sigma ^2}{2 \epsilon_0} \vec e_n = \frac{\epsilon E^2}{2}$$
+vedno pozitiven
+
+### 8.
+Zunanji naboji ne povzrocajo polja v notranjosti
+?????????????????????????????
+
+Sej tut sam ne razume kaj dela
+
+
+# Elekticno zakljucen sistem, avtonomnost
+
+Na stenah votlega prevodnika se nabere nasprotno enako naboja kot ga je v notranjosti takega prevodnika
+
+## Faradejeva kletka
+
+
+# Okovinjanje ekvipotencialk
+Par premih vodnikov
+
+$$
+V(T) = \frac{q}{2 \pi \epsilon_0} \ln \frac{d_-}{d_+}
+$$
+
+Na silnico lahko damo tanko plast prevodnika (alufolije)
+
+## Asimetričen dvovod
+Ni lepe analitične rešitve
+
+## Koaksialni kabel 
+Če je ekscentičen ni koaksialen
+
+
+## Žica pred ozemljeno steno
+Zrcaljenje kokr smo ga na vajah že delal
+
+
+# Simetričen dvovod
+d - razdalja med središčema vodnikov
+a - polmer žice
++- q - linijski naboj
+e - ekscentričnost - odmik od središča
+
+
+aja zdej bo izpelu ekscentričnost isto kokr smo včeri na vajah
+$$
+e = \frac{d - \sqrt{d^2 - 4a^2}}{2}
+$$
+
+
+## Napetost in naboj
+$$
+U = 2 V(A) = \frac{q}{\pi \epsilon_0} \ln\frac{d - a -e}{a + e}
+$$
+
+Za naslednjič
+$$
+q = c \cdot U
+$$
+c - kapacitivnost na enoto dolžine
+$$
+c = \frac{\pi \epsilon}{\ln\frac{a + \sqrt{d^2 + 4a^2}}{2a}}
+$$
+
+Če sta vodnika veliko narazen glede na njun premer, ekscentričnost zanemarimo
+
+# Vodnik nad prevodno površino
+a - polmer žice (načeloma zalo majhen)
+h - višina vodnika (oddaljenost od površine)
+U - napetost med površino in vodnikom
+A - točka na površini vodnika
+
+$$
+V(A) = neki neki \ln\frac{2h}{a}
+$$
+$$
+U = V(A) - 0
+$$
+# Polje dveh točkastih nabojev
+$$
+V(T) = \frac{Q_+}{4\pi\epsilon_0 R_+} + \frac{Q_-}{4\pi\epsilon_0 R_-}
+$$
+
+$T_0$ - točka s potencialom 0 V
+$$
+\frac{Q_+}{R_+} = -\frac{Q_-}{R_-}
+$$
+.
+.
+.
+$$
+\frac{R_-}{R_+} = \frac{Q_-}{Q_+} = konst.
+$$
+
+$$
+V(A) = V(B) = 0 \text{ V}
+$$
+> neki telovadbe kasneje
+
+\- Humar
+
+# Vloga Zemlje
+V(R) = 0 V
+
+Vsak naboj ki je blizu se prezrcali na približno višino -h in njegov naboj je -Q

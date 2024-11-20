@@ -4,35 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "a661d98845d80cad",
+        "id": "eea903bb7c1ffa3f",
         "type": "tabs",
         "children": [
           {
-            "id": "aa43e67f73170f07",
+            "id": "e52e7ad24749c8c1",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Matematika/Predavanja.md",
+                "file": "Osnove elektrotehnike/Predavanja.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
               "title": "Predavanja"
-            }
-          },
-          {
-            "id": "b37f604d412135c7",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Programiranje.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Programiranje"
             }
           }
         ]
@@ -62,7 +48,7 @@
         "state": {
           "type": "search",
           "state": {
-            "query": "",
+            "query": "tag:#Okovinjanje",
             "matchingCase": false,
             "explainSearch": false,
             "collapseAll": false,
@@ -97,7 +83,7 @@
         }
       }
     ],
-    "currentTab": 0
+    "currentTab": 1
   },
   "right": {
     "id": "f596fd1bc3e0a045",
@@ -109,7 +95,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "Osnove elektrotehnike/Predavanja.md",
+            "file": "Osnove elektrotehnike/Avditorne vaje.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -159,18 +145,28 @@
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
-      "obsidian-git:Open Git source control": false
+      "obsidian-git:Open Git source control": false,
+      "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "aa43e67f73170f07",
+  "active": "e52e7ad24749c8c1",
   "lastOpenFiles": [
-    "Programiranje.md",
-    "Matematika/Predavanja.md",
     "Osnove elektrotehnike/Avditorne vaje.md",
+    "Matematika/Predavanja.md",
     "Osnove elektrotehnike/Predavanja.md",
+    "Programiranje.md",
+    "Excalidraw/Drawing 2024-11-09 09.25.50.excalidraw.md",
+    "Matematika/Vaje.md",
     "Programiranje/Predavanja.md",
-    "Programiranje",
+    "Excalidraw/Drawing 2024-11-07 23.30.22.excalidraw.md",
+    "README.md",
+    "Excalidraw",
+    "Fizika.md",
     "Fizika/Predavanja.md",
+    "Ink/Drawing/2024.11.7 - 23.23pm.drawing",
+    "Ink",
+    "Ink/Drawing",
+    "Programiranje",
     "Fizika/Vaje.md",
     "Fizika",
     "/Fizika/Predavanja.md",
@@ -178,8 +174,6 @@
     "/Programiranje/Predavanja.md",
     "/Programiranje",
     "/Fizika",
-    "Fizika.md",
-    "Matematika/Vaje.md",
     "Matematika",
     "Osnove elektrotehnike/Predavanja.md.md",
     "Osnove elektrotehnike/Predavanja 1.md",
@@ -189,8 +183,6 @@
     "Osnove 1.md",
     "Osnove.md",
     "predavanja.md 1.md",
-    "Osnove elektrotehnike",
-    "/Fizika.md",
-    "README.md"
+    "/Fizika.md"
   ]
 }
