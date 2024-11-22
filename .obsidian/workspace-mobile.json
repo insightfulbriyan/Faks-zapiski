@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Osnove elektrotehnike/Predavanja.md",
+                "file": "Matematika/Predavanja.md",
                 "mode": "source",
                 "source": false
               },
@@ -48,7 +48,7 @@
         "state": {
           "type": "search",
           "state": {
-            "query": "tag:#Okovinjanje",
+            "query": "",
             "matchingCase": false,
             "explainSearch": false,
             "collapseAll": false,
@@ -83,7 +83,7 @@
         }
       }
     ],
-    "currentTab": 1
+    "currentTab": 0
   },
   "right": {
     "id": "f596fd1bc3e0a045",
@@ -95,7 +95,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "Osnove elektrotehnike/Avditorne vaje.md",
+            "file": "Matematika/Predavanja.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -151,9 +151,9 @@
   },
   "active": "e52e7ad24749c8c1",
   "lastOpenFiles": [
+    "Osnove elektrotehnike/Predavanja.md",
     "Osnove elektrotehnike/Avditorne vaje.md",
     "Matematika/Predavanja.md",
-    "Osnove elektrotehnike/Predavanja.md",
     "Programiranje.md",
     "Excalidraw/Drawing 2024-11-09 09.25.50.excalidraw.md",
     "Matematika/Vaje.md",

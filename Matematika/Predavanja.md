@@ -108,3 +108,28 @@ Ce:
 
 Ker je $q$ limita zaporedja obstaja $q_0$ tak, da je $q_0 < 1$ obstaja $n_0$ tak da je, vsak clen zaporedja manjsi od $q_0$ za vsak $n > n_0$
 
+
+## Korenski kriterij
+$$
+\lim_{n \rightarrow \infty} \sqrt[n]{a_n} = q
+$$
+Ce:
+- $q < 1$ - konvergenta
+- $q > 1$ - divergentna
+- $q = 1$ - ne vemo
+
+
+## Leibnitzov kriterij
+če velja $a_n \cdot a_{n + 1} < 0$ je zaporedje alternirajoče
+
+
+Za alternirajočo vrsto je pogoj $\lim_{n \rightarrow \infty} a_n = 0$ zadosten
+
+
+## Pogojno konvergentna vrsta 😀
+
+# Funkcije
+injektivnost
+surjektivnost
+bijektivnost - definicijsko območje in zaloga vrednosti imata enako moč (če imata končno mnogo elementov)
+
