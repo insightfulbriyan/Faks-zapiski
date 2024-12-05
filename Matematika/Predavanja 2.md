@@ -21,3 +21,13 @@ $$\lim_{x \searrow x_0} f(x)$$
 ## Skupaj
 Limita obstaja če sta leva in desna limita enaki
 
+# Zveznost funkcij
+$$\lim_{x \to x_0} f(x) = f(x_0)$$
+Če je zaprti interval $[a, b] \subset D_f$ je funcija $f$ na tem intervalu omejena
+
+Zvezna funkcija $f: [a, b] \to R$ na intervalu $[a,b]$ zavzame vsako vrednost med $m$(natančno spodnjo mejo) in $M$(natančno zgornjo mejo).
+
+## Bisekcija
+
+
+
