@@ -1,6 +1,5 @@
 
 
-
 # Lorenzova sila 
 
 $$ \vec{F} = Q(\vec{E} + \vec{w} \times \vec{B})$$
@@ -528,3 +527,204 @@ $$
 V(R) = 0 V
 
 Vsak naboj ki je blizu se prezrcali na približno višino -h in njegov naboj je -Q
+
+
+# Izolant / dielektrik v E
+## Načini polarizacije
+### 1. Dipolska polarizacija
+Voda
+
+Merimo “povprečno” polariziranost dipolov
+
+Brez zunanjega polja je povprecni  $dp_e = 0$, ob zunanjem polju pa se dipoli rahlo usmerijo v smeri zunanjega el. polja
+
+### 2. Elektronska polarizacija
+V atomu je enako kot prej povprečni dipolski moment = 0
+
+Ob zunanjem el. polju se trajektorije elektronov okoli jedra spremenijo.
+
+### 3. Ionska polarizacija 
+Primer NaCl
+![](https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.HBKtXxC39l7hqu0YtHkStgHaG_%26pid%3DApi&f=1&ipt=dec1c25c6c31cad6d63fbc8c2df344941aad771bded7a3fabb2d5d88c40d2ea7&ipo=images)
+
+En sloj se lahko zamakne in pride Na nad Na in Cl nad Cl, takrat se kristal zlomi in lahko nastane zelo dobro zecalo.
+
+Ob zunanjem el. polju se Na premakne rahlo v smer polja, Cl pa rahlo v nasprotni smeri. S tem nastane dipolski moment.
+
+
+
+### .
+V vseh prmerih rezultanta $d \vec p_e$ kaže v smeri polja. 
+
+$$
+\lim_{V \rightarrow 0} \frac{\sum d \vec p_e}{V} = \vec P [\frac{\text{C}}{\text{m}^2}]
+$$
+
+$\vec P$ vektor električne polarizacije
+
+
+> neki matematične telovadbe 
+\-spet Humar 
+
+
+# Izvornost $\vec P$
+Izvornost - matematični operator
+
+$$
+\oint_A \vec x \cdot d\vec A = ?
+$$
+
+## Izvornost $\vec E$
+$$
+\oint_A \vec E d \vec A = \frac{Q_{not}}{\epsilon_0}
+$$
+
+Tudi gostota toka $J$
+
+
+>z veliko domisljije
+\- Humar
+
+
+$$
+\oint_A \vec P d \vec A = -Q_{\text{polarizacijski notranji}}
+$$
+
+> file tune vm zapakirajo v eno piksno
+> - Humar strikes again
+
+
+Neki neki polarizacijski naboj, ki je vezan
+
+$$
+P \cdot da’ = \frac{dQ_pol}{da} = - \sigma_{\text{polarizacijski notranji}} \cdot da
+
+$$
+
+# Plarizacijski tok
+Vrtenje dipolov predstavlja nek tok
+$$
+i = \frac{dQ}{dt}
+$$
+
+$$
+\frac{d}{dt} \oint_A \vec P d \vec a = \oint_A \frac{\partial P}{\partial t} d \vec a = - \frac{d Q_{\text{noteanji poalrizacijski}}}{dt} = i_{pol} = \oint_A \vec J_{pol} d \vec a
+$$
+
+$$
+\vec J_{pol} = \frac{\partial \vec P}{\partial t}
+$$
+
+# Vektor gostote elektricnega pretoka
+$$
+\oint \vec E d \vec a = \frac{Q_{not}}{\epsilon_0}
+$$
+$O_{not}$ - tako vezani kot prosti naboji
+
+$$
+\oint \vec P d \vec a = - Q_{not \, pol.}
+$$
+$Q_{not \, pol}$ - vezani naboji
+
+$$
+\oint (\epsilon \vec E + \vec P) \cdot d \vec a= Q_{\text{notranji prosti}} = \oint \vec D d \vec a
+$$
+
+$\vec D$ - gostota električnega pretoka
+
+$$
+\vec D = \epsilon_0 \vec E + \vec P
+$$
+
+# Električna susceptibilnost in relativna dielektričnost snovi
+
+susceptibilnost - odzivnost snovi, dojemljivost snovi, kako intenzivno snov reagira na elektricno polje
+
+
+$$
+\vec P \propto \vec E
+$$
+$$
+\vec P = \chi_e \vec E \epsilon_0
+$$
+
+$$
+\vec D = \epsilon_0 \vec E + \chi_e \epsilon_0 \vec E = \epsilon_0 \vec E (1 + \chi_e) = \epsilon_r \epsilon_0 \vec E
+$$
+
+Pogosti $\epsilon_r$
+
+| Snov                  | $\epsilon_r$ | $E_p$ \[$\frac{MV}{m}$] |
+| --------------------- | ------------ | ----------------------- |
+| Vakuum                | 1            |                         |
+| Zrak                  | 1,0006       | 3                       |
+| Steklo                | 5 - 10       |                         |
+| Olja                  | 2 - 15       | 15                      |
+| Voda (brez primesi)   | 81           |                         |
+| Spec. Snovi           | $10^5$       |                         |
+| Guma                  |              | 10                      |
+| Papir                 |              | 10                      |
+| Porcelan              |              | 20                      |
+| PVC                   |              | 50                      |
+| Polistirol (stiropor) |              | 80                      |
+
+# Elektricni preboj
+
+Elektron preskoci izven ustaljene lupine okoli jedra
+$E_p$ - prebojna trdnost snovi
+
+## Oblike preboja
+- reverzibilen (predvsem v plinih in kapljevinah)
+- ireverzibilne (elektricna vezja)
+	- trajno prevoden
+	- del vezja zgori - pojavi se ogljik, ki je prevoden
+
+
+
+V izolantu se vzpostavi prevodni kanal
+
+
+# Ploščni kondenzator z dielektrikom
+![[Ploscati kondenzator]]
+$$
+E_x = \sigma_{prosti} - \sigma … = (1- (\epsilon_r -1)/\epsilon_r) \sigma_{prosti} /\epsilon_0
+$$
+
+
+$$
+\sigma_{polarizacijski} = (\epsilon_r -1) \sigma_{prosti} / \epsilon_r
+$$
+
+Polje v dielektriku je za faktor $1/\epsilon_r$ manjše
+
+# Kovinska kroglica v dielektričnem ovoju
+![[Drawing 2024-11-27 09.40.12.excalidraw]]
+
+## Gostota električnega pretoka
+(Ekvivalent Magnetmenu prtoku v magnetiki)
+Ploskona gostota neke količine $P = F/S$
+Volumska gostota …
+
+
+D je ploskovna gostota električnega pretoka
+
+$$
+\phi_e = \int_A D da
+$$
+## Mejna pogoja (za $E$ in $D$)
+Na meji med dvema dielektričnima snovema
+
+Tangencialna komponenta $E$ se na meji dveh dielektrikov ohrani. Normalna komponenta $D$ se na meji dveh dielektrikov ohranja.
+
+Razlika $D$ na meji dvema dielektrikoma je enaka ploskovni gostoti nabojev na meji, če je meja iz prevodnega materiala.
+
+
+## Zgled
+Meja med izolantoma brez ploskovnega naboja
+
+### Lomni zakon električnega polja 
+
+$$
+\tan(\alpha_1)/\epsilon_{r_1} = \tan(\alpha_2)/\epsilon_{r_2}
+$$
+==sigma \= 0 ==

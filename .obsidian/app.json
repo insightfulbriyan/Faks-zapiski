@@ -21,7 +21,11 @@
     "editor:redo",
     "editor:configure-toolbar",
     "editor:insert-mathblock",
-    "editor:insert-codeblock"
+    "editor:insert-codeblock",
+    "editor:toggle-inline-math",
+    "editor:insert-table",
+    "obsidian-excalidraw-plugin:excalidraw-autocreate-newtab",
+    "obsidian-excalidraw-plugin:insert-image"
   ],
   "pdfExportSettings": {
     "includeName": true,
