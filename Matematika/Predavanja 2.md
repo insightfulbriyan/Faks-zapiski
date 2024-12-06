@@ -31,3 +31,4 @@ Zvezna funkcija $f: [a, b] \to R$ na intervalu $[a,b]$ zavzame vsako vrednost me
 
 
 
+
