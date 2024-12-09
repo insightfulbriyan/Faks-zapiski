@@ -40,3 +40,9 @@ $$
 
 ### Zgled 2
 ![[Zgled2]]
+2\. Kirchoffov zakon
+$$
+U_1 + U_2 - U_3 = 0
+$$
+
+# Energijski defekt
