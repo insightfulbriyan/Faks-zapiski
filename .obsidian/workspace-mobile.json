@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "6064bcc44bec0948",
+        "id": "ab94bd57eeb2663d",
         "type": "tabs",
         "children": [
           {
-            "id": "f59e85d112417fb6",
+            "id": "e1527966f2e3686a",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -20,21 +20,8 @@
               "icon": "lucide-file",
               "title": "03_Tokovna polja in uporovna vezja"
             }
-          },
-          {
-            "id": "6ee29d96dcc67836",
-            "type": "leaf",
-            "state": {
-              "type": "excalidraw",
-              "state": {
-                "file": "Excalidraw/Drawing 2024-12-11 10.25.13.excalidraw.md"
-              },
-              "icon": "excalidraw-icon",
-              "title": "Drawing 2024-12-11 10.25.13.excalidraw"
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -172,10 +159,11 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "6ee29d96dcc67836",
+  "active": "e1527966f2e3686a",
   "lastOpenFiles": [
+    "Osnove elektrotehnike/01_Elektrostatika.md",
     "Osnove elektrotehnike/03_Tokovna polja in uporovna vezja.md",
-    "Excalidraw/Drawing 2024-12-11 10.25.13.excalidraw.md",
+    "Excalidraw/Temperaturna odvisnost.md",
     "Matematika/03_Funkcije.md",
     "Matematika/04_Odvod.md",
     "Matematika/02_Zaporedja.md",
@@ -184,7 +172,6 @@
     "Matematika/Vaje.md",
     "Osnove elektrotehnike/Avditorne vaje.md",
     "Osnove elektrotehnike/02_Gibalni procesi.md",
-    "Osnove elektrotehnike/01_Elektrostatika.md",
     "Osnove elektrotehnike/Predavanja - Gibalni procesi.md",
     "Excalidraw/Kompleksna_vezava.md",
     "Excalidraw/Zgled2.md",

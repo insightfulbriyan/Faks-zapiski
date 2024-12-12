@@ -47,4 +47,27 @@ $\gamma = [\frac S m]$
 $$\rho = \frac 1 \gamma$$
 
 # Temperaturna odvisnost
-$$ R_T = R_{20}(1 + T \cdot \alpha)$$
+![[Temperaturna odvisnost]]
+
+	$$ R_T = R_{20}(1 + \alpha \cdot (T - 20\text{° C}))$$
+
+# Razširjen omov zakon
+
+$$\vec J = \gamma \vec E = \gamma (\vec E + \vec w \times \vec B + \vec E_g)$$
+$\vec w \times \vec B$ - inducirana električna poljska jakost
+$E_g = \frac{d\vec F_g}{dQ}$ - generatorsko polje
+
+$\vec J = \rho \vec w$; $\rho$ - gostota nabojev
+
+$$\frac J \gamma = E + \frac J \rho \times B + E_g$$
+$$J \approx \gamma(\vec E + \vec E_g)$$
+Vpliva tudi generatorsko (neelektrično) polje
+
+# Joulov zakon v diferencialni obliki($P = UI$)
+
+$$dA_e = \vec F_e \cdot d \vec l = \rho \cdot dV \cdot \vec E \cdot \vec v \cdot dt$$
+$$dA_e = \vec J \cdot \vec E dV \cdot dt$$
+$$d P_e = \frac{dA_e}{dt} = \vec J \cdot \vec E \cdot dV$$
+$p_e = \vec J \cdot \vec E = \gamma E^2 = [\frac {\text{W}} {\text{m}^3}]$ - volumska gostota moči
+###  Zgled: baker
+$p_e =2,718 
