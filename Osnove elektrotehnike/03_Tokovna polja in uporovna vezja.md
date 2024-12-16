@@ -70,4 +70,5 @@ $$dA_e = \vec J \cdot \vec E dV \cdot dt$$
 $$d P_e = \frac{dA_e}{dt} = \vec J \cdot \vec E \cdot dV$$
 $p_e = \vec J \cdot \vec E = \gamma E^2 = [\frac {\text{W}} {\text{m}^3}]$ - volumska gostota moči
 ###  Zgled: baker
-$p_e =2,718 
+$p_e =2,718 ?????????
+
