@@ -350,8 +350,7 @@ $$\vec E = (E_\rho, E_\phi, E_z) = -(\frac{dV}{d\rho},\frac{dV}{\rho \cdot d\phi
 
 
 
-## Zgled
-Koaksialni kabel
+## Zgled: Koaksialni kabel
 $$U_{rb} = V(r) - V(b) = \int_r^b E \cdot dl = \frac{Q}{2 \pi \epsilon_0} \int\frac 1 r \vec e_r \vec e_r dr$$ ?????
 
 

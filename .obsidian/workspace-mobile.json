@@ -4,19 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "192a41b84c96cd31",
+        "id": "fe210e2ca72bf74c",
         "type": "tabs",
         "children": [
           {
-            "id": "8a850e2b68a81050",
+            "id": "34c16191bfc9d88e",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "markdown",
               "state": {
-                "file": "Osnove elektrotehnike/3.vaja/lab1/slika_lab1_1.png"
+                "file": "Osnove elektrotehnike/04_Enosmerna električna vezja.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-image",
-              "title": "slika_lab1_1"
+              "icon": "lucide-file",
+              "title": "04_Enosmerna električna vezja"
             }
           }
         ]
@@ -46,7 +48,7 @@
         "state": {
           "type": "search",
           "state": {
-            "query": "path:\"Osnove elektrotehnike/3.vaja/\" ",
+            "query": "",
             "matchingCase": false,
             "explainSearch": false,
             "collapseAll": false,
@@ -81,7 +83,7 @@
         }
       }
     ],
-    "currentTab": 1
+    "currentTab": 0
   },
   "right": {
     "id": "f596fd1bc3e0a045",
@@ -157,12 +159,16 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "d5de4b1bcdcb65cb",
+  "active": "b15c8902411144bb",
   "lastOpenFiles": [
+    "Osnove elektrotehnike/03_Tokovna polja in uporovna vezja.md",
+    "Osnove elektrotehnike/04_Enosmerna električna vezja.md",
+    "Osnove elektrotehnike/01_Elektrostatika.md",
+    "Untitled.canvas",
+    "README.md",
+    "Osnove elektrotehnike/3.vaja/lab1/slika_lab1_1.png",
     "Matematika/03_Funkcije.md",
     "Matematika/04_Odvod.md",
-    "Osnove elektrotehnike/03_Tokovna polja in uporovna vezja.md",
-    "Osnove elektrotehnike/01_Elektrostatika.md",
     "Excalidraw/Temperaturna odvisnost.md",
     "Matematika/02_Zaporedja.md",
     "Matematika/Predavanja 2.md",
@@ -176,8 +182,6 @@
     "Untitled",
     "Excalidraw/Dvovod_nad_Zemljo.md",
     "Excalidraw/Dvovod.md",
-    "Untitled.md",
-    "README.md",
     "Programiranje.md",
     "Matematika/Čebeice/2. Hoja po robovih kocke.md",
     "Drawing.md",
@@ -186,7 +190,6 @@
     "Matematika/Čebeice/7edkX.png",
     "Excalidraw/Drawing 2024-11-27 09.40.12.excalidraw.md",
     "Excalidraw/Ploscati kondenzator.md",
-    "Excalidraw/Drawing 2024-11-27 09.38.05.excalidraw.md",
     "Matematika/Čebeice/XuPUR.png",
     "Matematika/Čebeice",
     "/Matematika/XuPUR.png",

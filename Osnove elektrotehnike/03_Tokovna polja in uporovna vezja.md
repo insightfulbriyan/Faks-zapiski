@@ -70,5 +70,54 @@ $$dA_e = \vec J \cdot \vec E dV \cdot dt$$
 $$d P_e = \frac{dA_e}{dt} = \vec J \cdot \vec E \cdot dV$$
 $p_e = \vec J \cdot \vec E = \gamma E^2 = [\frac {\text{W}} {\text{m}^3}]$ - volumska gostota moči
 ###  Zgled: baker
-$p_e =2,718 ?????????
+$p_e =2,718 ?????????$
 
+# Dualnost (primerljivost) električnega in tokovnega polja
+
+
+$$\oint_A D \cdot da = Q$$
+$$
+\oint_A J \cdot da = I
+$$
+---
+$$
+D = \epsilon E
+$$
+$$
+J = \gamma E
+$$
+---
+$$
+Q = C U
+$$
+$$
+I = G U
+$$
+---
+$$
+I = \gamma \oint E \cdot da = \frac \gamma \epsilon \oint D \cdot da = \frac \gamma \epsilon Q
+$$
+---
+$$
+I = \frac \gamma \epsilon Q = \frac \gamma \epsilon C U = G U
+$$
+$$
+\frac \gamma \epsilon = \frac G C
+$$
+
+## Zgled: Koaksialni kabel
+[[01_Elektrostatika#Zgled Koaksialni kabel]]
+$$
+G = \frac{2\pi \gamma l}{\ln{\frac b a}}
+$$
+# Ozemljitvena/ponikalna upornost
+
+
+## Zgled: polkrožno ozemljilo
+(Kovinska polkrogla)
+### Z integracijo
+$\gamma_Z$
+$$ R = \int_{r_0}^\infty dR$$
+$$dR = \frac 1 {\gamma_{zem}} \frac{dr} A$$
+
+### Z dualnostjo
