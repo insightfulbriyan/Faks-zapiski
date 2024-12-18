@@ -4,21 +4,19 @@
     "type": "split",
     "children": [
       {
-        "id": "ab94bd57eeb2663d",
+        "id": "192a41b84c96cd31",
         "type": "tabs",
         "children": [
           {
-            "id": "e1527966f2e3686a",
+            "id": "8a850e2b68a81050",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "image",
               "state": {
-                "file": "Matematika/03_Funkcije.md",
-                "mode": "source",
-                "source": false
+                "file": "Osnove elektrotehnike/3.vaja/lab1/slika_lab1_1.png"
               },
-              "icon": "lucide-file",
-              "title": "03_Funkcije"
+              "icon": "lucide-image",
+              "title": "slika_lab1_1"
             }
           }
         ]
@@ -48,7 +46,7 @@
         "state": {
           "type": "search",
           "state": {
-            "query": "",
+            "query": "path:\"Osnove elektrotehnike/3.vaja/\" ",
             "matchingCase": false,
             "explainSearch": false,
             "collapseAll": false,
@@ -83,7 +81,7 @@
         }
       }
     ],
-    "currentTab": 0
+    "currentTab": 1
   },
   "right": {
     "id": "f596fd1bc3e0a045",
@@ -159,10 +157,10 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "e1527966f2e3686a",
+  "active": "d5de4b1bcdcb65cb",
   "lastOpenFiles": [
-    "Matematika/04_Odvod.md",
     "Matematika/03_Funkcije.md",
+    "Matematika/04_Odvod.md",
     "Osnove elektrotehnike/03_Tokovna polja in uporovna vezja.md",
     "Osnove elektrotehnike/01_Elektrostatika.md",
     "Excalidraw/Temperaturna odvisnost.md",
