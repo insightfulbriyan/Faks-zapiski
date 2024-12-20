@@ -17,7 +17,6 @@ tooooook bliz je bil, še mal pa bi vrečo za smeti vzel
 ## Linearni elementi
 ### Upor
 ![[Upor]]
-
 ## Nelinearni elementi
 ### Dioda
 ![[Dioda]]

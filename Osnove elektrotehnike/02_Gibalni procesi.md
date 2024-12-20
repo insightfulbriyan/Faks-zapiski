@@ -76,7 +76,7 @@ $V_1 > V_2 > V_3$
 
 
 ### Zgled: Dvovod nad Zemljo
-![](Excalidraw/Dvovod_nad_Zemljo)
+![](Dvovod_nad_Zemljo.md)
 
 # Električna energija
 $$ A = \int \vec F \cdot d \vec s$$

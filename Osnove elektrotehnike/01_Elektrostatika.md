@@ -697,7 +697,7 @@ $$
 Polje v dielektriku je za faktor $1/\epsilon_r$ manjše
 
 # Kovinska kroglica v dielektričnem ovoju
-![[Drawing 2024-11-27 09.40.12.excalidraw]]
+![[Krogelni kondenzator]]
 
 ## Gostota električnega pretoka
 (Ekvivalent Magnetmenu prtoku v magnetiki)
