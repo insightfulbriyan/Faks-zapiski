@@ -54,4 +54,4 @@ Realni vir + en upor
 ## Zaporedna in vzporedna vezava uporov
 
 ## Zaporedna in vzporedna vezava virov
-  
+   0

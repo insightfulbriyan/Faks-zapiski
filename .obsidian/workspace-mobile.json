@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "ad46749fbb7164a3",
+        "id": "55144256d58a4274",
         "type": "tabs",
         "children": [
           {
-            "id": "58f7fbedf21e55a5",
+            "id": "54f216b8493c5581",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -159,8 +159,11 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "58f7fbedf21e55a5",
+  "active": "54f216b8493c5581",
   "lastOpenFiles": [
+    "Osnove elektrotehnike/01_Elektrostatika.md",
+    "Osnove elektrotehnike/02_Gibalni procesi.md",
+    "Osnove elektrotehnike/03_Tokovna polja in uporovna vezja.md",
     "Osnove elektrotehnike/04_Enosmerna električna vezja.md",
     "Matematika/Čebeice/5. Odvod funkcije z absolutno vrednostjo.md",
     "/Matematika/Čebeice/5. Odvod funkcije z absolutno vrednostjo.md",
@@ -179,11 +182,8 @@
     "README.md",
     "Untitled.md",
     "Programiranje.md",
-    "Osnove elektrotehnike/02_Gibalni procesi.md",
-    "Osnove elektrotehnike/01_Elektrostatika.md",
     "Osnove elektrotehnike/Sketch/Tokovni vir.md",
     "Osnove elektrotehnike/Sketch/Dioda.md",
-    "Osnove elektrotehnike/03_Tokovna polja in uporovna vezja.md",
     "Untitled.canvas",
     "Osnove elektrotehnike/3.vaja/lab1/slika_lab1_1.png",
     "Osnove elektrotehnike/Sketch/Temperaturna odvisnost.md",
