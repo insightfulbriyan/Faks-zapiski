@@ -54,3 +54,14 @@ Realni vir + en upor
 ## Zaporedna in vzporedna vezava uporov
 
 ## Zaporedna in vzporedna vezava virov
+
+## Mostično vezje
+
+## Zvezda - trikot
+![[Mostično vezje]]
+$$R_1 = \frac{R_{12} R_{31}}{R_{12} + R_{23} + R_{31}}$$
+
+V obratni smeri pa:
+$$ R_{12} = \frac{R_1R_2 + R_2R_3 + R_1R_3}{R_3}$$
+# Merjenje el. količin
+Ampermeter vežeš vzporedno, voltmeter pa zaporedno \s
