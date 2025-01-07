@@ -13,12 +13,24 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Osnove elektrotehnike/05_Metoda za reševanje vezji.md",
+                "file": "Matematika/Čebeice/5. Odvod funkcije z absolutno vrednostjo.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "05_Metoda za reševanje vezji"
+              "title": "5. Odvod funkcije z absolutno vrednostjo"
+            }
+          },
+          {
+            "id": "6612f76028ec72fe",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "Osnove elektrotehnike/Sketch/Zgled.md"
+              },
+              "icon": "excalidraw-icon",
+              "title": "Zgled"
             }
           }
         ]
@@ -161,10 +173,12 @@
   },
   "active": "88c0314a9a9f05dd",
   "lastOpenFiles": [
+    "Matematika/04_Odvod.md",
     "Osnove elektrotehnike/04_Enosmerna električna vezja.md",
     "Osnove elektrotehnike/05_Metoda za reševanje vezji.md",
-    "Osnove elektrotehnike/Sketch/Mostično vezje.md",
+    "Osnove elektrotehnike/Sketch/Zgled.md",
     "Excalidraw",
+    "Osnove elektrotehnike/Sketch/Mostično vezje.md",
     "Osnove elektrotehnike/Sketch/Zgled2.md",
     "Osnove elektrotehnike/01_Elektrostatika.md",
     "Osnove elektrotehnike/02_Gibalni procesi.md",
@@ -172,7 +186,6 @@
     "Matematika/Čebeice/5. Odvod funkcije z absolutno vrednostjo.md",
     "/Matematika/Čebeice/5. Odvod funkcije z absolutno vrednostjo.md",
     "Matematika/03_Funkcije.md",
-    "Matematika/04_Odvod.md",
     "Osnove elektrotehnike/Sketch/Napetostni vir.md",
     "Excalidraw/Drawing 2024-12-18 10.31.35.excalidraw.md",
     "Osnove elektrotehnike/Sketch/Krogelni kondenzator.md",
@@ -190,7 +203,6 @@
     "Osnove elektrotehnike/3.vaja/lab1/slika_lab1_1.png",
     "Osnove elektrotehnike/Sketch/Temperaturna odvisnost.md",
     "Matematika/02_Zaporedja.md",
-    "Matematika/Predavanja 2.md",
     "Untitled",
     "Matematika/Čebeice/7edkX.png",
     "Matematika/Čebeice/XuPUR.png",

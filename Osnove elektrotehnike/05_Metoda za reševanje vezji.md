@@ -1,1 +1,22 @@
 # Osnovni pojmi
+![[Zgled]]
+
+| Veja    | Tok                     | Napetost                |
+| ------- | ----------------------- | ----------------------- |
+| 1. veja | $I_1 = G_1U_1 - I_0$    | $U_1 = R_1I_1 + R_1I_0$ |
+| 2. veja | $I_2 = G_2 U_2$         | $U_2 = R_2I_2$          |
+| 3. veja | $I_3 = G_3U_3$          | $U_3 = R_3I_3$          |
+| 4. veja | $I_4 = G_4U_4 - G_4U_0$ | $U_4 = U_0 + I_4R_4$    |
+# Neposredna Kirchhoffova metoda
+ 1\. K. Z. za spojišča
+		A:  $-I_2 - I_3 - I_4 = 0$
+		B: $I_1 + I_3 + I_4 = 0$
+		C: $-I_1  + I_2 = 0$
+		$\sum$: 0=0 -> ena enačba preveč -> načeloma črtamo tisto v voylišču kjer smo ozemljili
+
+2\. K. Z. za zanke:
+		$L_1$: $U_3 - U_4 = 0$
+		$L_2$: $U_1 + U_2 - U_3 = 0$
+		$L_3$: $-U_1 - U_2 + U_4 = 0$
+		$\sum$: 0 = 0 -> ena preveč -> načeloma črtamo zunanjo
+
