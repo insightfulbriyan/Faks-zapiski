@@ -12,11 +12,16 @@
 		A:  $-I_2 - I_3 - I_4 = 0$
 		B: $I_1 + I_3 + I_4 = 0$
 		C: $-I_1  + I_2 = 0$
-		$\sum$: 0=0 -> ena enačba preveč -> načeloma črtamo tisto v voylišču kjer smo ozemljili
+		$\sum$: 0=0 -> ena enačba preveč -> načeloma črtamo tisto v vozlišču kjer smo ozemljili
 
 2\. K. Z. za zanke:
 		$L_1$: $U_3 - U_4 = 0$
 		$L_2$: $U_1 + U_2 - U_3 = 0$
 		$L_3$: $-U_1 - U_2 + U_4 = 0$
 		$\sum$: 0 = 0 -> ena preveč -> načeloma črtamo zunanjo
+
+# Metoda zančnih tokov
+MATRIKE al neki!!!
+
+# Metoda spojiščnih potencialov
 
