@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Osnove elektrotehnike/05_Metoda za reševanje vezji.md",
+                "file": "Osnove elektrotehnike/05_Metode za reševanje vezji.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "05_Metoda za reševanje vezji"
+              "title": "05_Metode za reševanje vezji"
             }
           }
         ]
@@ -161,9 +161,9 @@
   },
   "active": "88c0314a9a9f05dd",
   "lastOpenFiles": [
-    "/Matematika/Čebeice/6. Polinom z naravnoštevilskimi keficienti.md",
     "Osnove elektrotehnike/Sketch/Zgled.md",
-    "Osnove elektrotehnike/05_Metoda za reševanje vezji.md",
+    "Osnove elektrotehnike/05_Metode za reševanje vezji.md",
+    "/Matematika/Čebeice/6. Polinom z naravnoštevilskimi keficienti.md",
     "Matematika/Čebeice/5. Odvod funkcije z absolutno vrednostjo.md",
     "Matematika/04_Odvod.md",
     "Osnove elektrotehnike/04_Enosmerna električna vezja.md",
