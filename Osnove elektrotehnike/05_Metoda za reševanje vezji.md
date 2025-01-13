@@ -22,6 +22,15 @@
 
 # Metoda zančnih tokov
 MATRIKE al neki!!!
+Nardiš zanke za tok (J) in 2. K. Z. -> vstaviš une J namest tokov -> 🤯
 
 # Metoda spojiščnih potencialov
+Še več matrik
+Nardiš poteniciale vozlišč in 1. K.Z. za njih -> vstaviš razlike potencialov namest napetosti -> 🤯
 
+# Pretvorba virov
+## Za zančno metodo
+tokovni vir -> napetostni vir
+
+## Za spojiščno metodo
+napetostni vir -> tokovni vir
