@@ -34,3 +34,15 @@ tokovni vir -> napetostni vir
 
 ## Za spojiščno metodo
 napetostni vir -> tokovni vir
+
+
+# Stavki (teoremi) o enosmernih vezjih
+Enosmerno linearno dvopolno vezje
+## 1. Stavek superpozicije
+## 2. Stavek o nadomestitvi
+Če poznamo tok (napetost) v eni veji vezja lahko vejo zamenjamo z tokovnim (napetosnim) virom.
+## 3. Stavek Telegena
+Če količine v vseh vejah označimo istosmiselno, potem velja, da je vsota $\sum U_j I_j = 0$. 
+Aka. Vsota moči na virih je enaka moči na bremenih.
+## 4. Theveninov (in Nortonov) teorem
+## 5. Stavek maksimalne moči (Prilagojeno breme $R_b = R_n$)
