@@ -46,3 +46,6 @@ Enosmerno linearno dvopolno vezje
 Aka. Vsota moči na virih je enaka moči na bremenih.
 ## 4. Theveninov (in Nortonov) teorem
 ## 5. Stavek maksimalne moči (Prilagojeno breme $R_b = R_n$)
+## 6. Teorem recipročnosti
+Imamo pasivno linearno štiripolno vezje z vhodom in izhodom (2 pola za vsakega)
+“Če vezje gledamo z leve je enako kot če ga gledamo z desne”
