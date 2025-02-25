@@ -25,3 +25,14 @@ $\mu_0 \epsilon_0 c_0^2 =1$
 
 Primeri megnetne sile
 7\) en navpičen in en vodoraven tokov element - sili nista vzajemni
+
+“bokdej” - Sinigoj
+$$E = \frac{dQ \vec R}{4\pi \epsilon_0 R^3}$$
+$$B = \frac{\mu_0 \; dQ \; \vec w \times \vec R}{4\pi R^3}$$
+# Primeri $B$-ja
+### Tokovna daljica
+”Če se hočte naučit reda si začnite dopisvcat s punco, v sbo ona v red spravla al pa začnite programirat” - Sinigoj 2025
+
+“krogotok”
+
+Žica leži na $z$ osi med $z_1$ in $z_2$. Med njima doložimo $z’$ in $z’+dz$. 
