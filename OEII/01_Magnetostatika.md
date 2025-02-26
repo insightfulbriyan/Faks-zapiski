@@ -36,3 +36,17 @@ $$B = \frac{\mu_0 \; dQ \; \vec w \times \vec R}{4\pi R^3}$$
 “krogotok”
 
 Žica leži na $z$ osi med $z_1$ in $z_2$. Med njima doložimo $z’$ in $z’+dz$. 
+
+### Pravilni $n$ kotnik
+### Tokovna premica
+
+
+
+
+
+
+
+
+---
+$$\vec E \times \frac{\vec B}{\mu_0} = \vec S \; \; (\frac{\text{W}}{\text{m}^2})$$
+“Če vm fotr daje denar vsak mesec se v v žepu akumulira, tko kokr naboj če tok teče. Sam pr naboju velja zakon o ohranitvi naboja, pr dnarju pa ne”
