@@ -1,0 +1,209 @@
+{
+  "main": {
+    "id": "ee6f8bbe219f57e2",
+    "type": "split",
+    "children": [
+      {
+        "id": "9a5cc714471e6d61",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "309a742fedff1fa4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Matematika/Čebeice/6. Polinom z naravnoštevilskimi keficienti.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "6. Polinom z naravnoštevilskimi keficienti"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "69f06880a08b4371",
+    "type": "split",
+    "children": [
+      {
+        "id": "c20552dc0c87f2f1",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "3bc24d6d87febcdd",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "8fc8498dd49bcf96",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "bebe25c05c8f8912",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "624b84df84f7de30",
+    "type": "split",
+    "children": [
+      {
+        "id": "0f6af313e32578d4",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "292c58eccc7fbfe6",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Fizika.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for Fizika"
+            }
+          },
+          {
+            "id": "59a2913e9318a70a",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Fizika.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from Fizika"
+            }
+          },
+          {
+            "id": "8a0e60fdf628c3c7",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "951b873e47f3e2d5",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Fizika.md"
+              },
+              "icon": "lucide-list",
+              "title": "Outline of Fizika"
+            }
+          },
+          {
+            "id": "79073d1e0ca78bcc",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {},
+              "icon": "git-pull-request",
+              "title": "Source Control"
+            }
+          }
+        ],
+        "currentTab": 4
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "obsidian-git:Open Git source control": false,
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "obsidian-excalidraw-plugin:Create new drawing": false
+    }
+  },
+  "active": "309a742fedff1fa4",
+  "lastOpenFiles": [
+    "Osnove elektrotehnike/05_Metode za reševanje vezji.md",
+    "OEII/01_Magnetostatika.md",
+    "OEII",
+    "Matii/Untitled.md",
+    "Matii",
+    "Excalidraw/Drawing 2025-02-18 09.39.43.excalidraw.md",
+    "Excalidraw",
+    "Matematika/Čebeice/6. Polinom z naravnoštevilskimi keficienti.md",
+    "Matematika/Čebeice/5. Odvod funkcije z absolutno vrednostjo.md",
+    "Matematika/Čebeice/2. Hoja po robovih kocke.md",
+    "Matematika/Čebeice/4. Splošni člen zaporedja.md",
+    "Matematika/Čebeice/1. Wobly miza.md",
+    "Matematika/Čebeice/3. Harmonično zaporedje.md",
+    "Osnove elektrotehnike/Sketch/Zgled.md",
+    "Osnove elektrotehnike/Sketch/Mostično vezje.md",
+    "Osnove elektrotehnike/05_Metoda za reševanje vezji.md",
+    "Matematika/04_Odvod.md",
+    "Excalidraw/Drawing 2024-11-09 09.25.50.excalidraw.md",
+    "Excalidraw/Drawing 2024-11-07 23.30.22.excalidraw.md",
+    "Matematika/Čebeice",
+    "XuPUR.png",
+    "7edkX.png",
+    "Matematika/7edkX.png",
+    "Matematika/XuPUR.png",
+    "Programiranje.md",
+    "Programiranje/Predavanja.md",
+    "Matematika.md",
+    "Fizika.md"
+  ]
+}
