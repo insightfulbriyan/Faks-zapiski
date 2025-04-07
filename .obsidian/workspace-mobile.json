@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "OEII/01_Magnetostatika.md",
+                "file": "Osnove elektrotehnike/03_Tokovna polja in uporovna vezja.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "01_Magnetostatika"
+              "title": "03_Tokovna polja in uporovna vezja"
             }
           }
         ]
@@ -162,8 +162,9 @@
   },
   "active": "a11518fe57ef5982",
   "lastOpenFiles": [
-    "Excalidraw/Drawing 2025-02-18 09.39.43.excalidraw.md",
+    "Osnove elektrotehnike/04_Enosmerna električna vezja.md",
     "OEII/01_Magnetostatika.md",
+    "Excalidraw/Drawing 2025-02-18 09.39.43.excalidraw.md",
     "Matii/Untitled.md",
     "Matii",
     "Excalidraw",
@@ -173,7 +174,6 @@
     "/Matematika/Čebeice/6. Polinom z naravnoštevilskimi keficienti.md",
     "Matematika/Čebeice/5. Odvod funkcije z absolutno vrednostjo.md",
     "Matematika/04_Odvod.md",
-    "Osnove elektrotehnike/04_Enosmerna električna vezja.md",
     "Osnove elektrotehnike/Sketch/Mostično vezje.md",
     "Osnove elektrotehnike/Sketch/Zgled2.md",
     "Osnove elektrotehnike/01_Elektrostatika.md",
