@@ -10,10 +10,10 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       145,          7]
-NotebookDataLength[    102266,       2390]
-NotebookOptionsPosition[     97025,       2311]
-NotebookOutlinePosition[     97603,       2333]
-CellTagsIndexPosition[     97560,       2330]
+NotebookDataLength[    182010,       4208]
+NotebookOptionsPosition[    175885,       4117]
+NotebookOutlinePosition[    176468,       4139]
+CellTagsIndexPosition[    176425,       4136]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
@@ -1821,6 +1821,8 @@ Cell[TextData[{
  Background->GrayLevel[
   0.900008],ExpressionUUID->"aa5c6bfd-f8f5-4704-af2e-8336a550723d"],
 
+Cell[CellGroupData[{
+
 Cell[BoxData[{
  RowBox[{"?", "FourierSeries"}], "\[IndentingNewLine]", 
  RowBox[{"?", "FourierTrigSeries"}], "\[IndentingNewLine]", 
@@ -1831,7 +1833,1431 @@ Cell[BoxData[{
    3.543560887954125*^9}, 3.545381932375557*^9},
  FontFamily->"Courier New",
  FontSize->14,
- CellLabel->"In[87]:=",ExpressionUUID->"6a8e814c-b8f6-47b8-81e3-0cb9f8e09221"],
+ CellLabel->"In[1]:=",ExpressionUUID->"6a8e814c-b8f6-47b8-81e3-0cb9f8e09221"],
+
+Cell[BoxData[
+ InterpretationBox[
+  StyleBox[
+   FrameBox[
+    DynamicModuleBox[{System`InformationDump`open$$ = False, 
+     System`InformationDump`mouseOver$$ = False}, 
+     PaneSelectorBox[{True->
+      TagBox[GridBox[{
+         {
+          ItemBox[
+           PaneBox[
+            StyleBox[
+             TagBox[
+              TooltipBox[
+               StyleBox["\<\" Symbol\"\>", "InformationRowLabel",
+                StripOnInput->False],
+               "\"Symbol\"",
+               TooltipStyle->"TextStyling"],
+              Annotation[#, "Symbol", "Tooltip"]& ], "InformationTitleText",
+             StripOnInput->False,
+             BaseStyle -> None],
+            FrameMargins->{{4, 0}, {-1, 1}}],
+           BaseStyle->"InformationTitleBackground",
+           StripOnInput->False], 
+          ItemBox[
+           PaneBox[
+            TooltipBox[
+             ButtonBox[
+              PaneSelectorBox[{False->
+               
+               DynamicBox[FEPrivate`FrontEndResource[
+                "FEBitmaps", "InformationHelpIcon"]], True->
+               
+               DynamicBox[FEPrivate`FrontEndResource[
+                "FEBitmaps", "InformationHelpIconHot"]]}, Dynamic[
+                CurrentValue["MouseOver"]]],
+              Appearance->None,
+              BaseStyle->"Link",
+              
+              ButtonData->
+               "http://reference.wolfram.com/language/ref/FourierSeries.html",
+              
+              
+              ButtonNote->
+               "http://reference.wolfram.com/language/ref/FourierSeries.html"],
+             
+             "\"http://reference.wolfram.com/language/ref/FourierSeries.html\"\
+"],
+            FrameMargins->{{0, 4}, {0, 2}}],
+           BaseStyle->"InformationTitleBackground",
+           StripOnInput->False]},
+         {
+          ItemBox[
+           PaneBox[
+            
+            StyleBox["\<\"\\!\\(\\*RowBox[{\\\"FourierSeries\\\", \\\"[\\\", \
+RowBox[{StyleBox[\\\"expr\\\", \\\"TI\\\"], \\\",\\\", StyleBox[\\\"t\\\", \\\
+\"TI\\\"], \\\",\\\", StyleBox[\\\"n\\\", \\\"TI\\\"]}], \\\"]\\\"}]\\) gives \
+the \\!\\(\\*StyleBox[\\\"n\\\", \\\"TI\\\"]\\)\\!\\(\\*SuperscriptBox[\\\"\
+\[Null]\\\", \\\"th\\\"]\\)-order Fourier series expansion of \
+\\!\\(\\*StyleBox[\\\"expr\\\", \\\"TI\\\"]\\) in \
+\\!\\(\\*StyleBox[\\\"t\\\", \\\"TI\\\"]\\). \
+\\n\\!\\(\\*RowBox[{\\\"FourierSeries\\\", \\\"[\\\", \
+RowBox[{StyleBox[\\\"expr\\\", \\\"TI\\\"], \\\",\\\", RowBox[{\\\"{\\\", \
+RowBox[{SubscriptBox[StyleBox[\\\"t\\\", \\\"TI\\\"], StyleBox[\\\"1\\\", \
+\\\"TR\\\"]], \\\",\\\", SubscriptBox[StyleBox[\\\"t\\\", \\\"TI\\\"], \
+StyleBox[\\\"2\\\", \\\"TR\\\"]], \\\",\\\", StyleBox[\\\"\[Ellipsis]\\\", \\\
+\"TR\\\"]}], \\\"}\\\"}], \\\",\\\", RowBox[{\\\"{\\\", \
+RowBox[{SubscriptBox[StyleBox[\\\"n\\\", \\\"TI\\\"], StyleBox[\\\"1\\\", \
+\\\"TR\\\"]], \\\",\\\", SubscriptBox[StyleBox[\\\"n\\\", \\\"TI\\\"], \
+StyleBox[\\\"2\\\", \\\"TR\\\"]], \\\",\\\", StyleBox[\\\"\[Ellipsis]\\\", \\\
+\"TR\\\"]}], \\\"}\\\"}]}], \\\"]\\\"}]\\) gives the multidimensional Fourier \
+series.\"\>", "InformationUsageText",
+             StripOnInput->False,
+             LineSpacing->{1.5, 1.5, 3.}],
+            FrameMargins->{{10, 10}, {8, 10}}],
+           BaseStyle->"InformationUsageSubtitleBackground",
+           StripOnInput->False], 
+          ItemBox["\<\"\"\>",
+           BaseStyle->"InformationUsageSubtitleBackground",
+           StripOnInput->False]},
+         {
+          PaneBox[GridBox[{
+             {
+              
+              DynamicModuleBox[{System`InformationDump`open$$ = {
+               False, False, False, False, False, False}}, 
+               StyleBox[GridBox[{
+                  {
+                   TagBox[
+                    TooltipBox[
+                    StyleBox["\<\" Documentation\"\>", "InformationRowLabel",
+                    StripOnInput->False],
+                    "\"Documentation\"",
+                    TooltipStyle->"TextStyling"],
+                    Annotation[#, "Documentation", "Tooltip"]& ], 
+                   TemplateBox[{
+                    TemplateBox[{"\"Web \[RightGuillemet]\"", {
+                    URL[
+                    "http://reference.wolfram.com/language/ref/FourierSeries.\
+html"], None}, "http://reference.wolfram.com/language/ref/FourierSeries.html",
+                     "Hyperlink", {
+                    RGBColor[0.9686274509803922, 0.4666666666666667, 0.]}, 
+                    BaseStyle -> {
+                    RGBColor[0.0784313725490196, 0.1568627450980392, 0.6]}}, 
+                    "HyperlinkTemplate"]},
+                    "RowDefault"]},
+                  {
+                   TagBox[
+                    TooltipBox[
+                    StyleBox["\<\" Attributes\"\>", "InformationRowLabel",
+                    StripOnInput->False],
+                    "\"Attributes\"",
+                    TooltipStyle->"TextStyling"],
+                    Annotation[#, "Attributes", "Tooltip"]& ], 
+                   RowBox[{"{", 
+                    RowBox[{"Protected", ",", "ReadProtected"}], "}"}]},
+                  {
+                   TagBox[
+                    TooltipBox[
+                    StyleBox["\<\" Full Name\"\>", "InformationRowLabel",
+                    StripOnInput->False],
+                    "\"FullName\"",
+                    TooltipStyle->"TextStyling"],
+                    
+                    Annotation[#, "FullName", 
+                    "Tooltip"]& ], "\<\"System`FourierSeries\"\>"}
+                 },
+                 AutoDelete->False,
+                 GridBoxAlignment->{"Columns" -> {Right, Left}},
+                 GridBoxDividers->None,
+                 GridBoxItemSize->{"Columns" -> {Automatic, Automatic}},
+                 GridBoxSpacings->{"Columns" -> {
+                    Offset[0.27999999999999997`], {
+                    Offset[0.5599999999999999]}, 
+                    Offset[0.27999999999999997`]}, "Rows" -> {
+                    Offset[0.2], {
+                    Offset[0.8]}, 
+                    Offset[0.2]}}], "DialogStyle",
+                StripOnInput->False],
+               DynamicModuleValues:>{}]}
+            },
+            DefaultBaseStyle->"Column",
+            GridBoxAlignment->{"Columns" -> {{Left}}},
+            GridBoxDividers->{"Columns" -> {{False}}, "Rows" -> {{False}}},
+            
+            GridBoxItemSize->{
+             "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}},
+            GridBoxSpacings->{"Columns" -> {
+                Offset[0.27999999999999997`], {
+                 Offset[0.5599999999999999]}, 
+                Offset[0.27999999999999997`]}, "Rows" -> {
+                Offset[0.2], {
+                 Offset[3.6]}, 
+                Offset[0.2]}}],
+           FrameMargins->{{6, 6}, {6, 3}}], ""},
+         {
+          ItemBox[
+           TagBox[
+            ButtonBox[
+             PaneSelectorBox[{False->
+              
+              DynamicBox[FEPrivate`FrontEndResource[
+               "FEBitmaps", "UpPointerOpener"]], True->
+              
+              DynamicBox[FEPrivate`FrontEndResource[
+               "FEBitmaps", "UpPointerOpenerHot"]]}, Dynamic[
+              System`InformationDump`mouseOver$$]],
+             Alignment->Left,
+             Appearance->{"Default" -> None},
+             
+             ButtonFunction:>FEPrivate`Set[
+              System`InformationDump`open$$, False],
+             Evaluator->Automatic,
+             FrameMargins->{{9, 0}, {0, 0}},
+             ImageMargins->0,
+             ImageSize->Full,
+             Method->"Preemptive"],
+            
+            EventHandlerTag[{
+             "MouseEntered" :> 
+              FEPrivate`Set[System`InformationDump`mouseOver$$, True], 
+              "MouseExited" :> 
+              FEPrivate`Set[System`InformationDump`mouseOver$$, False], 
+              Method -> "Preemptive", PassEventsDown -> Automatic, 
+              PassEventsUp -> True}]],
+           BaseStyle->"InformationTitleBackground",
+           StripOnInput->False], "\[SpanFromLeft]"}
+        },
+        AutoDelete->False,
+        FrameStyle->Directive[
+          GrayLevel[0.8], 
+          Thickness[Tiny]],
+        GridBoxAlignment->{"Columns" -> {Left, Right}, "Rows" -> {{Center}}},
+        GridBoxDividers->{
+         "Columns" -> {{None}}, "Rows" -> {False, {True}, False}},
+        GridBoxItemSize->{
+         "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}],
+       "Grid"], False->
+      TagBox[GridBox[{
+         {
+          ItemBox[
+           PaneBox[
+            StyleBox[
+             TagBox[
+              TooltipBox[
+               StyleBox["\<\" Symbol\"\>", "InformationRowLabel",
+                StripOnInput->False],
+               "\"Symbol\"",
+               TooltipStyle->"TextStyling"],
+              Annotation[#, "Symbol", "Tooltip"]& ], "InformationTitleText",
+             StripOnInput->False],
+            FrameMargins->{{4, 0}, {-1, 1}}],
+           BaseStyle->"InformationTitleBackground",
+           StripOnInput->False], 
+          ItemBox[
+           PaneBox[
+            TooltipBox[
+             ButtonBox[
+              PaneSelectorBox[{False->
+               
+               DynamicBox[FEPrivate`FrontEndResource[
+                "FEBitmaps", "InformationHelpIcon"],
+                ImageSizeCache->{13., {3.6875, 9.3125}}], True->
+               
+               DynamicBox[FEPrivate`FrontEndResource[
+                "FEBitmaps", "InformationHelpIconHot"],
+                ImageSizeCache->{13., {3.6875, 9.3125}}]}, Dynamic[
+                CurrentValue["MouseOver"]]],
+              Appearance->None,
+              BaseStyle->"Link",
+              
+              ButtonData->
+               "http://reference.wolfram.com/language/ref/FourierSeries.html",
+              
+              
+              ButtonNote->
+               "http://reference.wolfram.com/language/ref/FourierSeries.html"],
+             
+             "\"http://reference.wolfram.com/language/ref/FourierSeries.html\"\
+"],
+            FrameMargins->{{0, 4}, {0, 2}}],
+           BaseStyle->"InformationTitleBackground",
+           StripOnInput->False]},
+         {
+          ItemBox[
+           PaneBox[
+            
+            StyleBox["\<\"\\!\\(\\*RowBox[{\\\"FourierSeries\\\", \\\"[\\\", \
+RowBox[{StyleBox[\\\"expr\\\", \\\"TI\\\"], \\\",\\\", StyleBox[\\\"t\\\", \\\
+\"TI\\\"], \\\",\\\", StyleBox[\\\"n\\\", \\\"TI\\\"]}], \\\"]\\\"}]\\) gives \
+the \\!\\(\\*StyleBox[\\\"n\\\", \\\"TI\\\"]\\)\\!\\(\\*SuperscriptBox[\\\"\
+\[Null]\\\", \\\"th\\\"]\\)-order Fourier series expansion of \
+\\!\\(\\*StyleBox[\\\"expr\\\", \\\"TI\\\"]\\) in \
+\\!\\(\\*StyleBox[\\\"t\\\", \\\"TI\\\"]\\). \
+\\n\\!\\(\\*RowBox[{\\\"FourierSeries\\\", \\\"[\\\", \
+RowBox[{StyleBox[\\\"expr\\\", \\\"TI\\\"], \\\",\\\", RowBox[{\\\"{\\\", \
+RowBox[{SubscriptBox[StyleBox[\\\"t\\\", \\\"TI\\\"], StyleBox[\\\"1\\\", \
+\\\"TR\\\"]], \\\",\\\", SubscriptBox[StyleBox[\\\"t\\\", \\\"TI\\\"], \
+StyleBox[\\\"2\\\", \\\"TR\\\"]], \\\",\\\", StyleBox[\\\"\[Ellipsis]\\\", \\\
+\"TR\\\"]}], \\\"}\\\"}], \\\",\\\", RowBox[{\\\"{\\\", \
+RowBox[{SubscriptBox[StyleBox[\\\"n\\\", \\\"TI\\\"], StyleBox[\\\"1\\\", \
+\\\"TR\\\"]], \\\",\\\", SubscriptBox[StyleBox[\\\"n\\\", \\\"TI\\\"], \
+StyleBox[\\\"2\\\", \\\"TR\\\"]], \\\",\\\", StyleBox[\\\"\[Ellipsis]\\\", \\\
+\"TR\\\"]}], \\\"}\\\"}]}], \\\"]\\\"}]\\) gives the multidimensional Fourier \
+series.\"\>", "InformationUsageText",
+             StripOnInput->False,
+             LineSpacing->{1.5, 1.5, 3.}],
+            FrameMargins->{{10, 10}, {8, 10}}],
+           BaseStyle->"InformationUsageSubtitleBackground",
+           StripOnInput->False], 
+          ItemBox["\<\"\"\>",
+           BaseStyle->"InformationUsageSubtitleBackground",
+           StripOnInput->False]},
+         {
+          ItemBox[
+           TagBox[
+            ButtonBox[
+             PaneSelectorBox[{False->
+              
+              DynamicBox[FEPrivate`FrontEndResource[
+               "FEBitmaps", "DownPointerOpener"],
+               ImageSizeCache->{10., {2.673828125, 7.326171875}}], True->
+              
+              DynamicBox[FEPrivate`FrontEndResource[
+               "FEBitmaps", "DownPointerOpenerHot"],
+               ImageSizeCache->{10., {2.673828125, 7.326171875}}]}, Dynamic[
+              System`InformationDump`mouseOver$$]],
+             Alignment->Left,
+             Appearance->{"Default" -> None},
+             
+             ButtonFunction:>FEPrivate`Set[
+              System`InformationDump`open$$, True],
+             Evaluator->Automatic,
+             FrameMargins->{{9, 0}, {0, 0}},
+             ImageMargins->0,
+             ImageSize->Full,
+             Method->"Preemptive"],
+            
+            EventHandlerTag[{
+             "MouseEntered" :> 
+              FEPrivate`Set[System`InformationDump`mouseOver$$, True], 
+              "MouseExited" :> 
+              FEPrivate`Set[System`InformationDump`mouseOver$$, False], 
+              Method -> "Preemptive", PassEventsDown -> Automatic, 
+              PassEventsUp -> True}]],
+           BaseStyle->"InformationTitleBackground",
+           StripOnInput->False], "\[SpanFromLeft]"}
+        },
+        AutoDelete->False,
+        FrameStyle->Directive[
+          GrayLevel[0.8], 
+          Thickness[Tiny]],
+        GridBoxAlignment->{"Columns" -> {Left, Right}, "Rows" -> {{Center}}},
+        GridBoxDividers->{
+         "Columns" -> {{None}}, "Rows" -> {False, {True}, False}},
+        GridBoxItemSize->{
+         "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}],
+       "Grid"]}, Dynamic[System`InformationDump`open$$],
+      BaselinePosition->Baseline,
+      FrameMargins->0,
+      ImageSize->Automatic],
+     DynamicModuleValues:>{}],
+    BaseStyle->"InformationGridFrame",
+    StripOnInput->False], "InformationGridPlain",
+   StripOnInput->False],
+  InformationData[<|
+   "ObjectType" -> "Symbol", "Usage" -> 
+    "\!\(\*RowBox[{\"FourierSeries\", \"[\", RowBox[{StyleBox[\"expr\", \
+\"TI\"], \",\", StyleBox[\"t\", \"TI\"], \",\", StyleBox[\"n\", \"TI\"]}], \
+\"]\"}]\) gives the \!\(\*StyleBox[\"n\", \"TI\"]\)\!\(\*SuperscriptBox[\"\
+\[Null]\", \"th\"]\)-order Fourier series expansion of \
+\!\(\*StyleBox[\"expr\", \"TI\"]\) in \!\(\*StyleBox[\"t\", \"TI\"]\). \n\!\(\
+\*RowBox[{\"FourierSeries\", \"[\", RowBox[{StyleBox[\"expr\", \"TI\"], \
+\",\", RowBox[{\"{\", RowBox[{SubscriptBox[StyleBox[\"t\", \"TI\"], StyleBox[\
+\"1\", \"TR\"]], \",\", SubscriptBox[StyleBox[\"t\", \"TI\"], StyleBox[\"2\", \
+\"TR\"]], \",\", StyleBox[\"\[Ellipsis]\", \"TR\"]}], \"}\"}], \",\", \
+RowBox[{\"{\", RowBox[{SubscriptBox[StyleBox[\"n\", \"TI\"], StyleBox[\"1\", \
+\"TR\"]], \",\", SubscriptBox[StyleBox[\"n\", \"TI\"], StyleBox[\"2\", \
+\"TR\"]], \",\", StyleBox[\"\[Ellipsis]\", \"TR\"]}], \"}\"}]}], \"]\"}]\) \
+gives the multidimensional Fourier series.", 
+    "Documentation" -> <|
+     "Web" -> "http://reference.wolfram.com/language/ref/FourierSeries.html"|>\
+, "OwnValues" -> None, "UpValues" -> None, "DownValues" -> None, "SubValues" -> 
+    None, "DefaultValues" -> None, "NValues" -> None, "FormatValues" -> None, 
+    "Options" -> None, "Attributes" -> {Protected, ReadProtected}, "FullName" -> 
+    "System`FourierSeries"|>, False]]], "Output",
+ CellChangeTimes->{3.954385321622876*^9},
+ CellLabel->"Out[1]=",ExpressionUUID->"f8751b06-12a2-4c59-b1d9-9e02999989de"],
+
+Cell[BoxData[
+ InterpretationBox[
+  StyleBox[
+   FrameBox[
+    DynamicModuleBox[{System`InformationDump`open$$ = False, 
+     System`InformationDump`mouseOver$$ = False}, 
+     PaneSelectorBox[{True->
+      TagBox[GridBox[{
+         {
+          ItemBox[
+           PaneBox[
+            StyleBox[
+             TagBox[
+              TooltipBox[
+               StyleBox["\<\" Symbol\"\>", "InformationRowLabel",
+                StripOnInput->False],
+               "\"Symbol\"",
+               TooltipStyle->"TextStyling"],
+              Annotation[#, "Symbol", "Tooltip"]& ], "InformationTitleText",
+             StripOnInput->False,
+             BaseStyle -> None],
+            FrameMargins->{{4, 0}, {-1, 1}}],
+           BaseStyle->"InformationTitleBackground",
+           StripOnInput->False], 
+          ItemBox[
+           PaneBox[
+            TooltipBox[
+             ButtonBox[
+              PaneSelectorBox[{False->
+               
+               DynamicBox[FEPrivate`FrontEndResource[
+                "FEBitmaps", "InformationHelpIcon"]], True->
+               
+               DynamicBox[FEPrivate`FrontEndResource[
+                "FEBitmaps", "InformationHelpIconHot"]]}, Dynamic[
+                CurrentValue["MouseOver"]]],
+              Appearance->None,
+              BaseStyle->"Link",
+              
+              ButtonData->
+               "http://reference.wolfram.com/language/ref/FourierTrigSeries.\
+html",
+              
+              ButtonNote->
+               "http://reference.wolfram.com/language/ref/FourierTrigSeries.\
+html"],
+             
+             "\"http://reference.wolfram.com/language/ref/FourierTrigSeries.\
+html\""],
+            FrameMargins->{{0, 4}, {0, 2}}],
+           BaseStyle->"InformationTitleBackground",
+           StripOnInput->False]},
+         {
+          ItemBox[
+           PaneBox[
+            
+            StyleBox["\<\"\\!\\(\\*RowBox[{\\\"FourierTrigSeries\\\", \\\"[\\\
+\", RowBox[{StyleBox[\\\"expr\\\", \\\"TI\\\"], \\\",\\\", \
+StyleBox[\\\"t\\\", \\\"TI\\\"], \\\",\\\", StyleBox[\\\"n\\\", \
+\\\"TI\\\"]}], \\\"]\\\"}]\\) gives the \\!\\(\\*StyleBox[\\\"n\\\", \\\"TI\\\
+\"]\\)\\!\\(\\*SuperscriptBox[\\\"\[Null]\\\", \\\"th\\\"]\\)-order Fourier \
+trigonometric series expansion of \\!\\(\\*StyleBox[\\\"expr\\\", \\\"TI\\\"]\
+\\) in \\!\\(\\*StyleBox[\\\"t\\\", \
+\\\"TI\\\"]\\).\\n\\!\\(\\*RowBox[{\\\"FourierTrigSeries\\\", \\\"[\\\", \
+RowBox[{StyleBox[\\\"expr\\\", \\\"TI\\\"], \\\",\\\", RowBox[{StyleBox[\\\"{\
+\\\", \\\"TI\\\"], RowBox[{SubscriptBox[StyleBox[\\\"t\\\", \\\"TI\\\"], \
+StyleBox[\\\"1\\\", \\\"TR\\\"]], \\\",\\\", SubscriptBox[StyleBox[\\\"t\\\", \
+\\\"TI\\\"], StyleBox[\\\"2\\\", \\\"TR\\\"]], \\\",\\\", StyleBox[\\\"\
+\[Ellipsis]\\\", \\\"TR\\\"]}], \\\"}\\\"}], \\\",\\\", RowBox[{\\\"{\\\", \
+RowBox[{SubscriptBox[StyleBox[\\\"n\\\", \\\"TI\\\"], StyleBox[\\\"1\\\", \
+\\\"TR\\\"]], \\\",\\\", SubscriptBox[StyleBox[\\\"n\\\", \\\"TI\\\"], \
+StyleBox[\\\"2\\\", \\\"TR\\\"]], \\\",\\\", StyleBox[\\\"\[Ellipsis]\\\", \\\
+\"TR\\\"]}], \\\"}\\\"}]}], \\\"]\\\"}]\\) gives the multidimensional Fourier \
+trigonometric series of \\!\\(\\*StyleBox[\\\"expr\\\", \\\"TI\\\"]\\).\"\>", 
+             "InformationUsageText",
+             StripOnInput->False,
+             LineSpacing->{1.5, 1.5, 3.}],
+            FrameMargins->{{10, 10}, {8, 10}}],
+           BaseStyle->"InformationUsageSubtitleBackground",
+           StripOnInput->False], 
+          ItemBox["\<\"\"\>",
+           BaseStyle->"InformationUsageSubtitleBackground",
+           StripOnInput->False]},
+         {
+          PaneBox[GridBox[{
+             {
+              
+              DynamicModuleBox[{System`InformationDump`open$$ = {
+               False, False, False, False, False, False}}, 
+               StyleBox[GridBox[{
+                  {
+                   TagBox[
+                    TooltipBox[
+                    StyleBox["\<\" Documentation\"\>", "InformationRowLabel",
+                    StripOnInput->False],
+                    "\"Documentation\"",
+                    TooltipStyle->"TextStyling"],
+                    Annotation[#, "Documentation", "Tooltip"]& ], 
+                   TemplateBox[{
+                    TemplateBox[{"\"Web \[RightGuillemet]\"", {
+                    URL[
+                    "http://reference.wolfram.com/language/ref/\
+FourierTrigSeries.html"], None}, 
+                    "http://reference.wolfram.com/language/ref/\
+FourierTrigSeries.html", "Hyperlink", {
+                    RGBColor[0.9686274509803922, 0.4666666666666667, 0.]}, 
+                    BaseStyle -> {
+                    RGBColor[0.0784313725490196, 0.1568627450980392, 0.6]}}, 
+                    "HyperlinkTemplate"]},
+                    "RowDefault"]},
+                  {
+                   TagBox[
+                    TooltipBox[
+                    StyleBox["\<\" Attributes\"\>", "InformationRowLabel",
+                    StripOnInput->False],
+                    "\"Attributes\"",
+                    TooltipStyle->"TextStyling"],
+                    Annotation[#, "Attributes", "Tooltip"]& ], 
+                   RowBox[{"{", 
+                    RowBox[{"Protected", ",", "ReadProtected"}], "}"}]},
+                  {
+                   TagBox[
+                    TooltipBox[
+                    StyleBox["\<\" Full Name\"\>", "InformationRowLabel",
+                    StripOnInput->False],
+                    "\"FullName\"",
+                    TooltipStyle->"TextStyling"],
+                    
+                    Annotation[#, "FullName", 
+                    "Tooltip"]& ], "\<\"System`FourierTrigSeries\"\>"}
+                 },
+                 AutoDelete->False,
+                 GridBoxAlignment->{"Columns" -> {Right, Left}},
+                 GridBoxDividers->None,
+                 GridBoxItemSize->{"Columns" -> {Automatic, Automatic}},
+                 GridBoxSpacings->{"Columns" -> {
+                    Offset[0.27999999999999997`], {
+                    Offset[0.5599999999999999]}, 
+                    Offset[0.27999999999999997`]}, "Rows" -> {
+                    Offset[0.2], {
+                    Offset[0.8]}, 
+                    Offset[0.2]}}], "DialogStyle",
+                StripOnInput->False],
+               DynamicModuleValues:>{}]}
+            },
+            DefaultBaseStyle->"Column",
+            GridBoxAlignment->{"Columns" -> {{Left}}},
+            GridBoxDividers->{"Columns" -> {{False}}, "Rows" -> {{False}}},
+            
+            GridBoxItemSize->{
+             "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}},
+            GridBoxSpacings->{"Columns" -> {
+                Offset[0.27999999999999997`], {
+                 Offset[0.5599999999999999]}, 
+                Offset[0.27999999999999997`]}, "Rows" -> {
+                Offset[0.2], {
+                 Offset[3.6]}, 
+                Offset[0.2]}}],
+           FrameMargins->{{6, 6}, {6, 3}}], ""},
+         {
+          ItemBox[
+           TagBox[
+            ButtonBox[
+             PaneSelectorBox[{False->
+              
+              DynamicBox[FEPrivate`FrontEndResource[
+               "FEBitmaps", "UpPointerOpener"]], True->
+              
+              DynamicBox[FEPrivate`FrontEndResource[
+               "FEBitmaps", "UpPointerOpenerHot"]]}, Dynamic[
+              System`InformationDump`mouseOver$$]],
+             Alignment->Left,
+             Appearance->{"Default" -> None},
+             
+             ButtonFunction:>FEPrivate`Set[
+              System`InformationDump`open$$, False],
+             Evaluator->Automatic,
+             FrameMargins->{{9, 0}, {0, 0}},
+             ImageMargins->0,
+             ImageSize->Full,
+             Method->"Preemptive"],
+            
+            EventHandlerTag[{
+             "MouseEntered" :> 
+              FEPrivate`Set[System`InformationDump`mouseOver$$, True], 
+              "MouseExited" :> 
+              FEPrivate`Set[System`InformationDump`mouseOver$$, False], 
+              Method -> "Preemptive", PassEventsDown -> Automatic, 
+              PassEventsUp -> True}]],
+           BaseStyle->"InformationTitleBackground",
+           StripOnInput->False], "\[SpanFromLeft]"}
+        },
+        AutoDelete->False,
+        FrameStyle->Directive[
+          GrayLevel[0.8], 
+          Thickness[Tiny]],
+        GridBoxAlignment->{"Columns" -> {Left, Right}, "Rows" -> {{Center}}},
+        GridBoxDividers->{
+         "Columns" -> {{None}}, "Rows" -> {False, {True}, False}},
+        GridBoxItemSize->{
+         "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}],
+       "Grid"], False->
+      TagBox[GridBox[{
+         {
+          ItemBox[
+           PaneBox[
+            StyleBox[
+             TagBox[
+              TooltipBox[
+               StyleBox["\<\" Symbol\"\>", "InformationRowLabel",
+                StripOnInput->False],
+               "\"Symbol\"",
+               TooltipStyle->"TextStyling"],
+              Annotation[#, "Symbol", "Tooltip"]& ], "InformationTitleText",
+             StripOnInput->False],
+            FrameMargins->{{4, 0}, {-1, 1}}],
+           BaseStyle->"InformationTitleBackground",
+           StripOnInput->False], 
+          ItemBox[
+           PaneBox[
+            TooltipBox[
+             ButtonBox[
+              PaneSelectorBox[{False->
+               
+               DynamicBox[FEPrivate`FrontEndResource[
+                "FEBitmaps", "InformationHelpIcon"],
+                ImageSizeCache->{13., {3.6875, 9.3125}}], True->
+               
+               DynamicBox[FEPrivate`FrontEndResource[
+                "FEBitmaps", "InformationHelpIconHot"],
+                ImageSizeCache->{13., {3.6875, 9.3125}}]}, Dynamic[
+                CurrentValue["MouseOver"]]],
+              Appearance->None,
+              BaseStyle->"Link",
+              
+              ButtonData->
+               "http://reference.wolfram.com/language/ref/FourierTrigSeries.\
+html",
+              
+              ButtonNote->
+               "http://reference.wolfram.com/language/ref/FourierTrigSeries.\
+html"],
+             
+             "\"http://reference.wolfram.com/language/ref/FourierTrigSeries.\
+html\""],
+            FrameMargins->{{0, 4}, {0, 2}}],
+           BaseStyle->"InformationTitleBackground",
+           StripOnInput->False]},
+         {
+          ItemBox[
+           PaneBox[
+            
+            StyleBox["\<\"\\!\\(\\*RowBox[{\\\"FourierTrigSeries\\\", \\\"[\\\
+\", RowBox[{StyleBox[\\\"expr\\\", \\\"TI\\\"], \\\",\\\", \
+StyleBox[\\\"t\\\", \\\"TI\\\"], \\\",\\\", StyleBox[\\\"n\\\", \
+\\\"TI\\\"]}], \\\"]\\\"}]\\) gives the \\!\\(\\*StyleBox[\\\"n\\\", \\\"TI\\\
+\"]\\)\\!\\(\\*SuperscriptBox[\\\"\[Null]\\\", \\\"th\\\"]\\)-order Fourier \
+trigonometric series expansion of \\!\\(\\*StyleBox[\\\"expr\\\", \\\"TI\\\"]\
+\\) in \\!\\(\\*StyleBox[\\\"t\\\", \
+\\\"TI\\\"]\\).\\n\\!\\(\\*RowBox[{\\\"FourierTrigSeries\\\", \\\"[\\\", \
+RowBox[{StyleBox[\\\"expr\\\", \\\"TI\\\"], \\\",\\\", RowBox[{StyleBox[\\\"{\
+\\\", \\\"TI\\\"], RowBox[{SubscriptBox[StyleBox[\\\"t\\\", \\\"TI\\\"], \
+StyleBox[\\\"1\\\", \\\"TR\\\"]], \\\",\\\", SubscriptBox[StyleBox[\\\"t\\\", \
+\\\"TI\\\"], StyleBox[\\\"2\\\", \\\"TR\\\"]], \\\",\\\", StyleBox[\\\"\
+\[Ellipsis]\\\", \\\"TR\\\"]}], \\\"}\\\"}], \\\",\\\", RowBox[{\\\"{\\\", \
+RowBox[{SubscriptBox[StyleBox[\\\"n\\\", \\\"TI\\\"], StyleBox[\\\"1\\\", \
+\\\"TR\\\"]], \\\",\\\", SubscriptBox[StyleBox[\\\"n\\\", \\\"TI\\\"], \
+StyleBox[\\\"2\\\", \\\"TR\\\"]], \\\",\\\", StyleBox[\\\"\[Ellipsis]\\\", \\\
+\"TR\\\"]}], \\\"}\\\"}]}], \\\"]\\\"}]\\) gives the multidimensional Fourier \
+trigonometric series of \\!\\(\\*StyleBox[\\\"expr\\\", \\\"TI\\\"]\\).\"\>", 
+             "InformationUsageText",
+             StripOnInput->False,
+             LineSpacing->{1.5, 1.5, 3.}],
+            FrameMargins->{{10, 10}, {8, 10}}],
+           BaseStyle->"InformationUsageSubtitleBackground",
+           StripOnInput->False], 
+          ItemBox["\<\"\"\>",
+           BaseStyle->"InformationUsageSubtitleBackground",
+           StripOnInput->False]},
+         {
+          ItemBox[
+           TagBox[
+            ButtonBox[
+             PaneSelectorBox[{False->
+              
+              DynamicBox[FEPrivate`FrontEndResource[
+               "FEBitmaps", "DownPointerOpener"],
+               ImageSizeCache->{10., {2.673828125, 7.326171875}}], True->
+              
+              DynamicBox[FEPrivate`FrontEndResource[
+               "FEBitmaps", "DownPointerOpenerHot"],
+               ImageSizeCache->{10., {2.673828125, 7.326171875}}]}, Dynamic[
+              System`InformationDump`mouseOver$$]],
+             Alignment->Left,
+             Appearance->{"Default" -> None},
+             
+             ButtonFunction:>FEPrivate`Set[
+              System`InformationDump`open$$, True],
+             Evaluator->Automatic,
+             FrameMargins->{{9, 0}, {0, 0}},
+             ImageMargins->0,
+             ImageSize->Full,
+             Method->"Preemptive"],
+            
+            EventHandlerTag[{
+             "MouseEntered" :> 
+              FEPrivate`Set[System`InformationDump`mouseOver$$, True], 
+              "MouseExited" :> 
+              FEPrivate`Set[System`InformationDump`mouseOver$$, False], 
+              Method -> "Preemptive", PassEventsDown -> Automatic, 
+              PassEventsUp -> True}]],
+           BaseStyle->"InformationTitleBackground",
+           StripOnInput->False], "\[SpanFromLeft]"}
+        },
+        AutoDelete->False,
+        FrameStyle->Directive[
+          GrayLevel[0.8], 
+          Thickness[Tiny]],
+        GridBoxAlignment->{"Columns" -> {Left, Right}, "Rows" -> {{Center}}},
+        GridBoxDividers->{
+         "Columns" -> {{None}}, "Rows" -> {False, {True}, False}},
+        GridBoxItemSize->{
+         "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}],
+       "Grid"]}, Dynamic[System`InformationDump`open$$],
+      BaselinePosition->Baseline,
+      FrameMargins->0,
+      ImageSize->Automatic],
+     DynamicModuleValues:>{}],
+    BaseStyle->"InformationGridFrame",
+    StripOnInput->False], "InformationGridPlain",
+   StripOnInput->False],
+  InformationData[<|
+   "ObjectType" -> "Symbol", "Usage" -> 
+    "\!\(\*RowBox[{\"FourierTrigSeries\", \"[\", RowBox[{StyleBox[\"expr\", \
+\"TI\"], \",\", StyleBox[\"t\", \"TI\"], \",\", StyleBox[\"n\", \"TI\"]}], \
+\"]\"}]\) gives the \!\(\*StyleBox[\"n\", \"TI\"]\)\!\(\*SuperscriptBox[\"\
+\[Null]\", \"th\"]\)-order Fourier trigonometric series expansion of \
+\!\(\*StyleBox[\"expr\", \"TI\"]\) in \!\(\*StyleBox[\"t\", \"TI\"]\).\n\
+\!\(\*RowBox[{\"FourierTrigSeries\", \"[\", RowBox[{StyleBox[\"expr\", \
+\"TI\"], \",\", RowBox[{StyleBox[\"{\", \"TI\"], \
+RowBox[{SubscriptBox[StyleBox[\"t\", \"TI\"], StyleBox[\"1\", \"TR\"]], \
+\",\", SubscriptBox[StyleBox[\"t\", \"TI\"], StyleBox[\"2\", \"TR\"]], \",\", \
+StyleBox[\"\[Ellipsis]\", \"TR\"]}], \"}\"}], \",\", RowBox[{\"{\", \
+RowBox[{SubscriptBox[StyleBox[\"n\", \"TI\"], StyleBox[\"1\", \"TR\"]], \
+\",\", SubscriptBox[StyleBox[\"n\", \"TI\"], StyleBox[\"2\", \"TR\"]], \",\", \
+StyleBox[\"\[Ellipsis]\", \"TR\"]}], \"}\"}]}], \"]\"}]\) gives the \
+multidimensional Fourier trigonometric series of \!\(\*StyleBox[\"expr\", \
+\"TI\"]\).", 
+    "Documentation" -> <|
+     "Web" -> "http://reference.wolfram.com/language/ref/FourierTrigSeries.\
+html"|>, "OwnValues" -> None, "UpValues" -> None, "DownValues" -> None, 
+    "SubValues" -> None, "DefaultValues" -> None, "NValues" -> None, 
+    "FormatValues" -> None, "Options" -> None, 
+    "Attributes" -> {Protected, ReadProtected}, "FullName" -> 
+    "System`FourierTrigSeries"|>, False]]], "Output",
+ CellChangeTimes->{3.9543853220462923`*^9},
+ CellLabel->"Out[2]=",ExpressionUUID->"ad4cb0cb-7f96-45bd-8adb-a6f5d60ef471"],
+
+Cell[BoxData[
+ InterpretationBox[
+  StyleBox[
+   FrameBox[
+    DynamicModuleBox[{System`InformationDump`open$$ = False, 
+     System`InformationDump`mouseOver$$ = False}, 
+     PaneSelectorBox[{True->
+      TagBox[GridBox[{
+         {
+          ItemBox[
+           PaneBox[
+            StyleBox[
+             TagBox[
+              TooltipBox[
+               StyleBox["\<\" Symbol\"\>", "InformationRowLabel",
+                StripOnInput->False],
+               "\"Symbol\"",
+               TooltipStyle->"TextStyling"],
+              Annotation[#, "Symbol", "Tooltip"]& ], "InformationTitleText",
+             StripOnInput->False,
+             BaseStyle -> None],
+            FrameMargins->{{4, 0}, {-1, 1}}],
+           BaseStyle->"InformationTitleBackground",
+           StripOnInput->False], 
+          ItemBox[
+           PaneBox[
+            TooltipBox[
+             ButtonBox[
+              PaneSelectorBox[{False->
+               
+               DynamicBox[FEPrivate`FrontEndResource[
+                "FEBitmaps", "InformationHelpIcon"]], True->
+               
+               DynamicBox[FEPrivate`FrontEndResource[
+                "FEBitmaps", "InformationHelpIconHot"]]}, Dynamic[
+                CurrentValue["MouseOver"]]],
+              Appearance->None,
+              BaseStyle->"Link",
+              
+              ButtonData->
+               "http://reference.wolfram.com/language/ref/FourierSinSeries.\
+html",
+              
+              ButtonNote->
+               "http://reference.wolfram.com/language/ref/FourierSinSeries.\
+html"],
+             
+             "\"http://reference.wolfram.com/language/ref/FourierSinSeries.\
+html\""],
+            FrameMargins->{{0, 4}, {0, 2}}],
+           BaseStyle->"InformationTitleBackground",
+           StripOnInput->False]},
+         {
+          ItemBox[
+           PaneBox[
+            
+            StyleBox["\<\"\\!\\(\\*RowBox[{\\\"FourierSinSeries\\\", \
+\\\"[\\\", RowBox[{StyleBox[\\\"expr\\\", \\\"TI\\\"], \\\",\\\", StyleBox[\\\
+\"t\\\", \\\"TI\\\"], \\\",\\\", StyleBox[\\\"n\\\", \\\"TI\\\"]}], \
+\\\"]\\\"}]\\) gives the \\!\\(\\*StyleBox[\\\"n\\\", \
+\\\"TI\\\"]\\)\\!\\(\\*SuperscriptBox[\\\"\[Null]\\\", \\\"th\\\"]\\)-order \
+Fourier sine series expansion of \\!\\(\\*StyleBox[\\\"expr\\\", \
+\\\"TI\\\"]\\) in \\!\\(\\*StyleBox[\\\"t\\\", \
+\\\"TI\\\"]\\).\\n\\!\\(\\*RowBox[{\\\"FourierSinSeries\\\", \\\"[\\\", \
+RowBox[{StyleBox[\\\"expr\\\", \\\"TI\\\"], \\\",\\\", RowBox[{StyleBox[\\\"{\
+\\\", \\\"TI\\\"], RowBox[{SubscriptBox[StyleBox[\\\"t\\\", \\\"TI\\\"], \
+StyleBox[\\\"1\\\", \\\"TR\\\"]], \\\",\\\", SubscriptBox[StyleBox[\\\"t\\\", \
+\\\"TI\\\"], StyleBox[\\\"2\\\", \\\"TR\\\"]], \\\",\\\", StyleBox[\\\"\
+\[Ellipsis]\\\", \\\"TR\\\"]}], \\\"}\\\"}], \\\",\\\", RowBox[{\\\"{\\\", \
+RowBox[{SubscriptBox[StyleBox[\\\"n\\\", \\\"TI\\\"], StyleBox[\\\"1\\\", \
+\\\"TR\\\"]], \\\",\\\", SubscriptBox[StyleBox[\\\"n\\\", \\\"TI\\\"], \
+StyleBox[\\\"2\\\", \\\"TR\\\"]], \\\",\\\", StyleBox[\\\"\[Ellipsis]\\\", \\\
+\"TR\\\"]}], \\\"}\\\"}]}], \\\"]\\\"}]\\) gives the multidimensional Fourier \
+sine series of \\!\\(\\*StyleBox[\\\"expr\\\", \\\"TI\\\"]\\).\"\>", 
+             "InformationUsageText",
+             StripOnInput->False,
+             LineSpacing->{1.5, 1.5, 3.}],
+            FrameMargins->{{10, 10}, {8, 10}}],
+           BaseStyle->"InformationUsageSubtitleBackground",
+           StripOnInput->False], 
+          ItemBox["\<\"\"\>",
+           BaseStyle->"InformationUsageSubtitleBackground",
+           StripOnInput->False]},
+         {
+          PaneBox[GridBox[{
+             {
+              
+              DynamicModuleBox[{System`InformationDump`open$$ = {
+               False, False, False, False, False, False}}, 
+               StyleBox[GridBox[{
+                  {
+                   TagBox[
+                    TooltipBox[
+                    StyleBox["\<\" Documentation\"\>", "InformationRowLabel",
+                    StripOnInput->False],
+                    "\"Documentation\"",
+                    TooltipStyle->"TextStyling"],
+                    Annotation[#, "Documentation", "Tooltip"]& ], 
+                   TemplateBox[{
+                    TemplateBox[{"\"Web \[RightGuillemet]\"", {
+                    URL[
+                    "http://reference.wolfram.com/language/ref/\
+FourierSinSeries.html"], None}, 
+                    "http://reference.wolfram.com/language/ref/\
+FourierSinSeries.html", "Hyperlink", {
+                    RGBColor[0.9686274509803922, 0.4666666666666667, 0.]}, 
+                    BaseStyle -> {
+                    RGBColor[0.0784313725490196, 0.1568627450980392, 0.6]}}, 
+                    "HyperlinkTemplate"]},
+                    "RowDefault"]},
+                  {
+                   TagBox[
+                    TooltipBox[
+                    StyleBox["\<\" Attributes\"\>", "InformationRowLabel",
+                    StripOnInput->False],
+                    "\"Attributes\"",
+                    TooltipStyle->"TextStyling"],
+                    Annotation[#, "Attributes", "Tooltip"]& ], 
+                   RowBox[{"{", 
+                    RowBox[{"Protected", ",", "ReadProtected"}], "}"}]},
+                  {
+                   TagBox[
+                    TooltipBox[
+                    StyleBox["\<\" Full Name\"\>", "InformationRowLabel",
+                    StripOnInput->False],
+                    "\"FullName\"",
+                    TooltipStyle->"TextStyling"],
+                    
+                    Annotation[#, "FullName", 
+                    "Tooltip"]& ], "\<\"System`FourierSinSeries\"\>"}
+                 },
+                 AutoDelete->False,
+                 GridBoxAlignment->{"Columns" -> {Right, Left}},
+                 GridBoxDividers->None,
+                 GridBoxItemSize->{"Columns" -> {Automatic, Automatic}},
+                 GridBoxSpacings->{"Columns" -> {
+                    Offset[0.27999999999999997`], {
+                    Offset[0.5599999999999999]}, 
+                    Offset[0.27999999999999997`]}, "Rows" -> {
+                    Offset[0.2], {
+                    Offset[0.8]}, 
+                    Offset[0.2]}}], "DialogStyle",
+                StripOnInput->False],
+               DynamicModuleValues:>{}]}
+            },
+            DefaultBaseStyle->"Column",
+            GridBoxAlignment->{"Columns" -> {{Left}}},
+            GridBoxDividers->{"Columns" -> {{False}}, "Rows" -> {{False}}},
+            
+            GridBoxItemSize->{
+             "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}},
+            GridBoxSpacings->{"Columns" -> {
+                Offset[0.27999999999999997`], {
+                 Offset[0.5599999999999999]}, 
+                Offset[0.27999999999999997`]}, "Rows" -> {
+                Offset[0.2], {
+                 Offset[3.6]}, 
+                Offset[0.2]}}],
+           FrameMargins->{{6, 6}, {6, 3}}], ""},
+         {
+          ItemBox[
+           TagBox[
+            ButtonBox[
+             PaneSelectorBox[{False->
+              
+              DynamicBox[FEPrivate`FrontEndResource[
+               "FEBitmaps", "UpPointerOpener"]], True->
+              
+              DynamicBox[FEPrivate`FrontEndResource[
+               "FEBitmaps", "UpPointerOpenerHot"]]}, Dynamic[
+              System`InformationDump`mouseOver$$]],
+             Alignment->Left,
+             Appearance->{"Default" -> None},
+             
+             ButtonFunction:>FEPrivate`Set[
+              System`InformationDump`open$$, False],
+             Evaluator->Automatic,
+             FrameMargins->{{9, 0}, {0, 0}},
+             ImageMargins->0,
+             ImageSize->Full,
+             Method->"Preemptive"],
+            
+            EventHandlerTag[{
+             "MouseEntered" :> 
+              FEPrivate`Set[System`InformationDump`mouseOver$$, True], 
+              "MouseExited" :> 
+              FEPrivate`Set[System`InformationDump`mouseOver$$, False], 
+              Method -> "Preemptive", PassEventsDown -> Automatic, 
+              PassEventsUp -> True}]],
+           BaseStyle->"InformationTitleBackground",
+           StripOnInput->False], "\[SpanFromLeft]"}
+        },
+        AutoDelete->False,
+        FrameStyle->Directive[
+          GrayLevel[0.8], 
+          Thickness[Tiny]],
+        GridBoxAlignment->{"Columns" -> {Left, Right}, "Rows" -> {{Center}}},
+        GridBoxDividers->{
+         "Columns" -> {{None}}, "Rows" -> {False, {True}, False}},
+        GridBoxItemSize->{
+         "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}],
+       "Grid"], False->
+      TagBox[GridBox[{
+         {
+          ItemBox[
+           PaneBox[
+            StyleBox[
+             TagBox[
+              TooltipBox[
+               StyleBox["\<\" Symbol\"\>", "InformationRowLabel",
+                StripOnInput->False],
+               "\"Symbol\"",
+               TooltipStyle->"TextStyling"],
+              Annotation[#, "Symbol", "Tooltip"]& ], "InformationTitleText",
+             StripOnInput->False],
+            FrameMargins->{{4, 0}, {-1, 1}}],
+           BaseStyle->"InformationTitleBackground",
+           StripOnInput->False], 
+          ItemBox[
+           PaneBox[
+            TooltipBox[
+             ButtonBox[
+              PaneSelectorBox[{False->
+               
+               DynamicBox[FEPrivate`FrontEndResource[
+                "FEBitmaps", "InformationHelpIcon"],
+                ImageSizeCache->{13., {3.6875, 9.3125}}], True->
+               
+               DynamicBox[FEPrivate`FrontEndResource[
+                "FEBitmaps", "InformationHelpIconHot"],
+                ImageSizeCache->{13., {3.6875, 9.3125}}]}, Dynamic[
+                CurrentValue["MouseOver"]]],
+              Appearance->None,
+              BaseStyle->"Link",
+              
+              ButtonData->
+               "http://reference.wolfram.com/language/ref/FourierSinSeries.\
+html",
+              
+              ButtonNote->
+               "http://reference.wolfram.com/language/ref/FourierSinSeries.\
+html"],
+             
+             "\"http://reference.wolfram.com/language/ref/FourierSinSeries.\
+html\""],
+            FrameMargins->{{0, 4}, {0, 2}}],
+           BaseStyle->"InformationTitleBackground",
+           StripOnInput->False]},
+         {
+          ItemBox[
+           PaneBox[
+            
+            StyleBox["\<\"\\!\\(\\*RowBox[{\\\"FourierSinSeries\\\", \
+\\\"[\\\", RowBox[{StyleBox[\\\"expr\\\", \\\"TI\\\"], \\\",\\\", StyleBox[\\\
+\"t\\\", \\\"TI\\\"], \\\",\\\", StyleBox[\\\"n\\\", \\\"TI\\\"]}], \
+\\\"]\\\"}]\\) gives the \\!\\(\\*StyleBox[\\\"n\\\", \
+\\\"TI\\\"]\\)\\!\\(\\*SuperscriptBox[\\\"\[Null]\\\", \\\"th\\\"]\\)-order \
+Fourier sine series expansion of \\!\\(\\*StyleBox[\\\"expr\\\", \
+\\\"TI\\\"]\\) in \\!\\(\\*StyleBox[\\\"t\\\", \
+\\\"TI\\\"]\\).\\n\\!\\(\\*RowBox[{\\\"FourierSinSeries\\\", \\\"[\\\", \
+RowBox[{StyleBox[\\\"expr\\\", \\\"TI\\\"], \\\",\\\", RowBox[{StyleBox[\\\"{\
+\\\", \\\"TI\\\"], RowBox[{SubscriptBox[StyleBox[\\\"t\\\", \\\"TI\\\"], \
+StyleBox[\\\"1\\\", \\\"TR\\\"]], \\\",\\\", SubscriptBox[StyleBox[\\\"t\\\", \
+\\\"TI\\\"], StyleBox[\\\"2\\\", \\\"TR\\\"]], \\\",\\\", StyleBox[\\\"\
+\[Ellipsis]\\\", \\\"TR\\\"]}], \\\"}\\\"}], \\\",\\\", RowBox[{\\\"{\\\", \
+RowBox[{SubscriptBox[StyleBox[\\\"n\\\", \\\"TI\\\"], StyleBox[\\\"1\\\", \
+\\\"TR\\\"]], \\\",\\\", SubscriptBox[StyleBox[\\\"n\\\", \\\"TI\\\"], \
+StyleBox[\\\"2\\\", \\\"TR\\\"]], \\\",\\\", StyleBox[\\\"\[Ellipsis]\\\", \\\
+\"TR\\\"]}], \\\"}\\\"}]}], \\\"]\\\"}]\\) gives the multidimensional Fourier \
+sine series of \\!\\(\\*StyleBox[\\\"expr\\\", \\\"TI\\\"]\\).\"\>", 
+             "InformationUsageText",
+             StripOnInput->False,
+             LineSpacing->{1.5, 1.5, 3.}],
+            FrameMargins->{{10, 10}, {8, 10}}],
+           BaseStyle->"InformationUsageSubtitleBackground",
+           StripOnInput->False], 
+          ItemBox["\<\"\"\>",
+           BaseStyle->"InformationUsageSubtitleBackground",
+           StripOnInput->False]},
+         {
+          ItemBox[
+           TagBox[
+            ButtonBox[
+             PaneSelectorBox[{False->
+              
+              DynamicBox[FEPrivate`FrontEndResource[
+               "FEBitmaps", "DownPointerOpener"],
+               ImageSizeCache->{10., {2.673828125, 7.326171875}}], True->
+              
+              DynamicBox[FEPrivate`FrontEndResource[
+               "FEBitmaps", "DownPointerOpenerHot"],
+               ImageSizeCache->{10., {2.673828125, 7.326171875}}]}, Dynamic[
+              System`InformationDump`mouseOver$$]],
+             Alignment->Left,
+             Appearance->{"Default" -> None},
+             
+             ButtonFunction:>FEPrivate`Set[
+              System`InformationDump`open$$, True],
+             Evaluator->Automatic,
+             FrameMargins->{{9, 0}, {0, 0}},
+             ImageMargins->0,
+             ImageSize->Full,
+             Method->"Preemptive"],
+            
+            EventHandlerTag[{
+             "MouseEntered" :> 
+              FEPrivate`Set[System`InformationDump`mouseOver$$, True], 
+              "MouseExited" :> 
+              FEPrivate`Set[System`InformationDump`mouseOver$$, False], 
+              Method -> "Preemptive", PassEventsDown -> Automatic, 
+              PassEventsUp -> True}]],
+           BaseStyle->"InformationTitleBackground",
+           StripOnInput->False], "\[SpanFromLeft]"}
+        },
+        AutoDelete->False,
+        FrameStyle->Directive[
+          GrayLevel[0.8], 
+          Thickness[Tiny]],
+        GridBoxAlignment->{"Columns" -> {Left, Right}, "Rows" -> {{Center}}},
+        GridBoxDividers->{
+         "Columns" -> {{None}}, "Rows" -> {False, {True}, False}},
+        GridBoxItemSize->{
+         "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}],
+       "Grid"]}, Dynamic[System`InformationDump`open$$],
+      BaselinePosition->Baseline,
+      FrameMargins->0,
+      ImageSize->Automatic],
+     DynamicModuleValues:>{}],
+    BaseStyle->"InformationGridFrame",
+    StripOnInput->False], "InformationGridPlain",
+   StripOnInput->False],
+  InformationData[<|
+   "ObjectType" -> "Symbol", "Usage" -> 
+    "\!\(\*RowBox[{\"FourierSinSeries\", \"[\", RowBox[{StyleBox[\"expr\", \
+\"TI\"], \",\", StyleBox[\"t\", \"TI\"], \",\", StyleBox[\"n\", \"TI\"]}], \
+\"]\"}]\) gives the \!\(\*StyleBox[\"n\", \"TI\"]\)\!\(\*SuperscriptBox[\"\
+\[Null]\", \"th\"]\)-order Fourier sine series expansion of \
+\!\(\*StyleBox[\"expr\", \"TI\"]\) in \!\(\*StyleBox[\"t\", \"TI\"]\).\n\
+\!\(\*RowBox[{\"FourierSinSeries\", \"[\", RowBox[{StyleBox[\"expr\", \
+\"TI\"], \",\", RowBox[{StyleBox[\"{\", \"TI\"], \
+RowBox[{SubscriptBox[StyleBox[\"t\", \"TI\"], StyleBox[\"1\", \"TR\"]], \
+\",\", SubscriptBox[StyleBox[\"t\", \"TI\"], StyleBox[\"2\", \"TR\"]], \",\", \
+StyleBox[\"\[Ellipsis]\", \"TR\"]}], \"}\"}], \",\", RowBox[{\"{\", \
+RowBox[{SubscriptBox[StyleBox[\"n\", \"TI\"], StyleBox[\"1\", \"TR\"]], \
+\",\", SubscriptBox[StyleBox[\"n\", \"TI\"], StyleBox[\"2\", \"TR\"]], \",\", \
+StyleBox[\"\[Ellipsis]\", \"TR\"]}], \"}\"}]}], \"]\"}]\) gives the \
+multidimensional Fourier sine series of \!\(\*StyleBox[\"expr\", \"TI\"]\).", 
+    "Documentation" -> <|
+     "Web" -> "http://reference.wolfram.com/language/ref/FourierSinSeries.\
+html"|>, "OwnValues" -> None, "UpValues" -> None, "DownValues" -> None, 
+    "SubValues" -> None, "DefaultValues" -> None, "NValues" -> None, 
+    "FormatValues" -> None, "Options" -> None, 
+    "Attributes" -> {Protected, ReadProtected}, "FullName" -> 
+    "System`FourierSinSeries"|>, False]]], "Output",
+ CellChangeTimes->{3.954385322093005*^9},
+ CellLabel->"Out[3]=",ExpressionUUID->"1c0c4d81-187d-4600-8b16-058fffb78b9b"],
+
+Cell[BoxData[
+ InterpretationBox[
+  StyleBox[
+   FrameBox[
+    DynamicModuleBox[{System`InformationDump`open$$ = False, 
+     System`InformationDump`mouseOver$$ = False}, 
+     PaneSelectorBox[{True->
+      TagBox[GridBox[{
+         {
+          ItemBox[
+           PaneBox[
+            StyleBox[
+             TagBox[
+              TooltipBox[
+               StyleBox["\<\" Symbol\"\>", "InformationRowLabel",
+                StripOnInput->False],
+               "\"Symbol\"",
+               TooltipStyle->"TextStyling"],
+              Annotation[#, "Symbol", "Tooltip"]& ], "InformationTitleText",
+             StripOnInput->False,
+             BaseStyle -> None],
+            FrameMargins->{{4, 0}, {-1, 1}}],
+           BaseStyle->"InformationTitleBackground",
+           StripOnInput->False], 
+          ItemBox[
+           PaneBox[
+            TooltipBox[
+             ButtonBox[
+              PaneSelectorBox[{False->
+               
+               DynamicBox[FEPrivate`FrontEndResource[
+                "FEBitmaps", "InformationHelpIcon"]], True->
+               
+               DynamicBox[FEPrivate`FrontEndResource[
+                "FEBitmaps", "InformationHelpIconHot"]]}, Dynamic[
+                CurrentValue["MouseOver"]]],
+              Appearance->None,
+              BaseStyle->"Link",
+              
+              ButtonData->
+               "http://reference.wolfram.com/language/ref/FourierCosSeries.\
+html",
+              
+              ButtonNote->
+               "http://reference.wolfram.com/language/ref/FourierCosSeries.\
+html"],
+             
+             "\"http://reference.wolfram.com/language/ref/FourierCosSeries.\
+html\""],
+            FrameMargins->{{0, 4}, {0, 2}}],
+           BaseStyle->"InformationTitleBackground",
+           StripOnInput->False]},
+         {
+          ItemBox[
+           PaneBox[
+            
+            StyleBox["\<\"\\!\\(\\*RowBox[{\\\"FourierCosSeries\\\", \
+\\\"[\\\", RowBox[{StyleBox[\\\"expr\\\", \\\"TI\\\"], \\\",\\\", StyleBox[\\\
+\"t\\\", \\\"TI\\\"], \\\",\\\", StyleBox[\\\"n\\\", \\\"TI\\\"]}], \
+\\\"]\\\"}]\\) gives the \\!\\(\\*StyleBox[\\\"n\\\", \
+\\\"TI\\\"]\\)\\!\\(\\*SuperscriptBox[\\\"\[Null]\\\", \\\"th\\\"]\\)-order \
+Fourier cosine series expansion of \\!\\(\\*StyleBox[\\\"expr\\\", \
+\\\"TI\\\"]\\) in \\!\\(\\*StyleBox[\\\"t\\\", \
+\\\"TI\\\"]\\).\\n\\!\\(\\*RowBox[{\\\"FourierCosSeries\\\", \\\"[\\\", \
+RowBox[{StyleBox[\\\"expr\\\", \\\"TI\\\"], \\\",\\\", RowBox[{StyleBox[\\\"{\
+\\\", \\\"TI\\\"], RowBox[{SubscriptBox[StyleBox[\\\"t\\\", \\\"TI\\\"], \
+StyleBox[\\\"1\\\", \\\"TR\\\"]], \\\",\\\", SubscriptBox[StyleBox[\\\"t\\\", \
+\\\"TI\\\"], StyleBox[\\\"2\\\", \\\"TR\\\"]], \\\",\\\", StyleBox[\\\"\
+\[Ellipsis]\\\", \\\"TR\\\"]}], \\\"}\\\"}], \\\",\\\", RowBox[{\\\"{\\\", \
+RowBox[{SubscriptBox[StyleBox[\\\"n\\\", \\\"TI\\\"], StyleBox[\\\"1\\\", \
+\\\"TR\\\"]], \\\",\\\", SubscriptBox[StyleBox[\\\"n\\\", \\\"TI\\\"], \
+StyleBox[\\\"2\\\", \\\"TR\\\"]], \\\",\\\", StyleBox[\\\"\[Ellipsis]\\\", \\\
+\"TR\\\"]}], \\\"}\\\"}]}], \\\"]\\\"}]\\) gives the multidimensional Fourier \
+cosine series of \\!\\(\\*StyleBox[\\\"expr\\\", \\\"TI\\\"]\\).\"\>", 
+             "InformationUsageText",
+             StripOnInput->False,
+             LineSpacing->{1.5, 1.5, 3.}],
+            FrameMargins->{{10, 10}, {8, 10}}],
+           BaseStyle->"InformationUsageSubtitleBackground",
+           StripOnInput->False], 
+          ItemBox["\<\"\"\>",
+           BaseStyle->"InformationUsageSubtitleBackground",
+           StripOnInput->False]},
+         {
+          PaneBox[GridBox[{
+             {
+              
+              DynamicModuleBox[{System`InformationDump`open$$ = {
+               False, False, False, False, False, False}}, 
+               StyleBox[GridBox[{
+                  {
+                   TagBox[
+                    TooltipBox[
+                    StyleBox["\<\" Documentation\"\>", "InformationRowLabel",
+                    StripOnInput->False],
+                    "\"Documentation\"",
+                    TooltipStyle->"TextStyling"],
+                    Annotation[#, "Documentation", "Tooltip"]& ], 
+                   TemplateBox[{
+                    TemplateBox[{"\"Web \[RightGuillemet]\"", {
+                    URL[
+                    "http://reference.wolfram.com/language/ref/\
+FourierCosSeries.html"], None}, 
+                    "http://reference.wolfram.com/language/ref/\
+FourierCosSeries.html", "Hyperlink", {
+                    RGBColor[0.9686274509803922, 0.4666666666666667, 0.]}, 
+                    BaseStyle -> {
+                    RGBColor[0.0784313725490196, 0.1568627450980392, 0.6]}}, 
+                    "HyperlinkTemplate"]},
+                    "RowDefault"]},
+                  {
+                   TagBox[
+                    TooltipBox[
+                    StyleBox["\<\" Attributes\"\>", "InformationRowLabel",
+                    StripOnInput->False],
+                    "\"Attributes\"",
+                    TooltipStyle->"TextStyling"],
+                    Annotation[#, "Attributes", "Tooltip"]& ], 
+                   RowBox[{"{", 
+                    RowBox[{"Protected", ",", "ReadProtected"}], "}"}]},
+                  {
+                   TagBox[
+                    TooltipBox[
+                    StyleBox["\<\" Full Name\"\>", "InformationRowLabel",
+                    StripOnInput->False],
+                    "\"FullName\"",
+                    TooltipStyle->"TextStyling"],
+                    
+                    Annotation[#, "FullName", 
+                    "Tooltip"]& ], "\<\"System`FourierCosSeries\"\>"}
+                 },
+                 AutoDelete->False,
+                 GridBoxAlignment->{"Columns" -> {Right, Left}},
+                 GridBoxDividers->None,
+                 GridBoxItemSize->{"Columns" -> {Automatic, Automatic}},
+                 GridBoxSpacings->{"Columns" -> {
+                    Offset[0.27999999999999997`], {
+                    Offset[0.5599999999999999]}, 
+                    Offset[0.27999999999999997`]}, "Rows" -> {
+                    Offset[0.2], {
+                    Offset[0.8]}, 
+                    Offset[0.2]}}], "DialogStyle",
+                StripOnInput->False],
+               DynamicModuleValues:>{}]}
+            },
+            DefaultBaseStyle->"Column",
+            GridBoxAlignment->{"Columns" -> {{Left}}},
+            GridBoxDividers->{"Columns" -> {{False}}, "Rows" -> {{False}}},
+            
+            GridBoxItemSize->{
+             "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}},
+            GridBoxSpacings->{"Columns" -> {
+                Offset[0.27999999999999997`], {
+                 Offset[0.5599999999999999]}, 
+                Offset[0.27999999999999997`]}, "Rows" -> {
+                Offset[0.2], {
+                 Offset[3.6]}, 
+                Offset[0.2]}}],
+           FrameMargins->{{6, 6}, {6, 3}}], ""},
+         {
+          ItemBox[
+           TagBox[
+            ButtonBox[
+             PaneSelectorBox[{False->
+              
+              DynamicBox[FEPrivate`FrontEndResource[
+               "FEBitmaps", "UpPointerOpener"]], True->
+              
+              DynamicBox[FEPrivate`FrontEndResource[
+               "FEBitmaps", "UpPointerOpenerHot"]]}, Dynamic[
+              System`InformationDump`mouseOver$$]],
+             Alignment->Left,
+             Appearance->{"Default" -> None},
+             
+             ButtonFunction:>FEPrivate`Set[
+              System`InformationDump`open$$, False],
+             Evaluator->Automatic,
+             FrameMargins->{{9, 0}, {0, 0}},
+             ImageMargins->0,
+             ImageSize->Full,
+             Method->"Preemptive"],
+            
+            EventHandlerTag[{
+             "MouseEntered" :> 
+              FEPrivate`Set[System`InformationDump`mouseOver$$, True], 
+              "MouseExited" :> 
+              FEPrivate`Set[System`InformationDump`mouseOver$$, False], 
+              Method -> "Preemptive", PassEventsDown -> Automatic, 
+              PassEventsUp -> True}]],
+           BaseStyle->"InformationTitleBackground",
+           StripOnInput->False], "\[SpanFromLeft]"}
+        },
+        AutoDelete->False,
+        FrameStyle->Directive[
+          GrayLevel[0.8], 
+          Thickness[Tiny]],
+        GridBoxAlignment->{"Columns" -> {Left, Right}, "Rows" -> {{Center}}},
+        GridBoxDividers->{
+         "Columns" -> {{None}}, "Rows" -> {False, {True}, False}},
+        GridBoxItemSize->{
+         "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}],
+       "Grid"], False->
+      TagBox[GridBox[{
+         {
+          ItemBox[
+           PaneBox[
+            StyleBox[
+             TagBox[
+              TooltipBox[
+               StyleBox["\<\" Symbol\"\>", "InformationRowLabel",
+                StripOnInput->False],
+               "\"Symbol\"",
+               TooltipStyle->"TextStyling"],
+              Annotation[#, "Symbol", "Tooltip"]& ], "InformationTitleText",
+             StripOnInput->False],
+            FrameMargins->{{4, 0}, {-1, 1}}],
+           BaseStyle->"InformationTitleBackground",
+           StripOnInput->False], 
+          ItemBox[
+           PaneBox[
+            TooltipBox[
+             ButtonBox[
+              PaneSelectorBox[{False->
+               
+               DynamicBox[FEPrivate`FrontEndResource[
+                "FEBitmaps", "InformationHelpIcon"],
+                ImageSizeCache->{13., {3.6875, 9.3125}}], True->
+               
+               DynamicBox[FEPrivate`FrontEndResource[
+                "FEBitmaps", "InformationHelpIconHot"],
+                ImageSizeCache->{13., {3.6875, 9.3125}}]}, Dynamic[
+                CurrentValue["MouseOver"]]],
+              Appearance->None,
+              BaseStyle->"Link",
+              
+              ButtonData->
+               "http://reference.wolfram.com/language/ref/FourierCosSeries.\
+html",
+              
+              ButtonNote->
+               "http://reference.wolfram.com/language/ref/FourierCosSeries.\
+html"],
+             
+             "\"http://reference.wolfram.com/language/ref/FourierCosSeries.\
+html\""],
+            FrameMargins->{{0, 4}, {0, 2}}],
+           BaseStyle->"InformationTitleBackground",
+           StripOnInput->False]},
+         {
+          ItemBox[
+           PaneBox[
+            
+            StyleBox["\<\"\\!\\(\\*RowBox[{\\\"FourierCosSeries\\\", \
+\\\"[\\\", RowBox[{StyleBox[\\\"expr\\\", \\\"TI\\\"], \\\",\\\", StyleBox[\\\
+\"t\\\", \\\"TI\\\"], \\\",\\\", StyleBox[\\\"n\\\", \\\"TI\\\"]}], \
+\\\"]\\\"}]\\) gives the \\!\\(\\*StyleBox[\\\"n\\\", \
+\\\"TI\\\"]\\)\\!\\(\\*SuperscriptBox[\\\"\[Null]\\\", \\\"th\\\"]\\)-order \
+Fourier cosine series expansion of \\!\\(\\*StyleBox[\\\"expr\\\", \
+\\\"TI\\\"]\\) in \\!\\(\\*StyleBox[\\\"t\\\", \
+\\\"TI\\\"]\\).\\n\\!\\(\\*RowBox[{\\\"FourierCosSeries\\\", \\\"[\\\", \
+RowBox[{StyleBox[\\\"expr\\\", \\\"TI\\\"], \\\",\\\", RowBox[{StyleBox[\\\"{\
+\\\", \\\"TI\\\"], RowBox[{SubscriptBox[StyleBox[\\\"t\\\", \\\"TI\\\"], \
+StyleBox[\\\"1\\\", \\\"TR\\\"]], \\\",\\\", SubscriptBox[StyleBox[\\\"t\\\", \
+\\\"TI\\\"], StyleBox[\\\"2\\\", \\\"TR\\\"]], \\\",\\\", StyleBox[\\\"\
+\[Ellipsis]\\\", \\\"TR\\\"]}], \\\"}\\\"}], \\\",\\\", RowBox[{\\\"{\\\", \
+RowBox[{SubscriptBox[StyleBox[\\\"n\\\", \\\"TI\\\"], StyleBox[\\\"1\\\", \
+\\\"TR\\\"]], \\\",\\\", SubscriptBox[StyleBox[\\\"n\\\", \\\"TI\\\"], \
+StyleBox[\\\"2\\\", \\\"TR\\\"]], \\\",\\\", StyleBox[\\\"\[Ellipsis]\\\", \\\
+\"TR\\\"]}], \\\"}\\\"}]}], \\\"]\\\"}]\\) gives the multidimensional Fourier \
+cosine series of \\!\\(\\*StyleBox[\\\"expr\\\", \\\"TI\\\"]\\).\"\>", 
+             "InformationUsageText",
+             StripOnInput->False,
+             LineSpacing->{1.5, 1.5, 3.}],
+            FrameMargins->{{10, 10}, {8, 10}}],
+           BaseStyle->"InformationUsageSubtitleBackground",
+           StripOnInput->False], 
+          ItemBox["\<\"\"\>",
+           BaseStyle->"InformationUsageSubtitleBackground",
+           StripOnInput->False]},
+         {
+          ItemBox[
+           TagBox[
+            ButtonBox[
+             PaneSelectorBox[{False->
+              
+              DynamicBox[FEPrivate`FrontEndResource[
+               "FEBitmaps", "DownPointerOpener"],
+               ImageSizeCache->{10., {2.673828125, 7.326171875}}], True->
+              
+              DynamicBox[FEPrivate`FrontEndResource[
+               "FEBitmaps", "DownPointerOpenerHot"],
+               ImageSizeCache->{10., {2.673828125, 7.326171875}}]}, Dynamic[
+              System`InformationDump`mouseOver$$]],
+             Alignment->Left,
+             Appearance->{"Default" -> None},
+             
+             ButtonFunction:>FEPrivate`Set[
+              System`InformationDump`open$$, True],
+             Evaluator->Automatic,
+             FrameMargins->{{9, 0}, {0, 0}},
+             ImageMargins->0,
+             ImageSize->Full,
+             Method->"Preemptive"],
+            
+            EventHandlerTag[{
+             "MouseEntered" :> 
+              FEPrivate`Set[System`InformationDump`mouseOver$$, True], 
+              "MouseExited" :> 
+              FEPrivate`Set[System`InformationDump`mouseOver$$, False], 
+              Method -> "Preemptive", PassEventsDown -> Automatic, 
+              PassEventsUp -> True}]],
+           BaseStyle->"InformationTitleBackground",
+           StripOnInput->False], "\[SpanFromLeft]"}
+        },
+        AutoDelete->False,
+        FrameStyle->Directive[
+          GrayLevel[0.8], 
+          Thickness[Tiny]],
+        GridBoxAlignment->{"Columns" -> {Left, Right}, "Rows" -> {{Center}}},
+        GridBoxDividers->{
+         "Columns" -> {{None}}, "Rows" -> {False, {True}, False}},
+        GridBoxItemSize->{
+         "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}],
+       "Grid"]}, Dynamic[System`InformationDump`open$$],
+      BaselinePosition->Baseline,
+      FrameMargins->0,
+      ImageSize->Automatic],
+     DynamicModuleValues:>{}],
+    BaseStyle->"InformationGridFrame",
+    StripOnInput->False], "InformationGridPlain",
+   StripOnInput->False],
+  InformationData[<|
+   "ObjectType" -> "Symbol", "Usage" -> 
+    "\!\(\*RowBox[{\"FourierCosSeries\", \"[\", RowBox[{StyleBox[\"expr\", \
+\"TI\"], \",\", StyleBox[\"t\", \"TI\"], \",\", StyleBox[\"n\", \"TI\"]}], \
+\"]\"}]\) gives the \!\(\*StyleBox[\"n\", \"TI\"]\)\!\(\*SuperscriptBox[\"\
+\[Null]\", \"th\"]\)-order Fourier cosine series expansion of \!\(\*StyleBox[\
+\"expr\", \"TI\"]\) in \!\(\*StyleBox[\"t\", \"TI\"]\).\n\
+\!\(\*RowBox[{\"FourierCosSeries\", \"[\", RowBox[{StyleBox[\"expr\", \
+\"TI\"], \",\", RowBox[{StyleBox[\"{\", \"TI\"], \
+RowBox[{SubscriptBox[StyleBox[\"t\", \"TI\"], StyleBox[\"1\", \"TR\"]], \
+\",\", SubscriptBox[StyleBox[\"t\", \"TI\"], StyleBox[\"2\", \"TR\"]], \",\", \
+StyleBox[\"\[Ellipsis]\", \"TR\"]}], \"}\"}], \",\", RowBox[{\"{\", \
+RowBox[{SubscriptBox[StyleBox[\"n\", \"TI\"], StyleBox[\"1\", \"TR\"]], \
+\",\", SubscriptBox[StyleBox[\"n\", \"TI\"], StyleBox[\"2\", \"TR\"]], \",\", \
+StyleBox[\"\[Ellipsis]\", \"TR\"]}], \"}\"}]}], \"]\"}]\) gives the \
+multidimensional Fourier cosine series of \!\(\*StyleBox[\"expr\", \
+\"TI\"]\).", 
+    "Documentation" -> <|
+     "Web" -> "http://reference.wolfram.com/language/ref/FourierCosSeries.\
+html"|>, "OwnValues" -> None, "UpValues" -> None, "DownValues" -> None, 
+    "SubValues" -> None, "DefaultValues" -> None, "NValues" -> None, 
+    "FormatValues" -> None, "Options" -> None, 
+    "Attributes" -> {Protected, ReadProtected}, "FullName" -> 
+    "System`FourierCosSeries"|>, False]]], "Output",
+ CellChangeTimes->{3.954385322248495*^9},
+ CellLabel->"Out[4]=",ExpressionUUID->"6ec38769-2025-4908-afde-64d856eddebc"]
+}, Open  ]],
 
 Cell[TextData[{
  StyleBox["Vse funkcije privzemajo, da funkcije razvijamo na intervalu \
@@ -1953,8 +3379,8 @@ Cell[BoxData[{
        RowBox[{
         StyleBox[
          RowBox[{
-         "ki", " ", "je", " ", "podana", " ", "z", " ", "grafom", " ", "na", 
-          " ", "sliki"}],
+         "ki", " ", "je", " ", "podana", " ", "z", " ", "grafom", " ", "na", " ",
+           "sliki"}],
          FontWeight->"Plain"], 
         StyleBox[",",
          FontWeight->"Plain"], 
@@ -2303,21 +3729,401 @@ eOi2cIc5HrY2BTeh4bs63AEA/6YeKw==
   0.5019607843137255, 1., 
    0.5019607843137255],ExpressionUUID->"a1abba2b-6f03-42dd-a6d9-301f18f4eb57"],
 
-Cell[BoxData[""], "Input",
- CellChangeTimes->{{3.827464548020551*^9, 
-  3.827464549824399*^9}},ExpressionUUID->"f5bbe4db-f730-4aa7-892b-\
-157e531f8e94"]
+Cell[CellGroupData[{
+
+Cell[BoxData[{
+ RowBox[{
+  RowBox[{"x1", " ", "=", " ", "Pi"}], ";", " ", 
+  RowBox[{"y1", "=", "0"}], ";", " ", 
+  RowBox[{"x2", "=", 
+   RowBox[{"Pi", "/", "3"}]}], ";", " ", 
+  RowBox[{"y2", "=", "1"}], ";"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{"Clear", "[", 
+   RowBox[{"x", ",", "y"}], "]"}], ";"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{
+   RowBox[{"y", "=", 
+    RowBox[{
+     RowBox[{
+      RowBox[{
+       RowBox[{"(", 
+        RowBox[{"y2", "-", "y1"}], ")"}], "/", 
+       RowBox[{"(", 
+        RowBox[{"x2", "-", "x1"}], ")"}]}], " ", 
+      RowBox[{"(", 
+       RowBox[{"x", "-", "x1"}], ")"}]}], " ", "+", " ", "y1"}]}], ";"}], 
+  "\[IndentingNewLine]"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{"f", " ", "=", " ", 
+   RowBox[{"Piecewise", "[", 
+    RowBox[{"{", 
+     RowBox[{
+      RowBox[{"{", 
+       RowBox[{"1", ",", " ", 
+        RowBox[{"0", "<=", "x", "<=", 
+         RowBox[{"Pi", "/", "3"}]}]}], "}"}], ",", 
+      RowBox[{"{", 
+       RowBox[{"y", ",", " ", 
+        RowBox[{
+         RowBox[{"Pi", "/", "3"}], "<=", "x", "<=", "Pi"}]}], "}"}]}], "}"}], 
+    "]"}]}], ";"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{"Plot", "[", 
+   RowBox[{"f", ",", " ", 
+    RowBox[{"{", 
+     RowBox[{"x", ",", " ", "0", ",", " ", "Pi"}], "}"}]}], "]"}], 
+  "\[IndentingNewLine]"}], "\[IndentingNewLine]", 
+ RowBox[{"a0", "=", " ", 
+  RowBox[{
+   RowBox[{"Integrate", "[", 
+    RowBox[{"f", ",", " ", 
+     RowBox[{"{", 
+      RowBox[{"x", ",", " ", "0", ",", " ", "Pi"}], "}"}]}], "]"}], "*", 
+   RowBox[{
+    RowBox[{"2", "/", "2"}], "/", "Pi"}]}]}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{"Clear", "[", "n", "]"}], ";"}], "\[IndentingNewLine]", 
+ RowBox[{"an", " ", "=", " ", 
+  RowBox[{
+   RowBox[{"2", " ", 
+    RowBox[{
+     RowBox[{"Integrate", "[", 
+      RowBox[{
+       RowBox[{"f", "*", 
+        RowBox[{"Cos", "[", 
+         RowBox[{"n", " ", "x"}], "]"}]}], ",", " ", 
+       RowBox[{"{", 
+        RowBox[{"x", ",", " ", "0", ",", " ", "Pi"}], "}"}]}], "]"}], "/", 
+     "Pi"}]}], "//", "TrigReduce"}]}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{"bn", " ", "=", " ", 
+   RowBox[{
+    RowBox[{"2", " ", 
+     RowBox[{
+      RowBox[{"Integrate", "[", 
+       RowBox[{
+        RowBox[{"f", "*", 
+         RowBox[{"Sin", "[", 
+          RowBox[{"n", " ", "x"}], "]"}]}], ",", " ", 
+        RowBox[{"{", 
+         RowBox[{"x", ",", " ", "0", ",", " ", "Pi"}], "}"}], ",", " ", 
+        RowBox[{"Assumptions", "->", 
+         RowBox[{"n", "\[Element]", "Integers"}]}]}], "]"}], "/", "Pi"}]}], "//",
+     "TrigReduce"}]}], "\[IndentingNewLine]", 
+  "\[IndentingNewLine]"}], "\[IndentingNewLine]"}], "Input",
+ CellChangeTimes->{{3.827464548020551*^9, 3.827464549824399*^9}, {
+  3.9543854129908524`*^9, 3.954385422948653*^9}, {3.954385457886022*^9, 
+  3.954385830600574*^9}, {3.954385881035894*^9, 3.9543859306138363`*^9}, {
+  3.9543860198535557`*^9, 
+  3.954386019982492*^9}},ExpressionUUID->"f5bbe4db-f730-4aa7-892b-\
+157e531f8e94"],
+
+Cell[BoxData[
+ GraphicsBox[
+  InterpretationBox[{
+    TagBox[{{{}, {}, 
+       TagBox[
+        {RGBColor[0.24, 0.6, 0.8], AbsoluteThickness[2], Opacity[1.], 
+         LineBox[CompressedData["
+1:eJxTTMoPSmViYGCQAGIQzbyf69xj00I7BjD4YB+UI3lrxqT59jD+xE8xm6dN
+Wg/nWx/14nIqPgDnF1T5JW4uOAHn5+5I7WNSvgDnX3nhybk86Qqc36X/jWFb
+5A04v1D7xNQDS+/A+b+Ss9fdzXsA5yftDQuYkPYIzk/+eOXAgY4ncH6Pwfb8
+ZW3P4HymA9vNW6pewPmCWt7n7s94Bed7zHda/GHSGzhf/P0Zt/rt7+D8Wcd3
+MTJnfoDz/SZlH0zrQPCZYmUaTy1H8Nf3cxQuXo/gxxz6klCzHcHfdPvVjYzd
+CP70CIZj5nsRfAArBIF/
+          "]], LineBox[CompressedData["
+1:eJwVjnk41HkAhweD3+/Z7WlYpm2tHK3ZA5Vtn31Y2s+30vEomqREtU2zWoxz
+DIVGdhO2ehxdNrdRNHajrGw6tpRHpdBBOYahWcfm+s1MaByx7R/v8z7vf6+N
+MMJ7vz6LxVr/nv+9Mt3/99B6NZZd7O03m2Xw4eq6mk8eq/Esbp9APsngR//r
+K4yfqDHkNev4WsuAk1Zi3ftSDesppwbRMIMQbQLr1IAav3rmz4d1Mbj3QXTs
+4SE1zts6N1W0M/jYTqQWjalx++3zHKaVwX3fHb1rJ9XQyqhvxU0MrP9eVjth
+qMGeSUlo9G0Grak9iX52GjgVenTEFzFws1w9bx2gQaf67Z+pAQw27m6NEgZp
+4LPwsN9BAQOf3MCB86EaNDmyWYG73/8sTm/ixWhQK+J4rvdhkGOuyHVI0UDe
+98Ug252BbkGMs7NcgwPtfhZHljK4OicXbxnRwLT2ZpJUNQb7Xk5fQrQWHhmJ
+PmLBGMrlpkHVUW/g2BmqqwgbhVS5p8U+ZRzdUoe24p9GIHZz3lRwZgINl60f
+CwKGMV3oLhzOnAQvI/5ulGQITyNzBAeL34J/v1T7XfhruGywneuW6TBa5szz
+jf8XDetc5CRvCvWW8+GrTgyipDLbRfXHNEJe/6btSB2A+VIH0Q9lM0jalxX7
+6Gw/nutRRxbfmkWQU6CLOKMP1ZSk9GnDOxw7GbpQlfYPHMw5ImH9HD4taBss
+zVeBSZ80W/lyHgn65jM22a+wNDV1eYSIRbZ8VMPRlPRC5a/oXDPIIjVBVgfN
+Inqwsb9lqjpcj4T4S9ZUBXcjNmp/EHdUj+iVnDKdTlHA669cD+4BffJN4Y6d
+5Yc6MDYrkhpM6hMPbX8xdboNsrZfroZLDEjbfuUiXdULTAetEsTNGBD9Y4f0
+fS61wPLdyV3ieDZZaNin8X3wDAMbTjyi2IZEsk9Vnil5gjpeI5acMCSXp5ob
+s0MeQ0SVsm1oI3JlrfeEVv4A14o+W1V30ogMjyyh7c7WodnVrd7bxJi0Z7A9
+vdLuQCfK3SZINybXHkQ4nefW4CG/cPsCLkW4UkX7tpnLELq4Xbx4hiLPl38d
+I1MWIXi0aaIriyJrXOPe8HKLECnb626aTZHK9bXiS75FSKSTXknzKaK6kdcV
+LitEXkeDhXcpRZZwXzTnJOfjZZxv5uw1ipxrXFel9cyGx42ouK0Kihx3+Vxa
+rMzE1nD2w5RuigTzq2PLfTOx0zaLe6uHIunNKUORsgwEHr9exet731/e6cpL
+TsNRf9bYzAhFjHuX3x33PIbb02nC0jmKTG82OX5B+TPqK6wqFSyahE34G8XI
+EtEorJznGNBkkH9aV5ScAMWj1rxDxjQZMGJ36zzjoMuxaONzaNIu6S+RKyMx
+71Vul2JKkwsFrivKksNgZIDom2Y0Obf9kpmeVzDMQoQmvMU0SaxL676iFMDC
+anzvLgua9I/PJpl4+cG2Jbki05ImjULl5rtKPr5KXfSu3oom97IT7VVKAifX
+sk0zNjTRUgH5/AjB9/8BXJ8mBw==
+          "]]},
+        Annotation[#, "Charting`Private`Tag#1"]& ], {}}, {}},
+     {"WolframDynamicHighlight", <|
+      "Label" -> {"XYLabel"}, "Ball" -> {"InterpolatedBall"}|>}], 
+    StyleBox[
+     DynamicBox[(Charting`HighlightActionBox["DynamicHighlight", {}, 
+       Slot["HighlightElements"], 
+       Slot["LayoutOptions"], 
+       Slot["Meta"], 
+       Charting`HighlightActionFunction["DynamicHighlight", {{{{}, {}, 
+           Annotation[{
+             Directive[
+              Opacity[1.], 
+              RGBColor[0.24, 0.6, 0.8], 
+              AbsoluteThickness[2]], 
+             Line[CompressedData["
+1:eJxTTMoPSmViYGCQAGIQzbyf69xj00I7BjD4YB+UI3lrxqT59jD+xE8xm6dN
+Wg/nWx/14nIqPgDnF1T5JW4uOAHn5+5I7WNSvgDnX3nhybk86Qqc36X/jWFb
+5A04v1D7xNQDS+/A+b+Ss9fdzXsA5yftDQuYkPYIzk/+eOXAgY4ncH6Pwfb8
+ZW3P4HymA9vNW6pewPmCWt7n7s94Bed7zHda/GHSGzhf/P0Zt/rt7+D8Wcd3
+MTJnfoDz/SZlH0zrQPCZYmUaTy1H8Nf3cxQuXo/gxxz6klCzHcHfdPvVjYzd
+CP70CIZj5nsRfAArBIF/
+              "]], 
+             Line[CompressedData["
+1:eJwVjnk41HkAhweD3+/Z7WlYpm2tHK3ZA5Vtn31Y2s+30vEomqREtU2zWoxz
+DIVGdhO2ehxdNrdRNHajrGw6tpRHpdBBOYahWcfm+s1MaByx7R/v8z7vf6+N
+MMJ7vz6LxVr/nv+9Mt3/99B6NZZd7O03m2Xw4eq6mk8eq/Esbp9APsngR//r
+K4yfqDHkNev4WsuAk1Zi3ftSDesppwbRMIMQbQLr1IAav3rmz4d1Mbj3QXTs
+4SE1zts6N1W0M/jYTqQWjalx++3zHKaVwX3fHb1rJ9XQyqhvxU0MrP9eVjth
+qMGeSUlo9G0Grak9iX52GjgVenTEFzFws1w9bx2gQaf67Z+pAQw27m6NEgZp
+4LPwsN9BAQOf3MCB86EaNDmyWYG73/8sTm/ixWhQK+J4rvdhkGOuyHVI0UDe
+98Ug252BbkGMs7NcgwPtfhZHljK4OicXbxnRwLT2ZpJUNQb7Xk5fQrQWHhmJ
+PmLBGMrlpkHVUW/g2BmqqwgbhVS5p8U+ZRzdUoe24p9GIHZz3lRwZgINl60f
+CwKGMV3oLhzOnAQvI/5ulGQITyNzBAeL34J/v1T7XfhruGywneuW6TBa5szz
+jf8XDetc5CRvCvWW8+GrTgyipDLbRfXHNEJe/6btSB2A+VIH0Q9lM0jalxX7
+6Gw/nutRRxbfmkWQU6CLOKMP1ZSk9GnDOxw7GbpQlfYPHMw5ImH9HD4taBss
+zVeBSZ80W/lyHgn65jM22a+wNDV1eYSIRbZ8VMPRlPRC5a/oXDPIIjVBVgfN
+Inqwsb9lqjpcj4T4S9ZUBXcjNmp/EHdUj+iVnDKdTlHA669cD+4BffJN4Y6d
+5Yc6MDYrkhpM6hMPbX8xdboNsrZfroZLDEjbfuUiXdULTAetEsTNGBD9Y4f0
+fS61wPLdyV3ieDZZaNin8X3wDAMbTjyi2IZEsk9Vnil5gjpeI5acMCSXp5ob
+s0MeQ0SVsm1oI3JlrfeEVv4A14o+W1V30ogMjyyh7c7WodnVrd7bxJi0Z7A9
+vdLuQCfK3SZINybXHkQ4nefW4CG/cPsCLkW4UkX7tpnLELq4Xbx4hiLPl38d
+I1MWIXi0aaIriyJrXOPe8HKLECnb626aTZHK9bXiS75FSKSTXknzKaK6kdcV
+LitEXkeDhXcpRZZwXzTnJOfjZZxv5uw1ipxrXFel9cyGx42ouK0Kihx3+Vxa
+rMzE1nD2w5RuigTzq2PLfTOx0zaLe6uHIunNKUORsgwEHr9exet731/e6cpL
+TsNRf9bYzAhFjHuX3x33PIbb02nC0jmKTG82OX5B+TPqK6wqFSyahE34G8XI
+EtEorJznGNBkkH9aV5ScAMWj1rxDxjQZMGJ36zzjoMuxaONzaNIu6S+RKyMx
+71Vul2JKkwsFrivKksNgZIDom2Y0Obf9kpmeVzDMQoQmvMU0SaxL676iFMDC
+anzvLgua9I/PJpl4+cG2Jbki05ImjULl5rtKPr5KXfSu3oom97IT7VVKAifX
+sk0zNjTRUgH5/AjB9/8BXJ8mBw==
+              "]]}, "Charting`Private`Tag#1"], {}}}, {}}, <|
+        "HighlightElements" -> <|
+          "Label" -> {"XYLabel"}, "Ball" -> {"InterpolatedBall"}|>, 
+         "LayoutOptions" -> <|
+          "PanelPlotLayout" -> <||>, "PlotRange" -> {{0, Pi}, {0., 1.}}, 
+           "Frame" -> {{False, False}, {False, False}}, 
+           "AxesOrigin" -> {0, 0}, "ImageSize" -> {360, 360/GoldenRatio}, 
+           "Axes" -> {True, True}, "LabelStyle" -> {}, "AspectRatio" -> 
+           GoldenRatio^(-1), "DefaultStyle" -> {
+             Directive[
+              Opacity[1.], 
+              RGBColor[0.24, 0.6, 0.8], 
+              AbsoluteThickness[2]]}, 
+           "HighlightLabelingFunctions" -> <|"CoordinatesToolOptions" -> ({
+               (Identity[#]& )[
+                Part[#, 1]], 
+               (Identity[#]& )[
+                Part[#, 2]]}& ), 
+             "ScalingFunctions" -> {{Identity, Identity}, {
+               Identity, Identity}}|>, "Primitives" -> {}, "GCFlag" -> 
+           False|>, 
+         "Meta" -> <|
+          "DefaultHighlight" -> {"Dynamic", None}, "Index" -> {}, "Function" -> 
+           Plot, "GroupHighlight" -> False|>|>]]& )[<|
+       "HighlightElements" -> <|
+         "Label" -> {"XYLabel"}, "Ball" -> {"InterpolatedBall"}|>, 
+        "LayoutOptions" -> <|
+         "PanelPlotLayout" -> <||>, "PlotRange" -> {{0, Pi}, {0., 1.}}, 
+          "Frame" -> {{False, False}, {False, False}}, "AxesOrigin" -> {0, 0},
+           "ImageSize" -> {360, 360/GoldenRatio}, "Axes" -> {True, True}, 
+          "LabelStyle" -> {}, "AspectRatio" -> GoldenRatio^(-1), 
+          "DefaultStyle" -> {
+            Directive[
+             Opacity[1.], 
+             RGBColor[0.24, 0.6, 0.8], 
+             AbsoluteThickness[2]]}, 
+          "HighlightLabelingFunctions" -> <|"CoordinatesToolOptions" -> ({
+              (Identity[#]& )[
+               Part[#, 1]], 
+              (Identity[#]& )[
+               Part[#, 2]]}& ), 
+            "ScalingFunctions" -> {{Identity, Identity}, {
+              Identity, Identity}}|>, "Primitives" -> {}, "GCFlag" -> False|>,
+         "Meta" -> <|
+         "DefaultHighlight" -> {"Dynamic", None}, "Index" -> {}, "Function" -> 
+          Plot, "GroupHighlight" -> False|>|>],
+      ImageSizeCache->{{4.503599627370496*^15, -4.503599627370496*^15}, {
+       4.503599627370496*^15, -4.503599627370496*^15}}],
+     Selectable->False]},
+   Annotation[{{{{}, {}, 
+       Annotation[{
+         Directive[
+          Opacity[1.], 
+          RGBColor[0.24, 0.6, 0.8], 
+          AbsoluteThickness[2]], 
+         Line[CompressedData["
+1:eJxTTMoPSmViYGCQAGIQzbyf69xj00I7BjD4YB+UI3lrxqT59jD+xE8xm6dN
+Wg/nWx/14nIqPgDnF1T5JW4uOAHn5+5I7WNSvgDnX3nhybk86Qqc36X/jWFb
+5A04v1D7xNQDS+/A+b+Ss9fdzXsA5yftDQuYkPYIzk/+eOXAgY4ncH6Pwfb8
+ZW3P4HymA9vNW6pewPmCWt7n7s94Bed7zHda/GHSGzhf/P0Zt/rt7+D8Wcd3
+MTJnfoDz/SZlH0zrQPCZYmUaTy1H8Nf3cxQuXo/gxxz6klCzHcHfdPvVjYzd
+CP70CIZj5nsRfAArBIF/
+          "]], 
+         Line[CompressedData["
+1:eJwVjnk41HkAhweD3+/Z7WlYpm2tHK3ZA5Vtn31Y2s+30vEomqREtU2zWoxz
+DIVGdhO2ehxdNrdRNHajrGw6tpRHpdBBOYahWcfm+s1MaByx7R/v8z7vf6+N
+MMJ7vz6LxVr/nv+9Mt3/99B6NZZd7O03m2Xw4eq6mk8eq/Esbp9APsngR//r
+K4yfqDHkNev4WsuAk1Zi3ftSDesppwbRMIMQbQLr1IAav3rmz4d1Mbj3QXTs
+4SE1zts6N1W0M/jYTqQWjalx++3zHKaVwX3fHb1rJ9XQyqhvxU0MrP9eVjth
+qMGeSUlo9G0Grak9iX52GjgVenTEFzFws1w9bx2gQaf67Z+pAQw27m6NEgZp
+4LPwsN9BAQOf3MCB86EaNDmyWYG73/8sTm/ixWhQK+J4rvdhkGOuyHVI0UDe
+98Ug252BbkGMs7NcgwPtfhZHljK4OicXbxnRwLT2ZpJUNQb7Xk5fQrQWHhmJ
+PmLBGMrlpkHVUW/g2BmqqwgbhVS5p8U+ZRzdUoe24p9GIHZz3lRwZgINl60f
+CwKGMV3oLhzOnAQvI/5ulGQITyNzBAeL34J/v1T7XfhruGywneuW6TBa5szz
+jf8XDetc5CRvCvWW8+GrTgyipDLbRfXHNEJe/6btSB2A+VIH0Q9lM0jalxX7
+6Gw/nutRRxbfmkWQU6CLOKMP1ZSk9GnDOxw7GbpQlfYPHMw5ImH9HD4taBss
+zVeBSZ80W/lyHgn65jM22a+wNDV1eYSIRbZ8VMPRlPRC5a/oXDPIIjVBVgfN
+Inqwsb9lqjpcj4T4S9ZUBXcjNmp/EHdUj+iVnDKdTlHA669cD+4BffJN4Y6d
+5Yc6MDYrkhpM6hMPbX8xdboNsrZfroZLDEjbfuUiXdULTAetEsTNGBD9Y4f0
+fS61wPLdyV3ieDZZaNin8X3wDAMbTjyi2IZEsk9Vnil5gjpeI5acMCSXp5ob
+s0MeQ0SVsm1oI3JlrfeEVv4A14o+W1V30ogMjyyh7c7WodnVrd7bxJi0Z7A9
+vdLuQCfK3SZINybXHkQ4nefW4CG/cPsCLkW4UkX7tpnLELq4Xbx4hiLPl38d
+I1MWIXi0aaIriyJrXOPe8HKLECnb626aTZHK9bXiS75FSKSTXknzKaK6kdcV
+LitEXkeDhXcpRZZwXzTnJOfjZZxv5uw1ipxrXFel9cyGx42ouK0Kihx3+Vxa
+rMzE1nD2w5RuigTzq2PLfTOx0zaLe6uHIunNKUORsgwEHr9exet731/e6cpL
+TsNRf9bYzAhFjHuX3x33PIbb02nC0jmKTG82OX5B+TPqK6wqFSyahE34G8XI
+EtEorJznGNBkkH9aV5ScAMWj1rxDxjQZMGJ36zzjoMuxaONzaNIu6S+RKyMx
+71Vul2JKkwsFrivKksNgZIDom2Y0Obf9kpmeVzDMQoQmvMU0SaxL676iFMDC
+anzvLgua9I/PJpl4+cG2Jbki05ImjULl5rtKPr5KXfSu3oom97IT7VVKAifX
+sk0zNjTRUgH5/AjB9/8BXJ8mBw==
+          "]]}, "Charting`Private`Tag#1"], {}}}, {}}, <|
+    "HighlightElements" -> <|
+      "Label" -> {"XYLabel"}, "Ball" -> {"InterpolatedBall"}|>, 
+     "LayoutOptions" -> <|
+      "PanelPlotLayout" -> <||>, "PlotRange" -> {{0, Pi}, {0., 1.}}, 
+       "Frame" -> {{False, False}, {False, False}}, "AxesOrigin" -> {0, 0}, 
+       "ImageSize" -> {360, 360/GoldenRatio}, "Axes" -> {True, True}, 
+       "LabelStyle" -> {}, "AspectRatio" -> GoldenRatio^(-1), "DefaultStyle" -> {
+         Directive[
+          Opacity[1.], 
+          RGBColor[0.24, 0.6, 0.8], 
+          AbsoluteThickness[2]]}, 
+       "HighlightLabelingFunctions" -> <|"CoordinatesToolOptions" -> ({
+           (Identity[#]& )[
+            Part[#, 1]], 
+           (Identity[#]& )[
+            Part[#, 2]]}& ), 
+         "ScalingFunctions" -> {{Identity, Identity}, {Identity, Identity}}|>,
+        "Primitives" -> {}, "GCFlag" -> False|>, 
+     "Meta" -> <|
+      "DefaultHighlight" -> {"Dynamic", None}, "Index" -> {}, "Function" -> 
+       Plot, "GroupHighlight" -> False|>|>, "DynamicHighlight"]],
+  AspectRatio->NCache[GoldenRatio^(-1), 0.6180339887498948],
+  Axes->{True, True},
+  AxesLabel->{None, None},
+  AxesOrigin->{0, 0},
+  DisplayFunction->Identity,
+  Frame->{{False, False}, {False, False}},
+  FrameLabel->{{None, None}, {None, None}},
+  FrameTicks->{{Automatic, Automatic}, {Automatic, Automatic}},
+  GridLines->{None, None},
+  GridLinesStyle->Directive[
+    GrayLevel[0.5, 0.4]],
+  ImagePadding->All,
+  Method->{
+   "DefaultBoundaryStyle" -> Automatic, 
+    "DefaultGraphicsInteraction" -> {
+     "Version" -> 1.2, "TrackMousePosition" -> {True, False}, 
+      "Effects" -> {
+       "Highlight" -> {"ratio" -> 2}, "HighlightPoint" -> {"ratio" -> 2}, 
+        "Droplines" -> {
+         "freeformCursorMode" -> True, 
+          "placement" -> {"x" -> "All", "y" -> "None"}}}}, "DefaultMeshStyle" -> 
+    AbsolutePointSize[6], "ScalingFunctions" -> None, 
+    "CoordinatesToolOptions" -> {"DisplayFunction" -> ({
+        (Identity[#]& )[
+         Part[#, 1]], 
+        (Identity[#]& )[
+         Part[#, 2]]}& ), "CopiedValueFunction" -> ({
+        (Identity[#]& )[
+         Part[#, 1]], 
+        (Identity[#]& )[
+         Part[#, 2]]}& )}},
+  PlotRange->NCache[{{0, Pi}, {0., 1.}}, {{0, 3.141592653589793}, {0., 1.}}],
+  PlotRangeClipping->True,
+  PlotRangePadding->{{
+     Scaled[0.02], 
+     Scaled[0.02]}, {
+     Scaled[0.05], 
+     Scaled[0.05]}},
+  Ticks->{Automatic, Automatic}]], "Output",
+ CellChangeTimes->{{3.954385541331773*^9, 3.954385553145769*^9}, {
+   3.954385648601509*^9, 3.9543856835140553`*^9}, 3.9543857271499233`*^9, {
+   3.954385781137858*^9, 3.954385831094924*^9}, 3.954385897072255*^9, 
+   3.9543859328491087`*^9},
+ CellLabel->"Out[93]=",ExpressionUUID->"3055a6f0-184e-4515-b068-3f2dc42cc1fc"],
+
+Cell[BoxData[
+ FractionBox["2", "3"]], "Output",
+ CellChangeTimes->{{3.954385541331773*^9, 3.954385553145769*^9}, {
+   3.954385648601509*^9, 3.9543856835140553`*^9}, 3.9543857271499233`*^9, {
+   3.954385781137858*^9, 3.954385831094924*^9}, 3.954385897072255*^9, 
+   3.954385932928545*^9},
+ CellLabel->"Out[94]=",ExpressionUUID->"55be2e99-98c2-4cf5-b9d9-0ba9cb6e0d85"],
+
+Cell[BoxData[
+ FractionBox[
+  RowBox[{"3", " ", 
+   RowBox[{"(", 
+    RowBox[{
+     RowBox[{"Cos", "[", 
+      FractionBox[
+       RowBox[{"n", " ", "\[Pi]"}], "3"], "]"}], "-", 
+     RowBox[{"Cos", "[", 
+      RowBox[{"n", " ", "\[Pi]"}], "]"}]}], ")"}]}], 
+  RowBox[{
+   SuperscriptBox["n", "2"], " ", 
+   SuperscriptBox["\[Pi]", "2"]}]]], "Output",
+ CellChangeTimes->{{3.954385541331773*^9, 3.954385553145769*^9}, {
+   3.954385648601509*^9, 3.9543856835140553`*^9}, 3.9543857271499233`*^9, {
+   3.954385781137858*^9, 3.954385831094924*^9}, 3.954385897072255*^9, 
+   3.954385933182962*^9},
+ CellLabel->"Out[96]=",ExpressionUUID->"16deb331-3c6c-4a26-b453-f69b126ae17f"],
+
+Cell[BoxData[
+ FractionBox[
+  RowBox[{
+   RowBox[{"2", " ", "n", " ", "\[Pi]"}], "+", 
+   RowBox[{"3", " ", 
+    RowBox[{"Sin", "[", 
+     FractionBox[
+      RowBox[{"n", " ", "\[Pi]"}], "3"], "]"}]}], "-", 
+   RowBox[{"3", " ", 
+    RowBox[{"Sin", "[", 
+     RowBox[{"n", " ", "\[Pi]"}], "]"}]}]}], 
+  RowBox[{
+   SuperscriptBox["n", "2"], " ", 
+   SuperscriptBox["\[Pi]", "2"]}]]], "Output",
+ CellChangeTimes->{{3.954385541331773*^9, 3.954385553145769*^9}, {
+   3.954385648601509*^9, 3.9543856835140553`*^9}, 3.9543857271499233`*^9, {
+   3.954385781137858*^9, 3.954385831094924*^9}, 3.954385897072255*^9, 
+   3.954385938655149*^9},
+ CellLabel->"Out[97]=",ExpressionUUID->"be2ef6b4-d57c-48e8-910d-8a395e4f50d3"]
+}, Open  ]]
 }, Open  ]]
 },
 WindowToolbars->{},
 CellGrouping->Manual,
-WindowSize->{1436.25, 785.25},
-WindowMargins->{{0, Automatic}, {Automatic, 0}},
+WindowSize->{709.5, 776.25},
+WindowMargins->{{Automatic, 6.75}, {Automatic, 6.75}},
 PrivateNotebookOptions->{"VersionedStylesheet"->{"Default.nb"[8.] -> False}},
 ShowSelection->True,
 ShowCellLabel->True,
 ShowCellTags->False,
-FrontEndVersion->"14.1 for Linux x86 (64-bit) (July 16, 2024)",
+FrontEndVersion->"14.2 for Linux x86 (64-bit) (March 16, 2025)",
 StyleDefinitions->"Default.nb",
 ExpressionUUID->"9c2ecdbd-bd33-4b11-8775-ce4c2274fcc0"
 ]
@@ -2333,43 +4139,43 @@ CellTagsIndex->{}
 (*NotebookFileOutline
 Notebook[{
 Cell[CellGroupData[{
-Cell[567, 22, 687, 13, 105, "Subtitle",ExpressionUUID->"d2ea9267-9b87-46b2-a4d8-a9c7d497208f"],
+Cell[567, 22, 687, 13, 147, "Subtitle",ExpressionUUID->"d2ea9267-9b87-46b2-a4d8-a9c7d497208f"],
 Cell[1257, 37, 344, 9, 80, "Subtitle",ExpressionUUID->"6ae6dcf3-77d7-4df6-bba0-acd9d95ff662"],
-Cell[1604, 48, 1199, 33, 68, "Text",ExpressionUUID->"53a30b39-0fc5-4082-b85d-4cb0b9dac3e8"],
+Cell[1604, 48, 1199, 33, 127, "Text",ExpressionUUID->"53a30b39-0fc5-4082-b85d-4cb0b9dac3e8"],
 Cell[2806, 83, 248, 5, 51, "Input",ExpressionUUID->"99e4b6df-9b67-4ae9-8df4-831f27adef81"],
 Cell[3057, 90, 395, 10, 49, "Input",ExpressionUUID->"fd4e28ec-34f3-48b1-8547-a1cde7f3b44f"],
 Cell[3455, 102, 7773, 238, 208, "Text",ExpressionUUID->"5d728fc0-7beb-49a6-ae20-58651059f4ad"],
 Cell[11231, 342, 627, 9, 30, "Input",ExpressionUUID->"ea362605-d128-4dd6-a743-913af1b5001d"],
-Cell[11861, 353, 3316, 59, 79, "Text",ExpressionUUID->"ab464950-c978-493c-b0e2-eeb20aa08801"],
+Cell[11861, 353, 3316, 59, 99, "Text",ExpressionUUID->"ab464950-c978-493c-b0e2-eeb20aa08801"],
 Cell[15180, 414, 629, 9, 30, "Input",ExpressionUUID->"2ddf0d56-12d6-48d0-bbe1-92cd80d7c8ee"],
-Cell[15812, 425, 3003, 56, 70, "Text",ExpressionUUID->"807651ca-bbd1-44b0-bdcf-a4f503250b6b"],
+Cell[15812, 425, 3003, 56, 109, "Text",ExpressionUUID->"807651ca-bbd1-44b0-bdcf-a4f503250b6b"],
 Cell[18818, 483, 845, 20, 53, "Input",ExpressionUUID->"e8801781-b545-4b2c-be0a-fcbba13c1783"]
 }, Open  ]],
 Cell[CellGroupData[{
 Cell[19700, 508, 606, 13, 92, "Subtitle",ExpressionUUID->"70589f13-ffa1-4308-851c-e12530122abd"],
 Cell[20309, 523, 575, 12, 80, "Subtitle",ExpressionUUID->"7ea3caab-9681-497f-8540-5a639d601966"],
-Cell[20887, 537, 1993, 39, 48, "Text",ExpressionUUID->"a29e8be3-0ffe-4822-afbc-fcc9bc5fcc58"],
+Cell[20887, 537, 1993, 39, 68, "Text",ExpressionUUID->"a29e8be3-0ffe-4822-afbc-fcc9bc5fcc58"],
 Cell[22883, 578, 449, 9, 51, "Input",ExpressionUUID->"ffbcf5f1-e4d0-4298-9d81-0b56937e799f"],
 Cell[23335, 589, 7048, 155, 93, "Text",ExpressionUUID->"1df848c5-2f8a-460b-8e8d-7329fa85cd02"],
 Cell[30386, 746, 685, 10, 29, "Input",ExpressionUUID->"3411d2df-bed0-43db-bf8a-2715f3a68c26"],
-Cell[31074, 758, 5216, 153, 113, "Text",ExpressionUUID->"ccd76e39-4def-4348-a90d-127bb310985b"],
+Cell[31074, 758, 5216, 153, 134, "Text",ExpressionUUID->"ccd76e39-4def-4348-a90d-127bb310985b"],
 Cell[36293, 913, 307, 5, 29, "Input",ExpressionUUID->"cd980e99-9383-4ae0-842a-cd9cbd68e3d5"],
 Cell[36603, 920, 520, 11, 80, "Subtitle",ExpressionUUID->"2c644436-0ab1-430a-a910-eb149aabb6f8"],
-Cell[37126, 933, 2085, 43, 67, "Text",ExpressionUUID->"928a2aca-655c-46c6-94b4-3e0b703651e2"],
+Cell[37126, 933, 2085, 43, 107, "Text",ExpressionUUID->"928a2aca-655c-46c6-94b4-3e0b703651e2"],
 Cell[39214, 978, 328, 6, 51, "Input",ExpressionUUID->"2cf4946d-94a4-4f8a-8592-eaa182620aaa"],
 Cell[39545, 986, 1899, 33, 48, "Text",ExpressionUUID->"7ec58a03-fb25-4cce-b71d-4564c4d8ee44"],
 Cell[41447, 1021, 174, 4, 29, "Input",ExpressionUUID->"b78c2d6f-b739-40f2-93ba-17f4852a8530"],
 Cell[41624, 1027, 554, 15, 69, "Input",ExpressionUUID->"158bed41-07ef-476d-a95c-dec030aee703"],
-Cell[42181, 1044, 11574, 363, 92, "Text",ExpressionUUID->"efca6859-1951-495a-8cdd-5bde1bf9dc67"],
+Cell[42181, 1044, 11574, 363, 154, "Text",ExpressionUUID->"efca6859-1951-495a-8cdd-5bde1bf9dc67"],
 Cell[53758, 1409, 571, 9, 49, "Input",ExpressionUUID->"7ca61982-e8f7-4628-a1a9-3fcf95a636ca"],
 Cell[CellGroupData[{
 Cell[54354, 1422, 634, 18, 73, "Input",ExpressionUUID->"36b80067-13e1-4f1c-88ce-0e2a39203d1f"],
 Cell[54991, 1442, 288, 4, 33, "Output",ExpressionUUID->"03348bce-c28b-4215-9655-57a2b405b429"]
 }, Open  ]],
-Cell[55294, 1449, 3806, 64, 73, "Text",ExpressionUUID->"470e1bb9-8af6-444d-b329-74e6151fa80e"],
+Cell[55294, 1449, 3806, 64, 93, "Text",ExpressionUUID->"470e1bb9-8af6-444d-b329-74e6151fa80e"],
 Cell[CellGroupData[{
 Cell[59125, 1517, 1306, 32, 51, "Input",ExpressionUUID->"1f9387ec-e202-4319-ba35-93daa719bdde"],
-Cell[60434, 1551, 600, 11, 33, "Output",ExpressionUUID->"08bacde3-a366-4833-aceb-5f56c67bfae4"]
+Cell[60434, 1551, 600, 11, 53, "Output",ExpressionUUID->"08bacde3-a366-4833-aceb-5f56c67bfae4"]
 }, Open  ]],
 Cell[61049, 1565, 1854, 33, 48, "Text",ExpressionUUID->"710baba0-a78e-4b5e-b361-38dcbf02e8d1"],
 Cell[62906, 1600, 433, 8, 30, "Input",ExpressionUUID->"1fb19650-c80d-4fe1-ae2b-24c80b87ef21"],
@@ -2378,19 +4184,31 @@ Cell[63364, 1612, 289, 6, 29, "Input",ExpressionUUID->"c5d8c169-ec79-4641-8c8d-b
 Cell[63656, 1620, 168, 3, 45, "Output",ExpressionUUID->"e9aa111f-6c89-4f5b-90ef-073f9f659a45"]
 }, Open  ]],
 Cell[63839, 1626, 497, 12, 49, "Input",ExpressionUUID->"6c2b9057-9438-4f7a-baa1-477896de2661"],
-Cell[64339, 1640, 4516, 88, 78, "Text",ExpressionUUID->"9ac5ecd2-eac7-4f40-a194-5bf0517773a3"],
+Cell[64339, 1640, 4516, 88, 102, "Text",ExpressionUUID->"9ac5ecd2-eac7-4f40-a194-5bf0517773a3"],
 Cell[CellGroupData[{
 Cell[68880, 1732, 1163, 30, 53, "Input",ExpressionUUID->"70391632-1641-4cef-a22c-f3fd61a6ad56"],
 Cell[70046, 1764, 298, 7, 45, "Output",ExpressionUUID->"7a5ff53e-12e6-407d-9514-b4b8fe5e564b"],
-Cell[70347, 1773, 215, 3, 52, "Output",ExpressionUUID->"b61655e9-c5b6-4cdd-a973-a1a665512614"]
+Cell[70347, 1773, 215, 3, 33, "Output",ExpressionUUID->"b61655e9-c5b6-4cdd-a973-a1a665512614"]
 }, Open  ]],
 Cell[70577, 1779, 675, 11, 80, "Subtitle",ExpressionUUID->"a78ffd7b-5c2e-435d-8aa1-a7296f750ff2"],
-Cell[71255, 1792, 1471, 29, 47, "Text",ExpressionUUID->"aa5c6bfd-f8f5-4704-af2e-8336a550723d"],
-Cell[72729, 1823, 496, 10, 94, "Input",ExpressionUUID->"6a8e814c-b8f6-47b8-81e3-0cb9f8e09221"],
-Cell[73228, 1835, 2377, 55, 76, "Text",ExpressionUUID->"1c3252c5-a9b8-41b0-beec-2f94c35fcf98"],
-Cell[75608, 1892, 1562, 30, 48, "Text",ExpressionUUID->"27ff8aa5-1094-43b1-b7d6-e678103ea5b4"],
-Cell[77173, 1924, 19681, 379, 251, "Text",ExpressionUUID->"a1abba2b-6f03-42dd-a6d9-301f18f4eb57"],
-Cell[96857, 2305, 152, 3, 29, "Input",ExpressionUUID->"f5bbe4db-f730-4aa7-892b-157e531f8e94"]
+Cell[71255, 1792, 1471, 29, 67, "Text",ExpressionUUID->"aa5c6bfd-f8f5-4704-af2e-8336a550723d"],
+Cell[CellGroupData[{
+Cell[72751, 1825, 495, 10, 94, "Input",ExpressionUUID->"6a8e814c-b8f6-47b8-81e3-0cb9f8e09221"],
+Cell[73249, 1837, 15309, 348, 126, "Output",ExpressionUUID->"f8751b06-12a2-4c59-b1d9-9e02999989de"],
+Cell[88561, 2187, 15677, 356, 178, "Output",ExpressionUUID->"ad4cb0cb-7f96-45bd-8adb-a6f5d60ef471"],
+Cell[104241, 2545, 15602, 355, 152, "Output",ExpressionUUID->"1c0c4d81-187d-4600-8b16-058fffb78b9b"],
+Cell[119846, 2902, 15616, 356, 152, "Output",ExpressionUUID->"6ec38769-2025-4908-afde-64d856eddebc"]
+}, Open  ]],
+Cell[135477, 3261, 2377, 55, 95, "Text",ExpressionUUID->"1c3252c5-a9b8-41b0-beec-2f94c35fcf98"],
+Cell[137857, 3318, 1562, 30, 68, "Text",ExpressionUUID->"27ff8aa5-1094-43b1-b7d6-e678103ea5b4"],
+Cell[139422, 3350, 19681, 379, 273, "Text",ExpressionUUID->"a1abba2b-6f03-42dd-a6d9-301f18f4eb57"],
+Cell[CellGroupData[{
+Cell[159128, 3733, 2982, 86, 321, "Input",ExpressionUUID->"f5bbe4db-f730-4aa7-892b-157e531f8e94"],
+Cell[162113, 3821, 11986, 245, 236, "Output",ExpressionUUID->"3055a6f0-184e-4515-b068-3f2dc42cc1fc"],
+Cell[174102, 4068, 367, 6, 45, "Output",ExpressionUUID->"55be2e99-98c2-4cf5-b9d9-0ba9cb6e0d85"],
+Cell[174472, 4076, 670, 17, 63, "Output",ExpressionUUID->"16deb331-3c6c-4a26-b453-f69b126ae17f"],
+Cell[175145, 4095, 712, 18, 63, "Output",ExpressionUUID->"be2ef6b4-d57c-48e8-910d-8a395e4f50d3"]
+}, Open  ]]
 }, Open  ]]
 }
 ]
