@@ -1,0 +1,263 @@
+\documentclass[a4paper,12pt]{article}
+\usepackage[a4paper,margin=2.54cm]{geometry}
+\usepackage[slovene]{babel}
+\usepackage{graphicx}
+\usepackage{fontspec}
+\usepackage{titlesec}
+\usepackage{eso-pic}
+\usepackage{multicol}
+\usepackage{amsmath}
+\usepackage{enumitem}
+\usepackage{tabularx}
+\usepackage{array}
+\usepackage[absolute,overlay]{textpos} % For absolute positioning
+\usepackage[ddmmyyyy]{datetime}
+\renewcommand{\dateseparator}{. }
+
+\usepackage{fontspec}
+\setmainfont{Roboto} 
+
+\title{Fizika 2 - izpeljave}
+\author{insightfulbriyan}
+
+\usepackage{titling}
+\renewcommand\maketitlehooka{\null\mbox{}\vfill}
+\renewcommand\maketitlehookd{\vfill\null}
+
+\newcolumntype{Y}{>{\centering\arraybackslash}X}
+
+\renewcommand{\arraystretch}{2}
+
+% \setlength{\parindent}{0pt} % Izklop zamika za paragraf
+% \setlength{\parskip}{1em} % Presledki med paragrafi
+
+\begin{document}
+\pagestyle{empty}
+
+\begin{titlingpage}
+    \maketitle
+\end{titlingpage}
+
+\newpage
+\section{Valovna enačba}
+\subsection{}
+Faradejev \ref{eq:faradejev_zakon_diferencialna} in Amperov \ref{eq:amperov_zakon_diferencialna} zakon lahko združimo v valovno enačbo.
+
+\subsection{}
+\begin{itemize}[itemsep=-20pt]
+    \item $$\vec J = 0$$
+    \item $$\vec D = \epsilon_0 \vec E$$
+    \item $$\vec B = \mu_0 \vec H$$
+    \item $$\vec E = (0, E_y(x, t), E_z(x, t))$$
+    \item $$\vec H = (0, H_y(x, t), H_z(x, t))$$
+\end{itemize}
+
+\subsection{}
+\begin{multline}
+    \begin{vmatrix}
+        \vec{i}                     & \vec{j}                     & \vec{k}                     \\
+        \frac{\partial}{\partial x} & \frac{\partial}{\partial y} & \frac{\partial}{\partial z} \\
+        E_x                         & E_y                         & E_z
+    \end{vmatrix} = \left( \frac{\partial E_z}{\partial y} - \frac{\partial E_y}{\partial z}, \frac{\partial E_x}{\partial z} - \frac{\partial E_z}{\partial x}, \frac{\partial E_y}{\partial x} - \frac{\partial E_x}{\partial y} \right)
+    = \left( 0, -\frac{\partial E_z}{\partial x}, \frac{\partial E_y}{\partial x} \right) = \\
+    = -\mu_0 \left( \frac{\partial H_x}{\partial t}, \frac{\partial H_y}{\partial t}, \frac{\partial H_z}{\partial t} \right) = -\mu_0 \left( 0, \frac{\partial H_y}{\partial t}, \frac{\partial H_z}{\partial t} \right)
+\end{multline}
+
+\begin{multicols}{2}
+    \begin{equation}
+        \frac{\partial E_z}{\partial x} = \mu_0 \frac{\partial H_y}{\partial t}
+    \end{equation}
+
+    \begin{equation}
+        \frac{\partial E_y}{\partial x} = -\mu_0 \frac{\partial H_z}{\partial t}
+    \end{equation}
+\end{multicols}
+
+
+\subsection{}
+\begin{multline}
+    \begin{vmatrix}
+        \vec{i}                     & \vec{j}                     & \vec{k}                     \\
+        \frac{\partial}{\partial x} & \frac{\partial}{\partial y} & \frac{\partial}{\partial z} \\
+        H_x                         & H_y                         & H_z
+    \end{vmatrix} = \left( \frac{\partial H_z}{\partial y} - \frac{\partial H_y}{\partial z}, \frac{\partial H_x}{\partial z} - \frac{\partial H_z}{\partial x}, \frac{\partial H_y}{\partial x} - \frac{\partial H_x}{\partial y} \right)
+    = \left( 0, -\frac{\partial H_z}{\partial x}, \frac{\partial H_y}{\partial x} \right) = \\
+    = \epsilon_0 \left( \frac{\partial H_x}{\partial t}, \frac{\partial H_y}{\partial t}, \frac{\partial H_z}{\partial t} \right) = \epsilon_0 \left( 0, \frac{\partial H_y}{\partial t}, \frac{\partial H_z}{\partial t} \right)
+\end{multline}
+
+\begin{multicols}{2}
+    \begin{equation}
+        \frac{\partial H_z}{\partial x} = -\epsilon_0 \frac{\partial E_y}{\partial t}
+    \end{equation}
+
+    \begin{equation}
+        \frac{\partial H_y}{\partial x} = \epsilon_0 \frac{\partial E_z}{\partial t}
+    \end{equation}
+\end{multicols}
+
+\newpage
+\subsection{}
+\begin{table}[h!]
+    \centering
+    \begin{tabularx}{\textwidth}{YY}
+        $\frac{\partial E_y}{\partial x} = -\mu_0 \frac{\partial H_z}{\partial t}$ & $\frac{\partial H_z}{\partial x} = -\epsilon_0 \frac{\partial E_y}{\partial t}$ \\
+        $\frac{\partial^2 E_y}{\partial x \partial t} = -\mu_0 \frac{\partial^2 H_z}{\partial t^2}$ & $\frac{\partial^2 H_z}{\partial x^2} \frac{1}{- \epsilon_0} = \frac{\partial^2 E_y}{\partial t \partial x}$ \\
+    \end{tabularx}
+\end{table}
+
+\subsection{}
+\begin{align*}
+    \frac{\partial^2 H_z}{\partial x^2} \frac{1}{- \epsilon_0} &= -\mu_0 \frac{\partial^2 H_z}{\partial t^2} \\
+    \equiv \\
+    \frac{\partial^2 E_z}{\partial x^2} \frac{1}{- \epsilon_0} &= -\mu_0 \frac{\partial^2 E_z}{\partial t^2}
+\end{align*}
+
+
+\subsection{}
+\begin{equation}
+    E_y = E_0 \cos(\omega t - k x); \omega = 2 \pi f, k = \frac{\omega}{c_0}
+\end{equation}
+
+\begin{equation}
+    \frac{\partial^2 E_y}{\partial x^2} = -k^2 E_y; \frac{\partial^2 E_y}{\partial t^2} = -\omega^2 E_y
+\end{equation}
+
+\begin{equation}
+    k^2 E_y \frac{1}{- \epsilon_0 \mu_0} =  \omega^2 E_y = \frac{\omega^2}{c_0^2} \frac{1}{- \epsilon_0 \mu_0} E_y
+\end{equation}
+
+\subsection{}
+\begin{equation}
+    \frac{1}{\epsilon_0 \mu_0} = c_0^2  
+\end{equation}
+
+
+\newpage
+
+\section{Lomni kotnik}
+\subsection{}
+\begin{align}
+    c = \frac{1}{\sqrt{\epsilon_r \epsilon_0 \mu_r \mu_0}}; c_0 = \frac{1}{\sqrt{\epsilon_0\mu_0}} \\
+    n = \frac{c}{c_0} = \sqrt{\frac{\epsilon_0\mu_0}{\epsilon_r \epsilon_0 \mu_r \mu_0}} = \frac{1}{\sqrt{\epsilon_r \mu_r}}
+\end{align}
+
+\newpage
+
+\section{Lomni zakon}
+\subsection{}
+Minimiziramo čas preleta žarkov od točke A do točke B, ki sta v različnih medijih z različnimi $n$.
+
+\subsection{}
+$t(\alpha, \beta)$ ima ekstrem, če je $dt = 0$
+\begin{align}
+    t &= t_1 + t_2 \\
+    t &= \frac{s_1}{c_1} + \frac{s_2}{c_2} \\
+    t &= \frac{h_1}{\cos(\alpha) * c_1} + \frac{h_2}{\cos(\beta) * c_2} \\
+    dt &= \frac{\partial t}{\partial \alpha} d\alpha + \frac{\partial t}{\partial \beta} d\beta = 0 \\
+    &\frac{h_1 \sin(\alpha)}{\cos^2(\alpha) * c_1} d\alpha = -\frac{h_2 \sin(\beta)}{\cos^2(\beta) * c_2} d\beta \\
+    &\frac{d \alpha}{d \beta} = - \frac{h_2}{h_1} \frac{c_1}{c_2} \frac{\sin(\beta)}{\sin(\alpha)} \frac{\cos^2(\alpha)}{\cos^2(\beta)}
+\end{align}
+
+\subsection{}
+$L$ je razdalja med točkama po $y$ osi, ker je konstantna, je $dL = 0$
+\begin{align}
+    L = l_1 + l_2 = \frac{h_1}{\tan(\alpha)} + \frac{h_2}{\tan(\beta)} \\
+    dL = \frac{h_1}{\cos^2(\alpha)} d\alpha + \frac{h_2}{\cos^2(\beta)} d\beta = 0 \\
+    \frac{h_1}{\cos^2(\alpha)} d\alpha = -\frac{h_2}{\cos^2(\beta)} d\beta \\
+    \frac{d \alpha}{d \beta} = -\frac{h_2}{h_1} \frac{\cos^2(\beta)}{\cos^2(\alpha)}
+\end{align}
+
+\subsection{}
+\begin{align}
+    -\frac{h_2}{h_1} \frac{c_1}{c_2} \frac{\sin(\beta)}{\sin(\alpha)} \frac{\cos^2(\alpha)}{\cos^2(\beta)} = - \frac{h_2}{h_1} \frac{\cos^2(\beta)}{\cos^2(\alpha)} \\
+    \Rightarrow \frac{\sin(\beta)}{\sin(\alpha)} = \frac{c_1}{c_2} = \frac{\frac{c_0}{n_1}}{\frac{c_0}{n_2}} = \frac{n_2}{n_1} \\
+    \Rightarrow n_1 \sin(\alpha) = n_2 \sin(\beta)
+\end{align}
+
+\newpage
+\section{Odbojni zakon}
+\begin{align}
+    t &= t_1 + t_2 \\
+    t &= \frac{s_1}{c} + \frac{s_2}{c} \\
+    t &= \frac{h}{\cos(\alpha) * c} + \frac{h}{\cos(\beta) * c} \\
+    dt &= \frac{\partial t}{\partial \alpha} d\alpha + \frac{\partial t}{\partial \beta} d\beta = 0 \\
+    &\frac{h \sin(\alpha)}{\cos^2(\alpha) * c} d\alpha = -\frac{h \sin(\beta)}{\cos^2(\beta) * c} d\beta \\
+    &\frac{d \alpha}{d \beta} = -\frac{\sin(\beta)}{\sin(\alpha)} \frac{\cos^2(\alpha)}{\cos^2(\beta)}
+\end{align}
+
+\subsection{}
+$L$ je razdalja med točkama po $y$ osi, ker je konstantna, je $dL = 0$
+\begin{align}
+    L = l_1 + l_2 = \frac{h}{\tan(\alpha)} + \frac{h}{\tan(\beta)} \\
+    dL = \frac{h}{\cos^2(\alpha)} d\alpha + \frac{h}{\cos^2(\beta)} d\beta = 0 \\
+    \frac{h}{\cos^2(\alpha)} d\alpha = -\frac{h}{\cos^2(\beta)} d\beta \\
+    \frac{d \alpha}{d \beta} = -\frac{\cos^2(\beta)}{\cos^2(\alpha)}
+\end{align}
+
+\subsection{}
+\begin{align}
+    -\frac{\sin(\beta)}{\sin(\alpha)} \frac{\cos^2(\alpha)}{\cos^2(\beta)}= -\frac{\cos^2(\beta)}{\cos^2(\alpha)} \\
+    \Rightarrow \frac{\sin(\beta)}{\sin(\alpha)} = 1 \\
+    \Rightarrow \sin(\alpha) = \sin(\beta)  \\
+    \Rightarrow \alpha = \beta
+\end{align}
+
+
+\newpage
+\section{Uporabljene enačbe}
+\subsubsection{Matematika}
+\begin{multicols}{2}
+
+    \paragraph{Gradient}
+    \begin{equation}
+        \label{eq:gradient}
+        \vec{\nabla} f = \left( \frac{\partial f}{\partial x}, \frac{\partial f}{\partial y}, \frac{\partial f}{\partial z} \right)
+    \end{equation}
+
+    \paragraph{Divergenca}
+    \begin{equation}
+        \label{eq:divergenca}
+        \vec{\nabla} \cdot \vec{F} = \frac{\partial F_x}{\partial x} + \frac{\partial F_y}{\partial y} + \frac{\partial F_z}{\partial z}
+    \end{equation}
+
+    \paragraph{Rotacija}
+    \begin{equation}
+        \label{eq:rotacija}
+        \vec{\nabla} \times \vec{F} = \begin{vmatrix}
+            \vec{i}                     & \vec{j}                     & \vec{k}                     \\
+            \frac{\partial}{\partial x} & \frac{\partial}{\partial y} & \frac{\partial}{\partial z} \\
+            F_x                         & F_y                         & F_z
+        \end{vmatrix}
+    \end{equation}
+
+\end{multicols}
+
+\subsubsection{Maxwellove enačbe}
+\begin{multicols}{2}
+    \paragraph{Faradejev zakon v integralni obliki}
+    \begin{equation}
+        \label{eq:faradejev_zakon_integralna}
+        \oint \vec{E} \cdot d\vec{l} = -\frac{\partial}{\partial t} \int \vec{B} \cdot d\vec{S}
+    \end{equation}
+
+    \paragraph{Faradejev zakon v diferencialni obliki}
+    \begin{equation}
+        \label{eq:faradejev_zakon_diferencialna}
+        \vec{\nabla} \times \vec{E} = -\frac{\partial \vec{B}}{\partial t}
+    \end{equation}
+
+    \paragraph{Amperov zakon v integralni obliki}
+    \begin{equation}
+        \label{eq:amperov_zakon_integralna}
+        \int \vec{H} \cdot d\vec{s} = \int J d\vec{S} + \int \frac{\partial \vec{D}}{\partial t} \cdot d\vec{S}
+    \end{equation}
+
+    \paragraph{Amperov zakon v diferencialni obliki}
+    \begin{equation}
+        \label{eq:amperov_zakon_diferencialna}
+        \vec{\nabla} \times \vec{H} = \vec{J} + \frac{\partial \vec{D}}{\partial t}
+    \end{equation}
+
+\end{multicols}
+
+\end{document}
