@@ -222,6 +222,70 @@ $L$ je razdalja med točkama po $y$ osi, ker je konstantna, je $dL = 0$
 \end{align}
 
 \newpage
+\section{Absorpcija EM valovanja}
+Telo debeline $x$ in koeficientom absorpcije $\mu$ bo absorbira svetlobni tok $j$. 
+Tanko telo debeline $dx$ absorbira svetlobni tok $dj$
+
+\begin{align}
+    dj & = -\mu j dx \\
+    \frac{1}{j} dj & = -\mu dx \\
+    \int_{j_0}^{j(x)} \frac{1}{j} dj & = -\mu \int_{0}^{x} dx \\
+    \ln(j(x)) - \ln(j_0) & = -\mu x \\
+    \ln\left(\frac{j(x)}{j_0}\right) & = -\mu x \\
+    j(x) & = j_0 e^{-\mu x}
+\end{align}
+
+\section{Okrogla luč po Lambertovem zakonu}
+\includegraphics[width=\textwidth]{lambertova_luc.png}
+\subsection{}
+\begin{align}
+    B(\theta) & = B_0 \\
+    dI & = B(\theta) \cos(\beta) dS \\
+    dS & = x d\varphi dx \\
+    dS & = \int_0^{2 \pi} x dx d\varphi \\
+    dS & = 2 \pi x dx \\
+    dI & = B_0 \cos(\beta) 2 \pi x dx \\
+    dE & = \frac{dI}{r^2} \cos(\beta) \\
+    dE & = \frac{B_0}{r^2} \cos^2(\beta) 2 \pi x dx
+\end{align}
+
+\subsection{}
+\begin{align}
+    r = \sqrt{x^2 + h^2} \\
+    \cos(\beta) = \frac{h}{r} \\
+    r = \frac{h}{\cos(\beta)} \\
+    \tan(\beta)  = \frac{x}{h} \Rightarrow x = h \tan{\beta} \\
+    \frac{1}{\cos^2(\beta)} d \beta = \frac{1}{h} dx \\
+    dx = h \frac{1}{\cos^2(\beta)} d\beta
+\end{align}
+
+\subsection{}
+\begin{align}
+    \beta(x) & = \arctan\left(\frac{x}{h}\right) \\
+    \beta(0) & = 0 \\
+    \beta(R) & = \beta_0 = \arctan\left(\frac{R}{h}\right)
+\end{align}
+
+\subsection{}
+\begin{align}
+    E = \int dE = \int_0^{\beta} \frac{B_0 \cos^2(\beta) \cos^2(\beta) 2\pi h \sin(\beta) h}{h^2 \cos(\beta) \cos^2(\beta)} d\beta \\
+    E = \int_0^\beta B_0 \sin(\beta) \cos(\beta) 2 \pi d\beta \\
+    E = B_0 \pi \int_0^{\beta} \sin(2 \beta) d\beta \\
+    E = B_0 \pi \int_0^{2 \beta} \sin(u) du; u = 2\beta \Rightarrow du = 2 d\beta \\
+    E = \frac{B_0 \pi}{2} (-\cos(u)) \vert_{u=0}^{2\beta} \\
+    E = \frac{B_0 \pi}{2} (1 - \cos(2\beta)) \\
+\end{align}
+
+\subsection{}
+Če je $R$ velik
+\begin{equation}
+    \lim_{R \to \infty} E = \lim_{\beta \to \frac{\pi}{2}} \frac{B_0 \pi}{2} (1 - \cos(2\beta_0)) = \frac{B_0 \pi}{2} (1 - \cos(\pi)) = \frac{B_0 \pi}{2} (1 + 1) = B_0 \pi
+\end{equation}
+
+
+
+
+\newpage
 \section{Uporabljene enačbe}
 \subsection{Matematika}
 \begin{multicols}{2}
