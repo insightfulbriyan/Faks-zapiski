@@ -2,6 +2,8 @@
 \usepackage[a4paper,margin=2.54cm]{geometry}
 \usepackage[slovene]{babel}
 \usepackage{graphicx}
+\graphicspath{ {./img/} }
+\usepackage{hyperref}
 \usepackage{fontspec}
 \usepackage{titlesec}
 \usepackage{eso-pic}
@@ -38,7 +40,6 @@
     \maketitle
 \end{titlingpage}
 
-\newpage
 \section{Valovna enačba}
 \subsection{}
 Faradejev \ref{eq:faradejev_zakon_diferencialna} in Amperov \ref{eq:amperov_zakon_diferencialna} zakon lahko združimo v valovno enačbo.
@@ -100,17 +101,15 @@ Faradejev \ref{eq:faradejev_zakon_diferencialna} in Amperov \ref{eq:amperov_zako
 \begin{table}[h!]
     \centering
     \begin{tabularx}{\textwidth}{YY}
-        $\frac{\partial E_y}{\partial x} = -\mu_0 \frac{\partial H_z}{\partial t}$ & $\frac{\partial H_z}{\partial x} = -\epsilon_0 \frac{\partial E_y}{\partial t}$ \\
+        $\frac{\partial E_y}{\partial x} = -\mu_0 \frac{\partial H_z}{\partial t}$                  & $\frac{\partial H_z}{\partial x} = -\epsilon_0 \frac{\partial E_y}{\partial t}$                             \\
         $\frac{\partial^2 E_y}{\partial x \partial t} = -\mu_0 \frac{\partial^2 H_z}{\partial t^2}$ & $\frac{\partial^2 H_z}{\partial x^2} \frac{1}{- \epsilon_0} = \frac{\partial^2 E_y}{\partial t \partial x}$ \\
     \end{tabularx}
 \end{table}
 
 \subsection{}
-\begin{align*}
-    \frac{\partial^2 H_z}{\partial x^2} \frac{1}{- \epsilon_0} &= -\mu_0 \frac{\partial^2 H_z}{\partial t^2} \\
-    \equiv \\
-    \frac{\partial^2 E_z}{\partial x^2} \frac{1}{- \epsilon_0} &= -\mu_0 \frac{\partial^2 E_z}{\partial t^2}
-\end{align*}
+\begin{equation}
+    \frac{\partial^2 E_y}{\partial x^2} \frac{1}{- \mu_0} = -\epsilon_0 \frac{\partial^2 E_y}{\partial t^2}
+\end{equation}
 
 
 \subsection{}
@@ -128,13 +127,13 @@ Faradejev \ref{eq:faradejev_zakon_diferencialna} in Amperov \ref{eq:amperov_zako
 
 \subsection{}
 \begin{equation}
-    \frac{1}{\epsilon_0 \mu_0} = c_0^2  
+    \frac{1}{\epsilon_0 \mu_0} = c_0^2
 \end{equation}
 
 
 \newpage
 
-\section{Lomni kotnik}
+\section{Lomni količnik}
 \subsection{}
 \begin{align}
     c = \frac{1}{\sqrt{\epsilon_r \epsilon_0 \mu_r \mu_0}}; c_0 = \frac{1}{\sqrt{\epsilon_0\mu_0}} \\
@@ -143,69 +142,88 @@ Faradejev \ref{eq:faradejev_zakon_diferencialna} in Amperov \ref{eq:amperov_zako
 
 \newpage
 
-\section{Lomni zakon}
+\section{Lomni zakon} \label{sec:lomni_zakon}
 \subsection{}
 Minimiziramo čas preleta žarkov od točke A do točke B, ki sta v različnih medijih z različnimi $n$.
 
 \subsection{}
 $t(\alpha, \beta)$ ima ekstrem, če je $dt = 0$
 \begin{align}
-    t &= t_1 + t_2 \\
-    t &= \frac{s_1}{c_1} + \frac{s_2}{c_2} \\
-    t &= \frac{h_1}{\cos(\alpha) * c_1} + \frac{h_2}{\cos(\beta) * c_2} \\
-    dt &= \frac{\partial t}{\partial \alpha} d\alpha + \frac{\partial t}{\partial \beta} d\beta = 0 \\
-    &\frac{h_1 \sin(\alpha)}{\cos^2(\alpha) * c_1} d\alpha = -\frac{h_2 \sin(\beta)}{\cos^2(\beta) * c_2} d\beta \\
-    &\frac{d \alpha}{d \beta} = - \frac{h_2}{h_1} \frac{c_1}{c_2} \frac{\sin(\beta)}{\sin(\alpha)} \frac{\cos^2(\alpha)}{\cos^2(\beta)}
+    t  & = t_1 + t_2                                                                                                                        \\
+    t  & = \frac{s_1}{c_1} + \frac{s_2}{c_2}                                                                                                \\
+    t  & = \frac{h_1}{\cos(\alpha) * c_1} + \frac{h_2}{\cos(\beta) * c_2}                                                                   \\
+    dt & = \frac{\partial t}{\partial \alpha} d\alpha + \frac{\partial t}{\partial \beta} d\beta = 0                                        \\
+       & \frac{h_1 \sin(\alpha)}{\cos^2(\alpha) * c_1} d\alpha = -\frac{h_2 \sin(\beta)}{\cos^2(\beta) * c_2} d\beta                        \\
+       & \frac{d \alpha}{d \beta} = - \frac{h_2}{h_1} \frac{c_1}{c_2} \frac{\sin(\beta)}{\sin(\alpha)} \frac{\cos^2(\alpha)}{\cos^2(\beta)}
 \end{align}
 
 \subsection{}
 $L$ je razdalja med točkama po $y$ osi, ker je konstantna, je $dL = 0$
 \begin{align}
-    L = l_1 + l_2 = \frac{h_1}{\tan(\alpha)} + \frac{h_2}{\tan(\beta)} \\
+    L = l_1 + l_2 = \frac{h_1}{\tan(\alpha)} + \frac{h_2}{\tan(\beta)}             \\
     dL = \frac{h_1}{\cos^2(\alpha)} d\alpha + \frac{h_2}{\cos^2(\beta)} d\beta = 0 \\
-    \frac{h_1}{\cos^2(\alpha)} d\alpha = -\frac{h_2}{\cos^2(\beta)} d\beta \\
+    \frac{h_1}{\cos^2(\alpha)} d\alpha = -\frac{h_2}{\cos^2(\beta)} d\beta         \\
     \frac{d \alpha}{d \beta} = -\frac{h_2}{h_1} \frac{\cos^2(\beta)}{\cos^2(\alpha)}
 \end{align}
 
 \subsection{}
 \begin{align}
     -\frac{h_2}{h_1} \frac{c_1}{c_2} \frac{\sin(\beta)}{\sin(\alpha)} \frac{\cos^2(\alpha)}{\cos^2(\beta)} = - \frac{h_2}{h_1} \frac{\cos^2(\beta)}{\cos^2(\alpha)} \\
-    \Rightarrow \frac{\sin(\beta)}{\sin(\alpha)} = \frac{c_1}{c_2} = \frac{\frac{c_0}{n_1}}{\frac{c_0}{n_2}} = \frac{n_2}{n_1} \\
+    \Rightarrow \frac{\sin(\beta)}{\sin(\alpha)} = \frac{c_1}{c_2} = \frac{\frac{c_0}{n_1}}{\frac{c_0}{n_2}} = \frac{n_2}{n_1}                                      \\
     \Rightarrow n_1 \sin(\alpha) = n_2 \sin(\beta)
 \end{align}
 
-\newpage
-\section{Odbojni zakon}
+\section{Odbojni zakon} \label{sec:odbojni_zakon}
 \begin{align}
-    t &= t_1 + t_2 \\
-    t &= \frac{s_1}{c} + \frac{s_2}{c} \\
-    t &= \frac{h}{\cos(\alpha) * c} + \frac{h}{\cos(\beta) * c} \\
-    dt &= \frac{\partial t}{\partial \alpha} d\alpha + \frac{\partial t}{\partial \beta} d\beta = 0 \\
-    &\frac{h \sin(\alpha)}{\cos^2(\alpha) * c} d\alpha = -\frac{h \sin(\beta)}{\cos^2(\beta) * c} d\beta \\
-    &\frac{d \alpha}{d \beta} = -\frac{\sin(\beta)}{\sin(\alpha)} \frac{\cos^2(\alpha)}{\cos^2(\beta)}
+    t  & = t_1 + t_2                                                                                         \\
+    t  & = \frac{s_1}{c} + \frac{s_2}{c}                                                                     \\
+    t  & = \frac{h}{\cos(\alpha) * c} + \frac{h}{\cos(\beta) * c}                                            \\
+    dt & = \frac{\partial t}{\partial \alpha} d\alpha + \frac{\partial t}{\partial \beta} d\beta = 0         \\
+       & \frac{h \sin(\alpha)}{\cos^2(\alpha) * c} d\alpha = -\frac{h \sin(\beta)}{\cos^2(\beta) * c} d\beta \\
+       & \frac{d \alpha}{d \beta} = -\frac{\sin(\beta)}{\sin(\alpha)} \frac{\cos^2(\alpha)}{\cos^2(\beta)}
 \end{align}
 
 \subsection{}
 $L$ je razdalja med točkama po $y$ osi, ker je konstantna, je $dL = 0$
 \begin{align}
-    L = l_1 + l_2 = \frac{h}{\tan(\alpha)} + \frac{h}{\tan(\beta)} \\
+    L = l_1 + l_2 = \frac{h}{\tan(\alpha)} + \frac{h}{\tan(\beta)}             \\
     dL = \frac{h}{\cos^2(\alpha)} d\alpha + \frac{h}{\cos^2(\beta)} d\beta = 0 \\
-    \frac{h}{\cos^2(\alpha)} d\alpha = -\frac{h}{\cos^2(\beta)} d\beta \\
+    \frac{h}{\cos^2(\alpha)} d\alpha = -\frac{h}{\cos^2(\beta)} d\beta         \\
     \frac{d \alpha}{d \beta} = -\frac{\cos^2(\beta)}{\cos^2(\alpha)}
 \end{align}
 
 \subsection{}
 \begin{align}
     -\frac{\sin(\beta)}{\sin(\alpha)} \frac{\cos^2(\alpha)}{\cos^2(\beta)}= -\frac{\cos^2(\beta)}{\cos^2(\alpha)} \\
-    \Rightarrow \frac{\sin(\beta)}{\sin(\alpha)} = 1 \\
-    \Rightarrow \sin(\alpha) = \sin(\beta)  \\
+    \Rightarrow \frac{\sin(\beta)}{\sin(\alpha)} = 1                                                              \\
+    \Rightarrow \sin(\alpha) = \sin(\beta)                                                                        \\
     \Rightarrow \alpha = \beta
 \end{align}
 
+\section{Mikroskop}\label{sec:mikroskop}
+\includegraphics[width=\textwidth]{mikroskop.png}
+
+\begin{align}
+    \tan(\varphi_1) = \frac{p}{x_0} \\
+    \tan(\varphi_2) = \frac{i}{f_{ok}} \\
+    \frac{i}{e} = \frac{p}{f_{ob}} \\
+    M = \frac{\tan(\varphi_2)}{\tan(\varphi_1)} \\
+    M = \frac{e x_0}{f_{ok} f_{ob}} 
+\end{align}
+
+\section{Daljnogled}\label{sec:daljnogled}
+\includegraphics[width=\textwidth]{daljnogled.png}
+\begin{align}
+    \tan(\varphi_1) = \frac{p}{a} = \frac{s}{b}\\
+    \tan(\varphi_2) = \frac{s}{f_{ok}} \\
+    \frac{1}{f_{ob}} = \frac{1}{a} + \frac{1}{b} \Rightarrow b = \frac{a f_{ob}}{a - f_{ob}} \\
+    M = \frac{\tan(\varphi_2)}{\tan(\varphi_1)} = \frac{b}{f_{ok}} \\
+    M = \frac{a f_{ob}}{f_{ok} (a - f_{ob})} 
+\end{align}
 
 \newpage
 \section{Uporabljene enačbe}
-\subsubsection{Matematika}
+\subsection{Matematika}
 \begin{multicols}{2}
 
     \paragraph{Gradient}
@@ -232,7 +250,7 @@ $L$ je razdalja med točkama po $y$ osi, ker je konstantna, je $dL = 0$
 
 \end{multicols}
 
-\subsubsection{Maxwellove enačbe}
+\subsection{Maxwellove enačbe}
 \begin{multicols}{2}
     \paragraph{Faradejev zakon v integralni obliki}
     \begin{equation}
@@ -259,5 +277,52 @@ $L$ je razdalja med točkama po $y$ osi, ker je konstantna, je $dL = 0$
     \end{equation}
 
 \end{multicols}
+
+\subsection{Optika}
+\begin{multicols}{2}
+    \paragraph{Enačba preslikave}
+    \begin{equation}
+        \frac{1}{f} = \frac{1}{a} + \frac{1}{b}
+    \end{equation}
+
+    \paragraph{Enačba leče}
+    \begin{equation}
+        \frac{1}{f} = (\frac{n_2}{n_1} - 1) ( \frac{1}{R_1} - \frac{1}{R_2} );
+    \end{equation}
+    $R > 0$, če je središče krivulje na levi strani
+
+    \paragraph{Lomni zakon (\ref{sec:lomni_zakon})} 
+    \begin{equation}
+        n_1 \sin(\alpha) = n_2 \sin(\beta)
+    \end{equation}
+
+    \paragraph{Mikroskop (\ref{sec:mikroskop})}
+    \begin{equation}
+        M = \frac{e x_0}{f_{ok} f_{ob}}
+    \end{equation}
+
+    \paragraph{Daljnogled (\ref{sec:daljnogled})}
+    \begin{equation}
+        M = \frac{a f_{ob}}{f_{ok} (a - f_{ob})}
+    \end{equation}
+\end{multicols}
+
+\subsection{Moderna fizika}
+\begin{multicols}{2}
+    \paragraph{Lorentzova transformacija}
+    \begin{align}
+        x' = \gamma (x - vt)              & \qquad x = \gamma (x' + vt')              \\
+        y' = y                            & \qquad y = y'                             \\
+        z' = z                            & \qquad z = z'                             \\
+        t' = \gamma (t - \frac{v}{c^2} x) & \qquad t = \gamma (t' + \frac{v}{c^2} x')
+    \end{align}
+
+    \paragraph{Lorentzov faktor}
+    \begin{equation}
+        \gamma = \frac{1}{\sqrt{1 - \frac{v^2}{c^2}}}
+    \end{equation}
+
+\end{multicols}
+
 
 \end{document}
