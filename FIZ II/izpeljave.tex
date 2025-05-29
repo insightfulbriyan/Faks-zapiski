@@ -401,9 +401,42 @@ Lahko ga izpeljemo z odvajanjem Planckovega zakona \ref{eq:planckov_zakon}
 
 \newpage
 \section{Absorpcija svetlobe}
+\subsection{}
+\begin{align}
+    dj = -\mu j dx \\
+    \frac{1}{j} dj = -\mu dx \\
+    \int_{j_0}^{j(x)} \frac{1}{j} dj = -\mu \int_{0}^{x} dx \\
+    \ln(j(x)) - \ln(j_0) = -\mu x \\
+    \ln\left(\frac{j(x)}{j_0}\right) = -\mu x \\
+    j(x) = j_0 e^{-\mu x} \\
+\end{align}
+
+\subsection{}
+\begin{align}
+    \frac{j_0}{2} = j_0 e^{-\mu x} \\
+    \frac{1}{2} = e^{-\mu x} \\
+    \ln\left(\frac{1}{2}\right) = -\mu x \\
+    -\ln(2) = -\mu x \\
+    x = \frac{\ln(2)}{\mu}
+\end{align}
 
 \newpage
 \section{Polarizacija}
+\subsection{}
+$p$ je faktor prepustnosti, $E_0$ amplituda vpadnega električnega polja, $E_0'$ amplituda prepusnega električnega polja
+\begin{align}
+    E' = E_0 \cos(\varphi) \\
+    j_{vpadni} = \frac{1}{2} \epsilon_0 E_0^2 c_0 \\
+    j_{prepusni} = \frac{1}{2} \epsilon_0 E_0'^2 c_0 = \frac{1}{2} \epsilon_0 (E_0 \cos(\varphi))^2 c_0 = \frac{1}{2} \epsilon_0 E_0^2 c_0 \cos^2(\varphi) \\
+    p = \frac{j_{prepusni}}{j_{vpadni}} = \frac{\frac{1}{2} \epsilon_0 E_0^2 c_0 \cos^2(\varphi)}{\frac{1}{2} \epsilon_0 E_0^2 c_0} \\
+    p = \cos^2(\varphi)
+\end{align}
+
+\subsection{}
+Pri nepolarizirani svetlobi je $varphi$ enakomerno porazdeljen med $0$ in $2 \pi$, zato je povprečje $\overline{\cos^2(p)} = \frac{1}{2}$
+\begin{equation}
+    p = \overline{\cos^2(\varphi)} = \frac{1}{2}
+\end{equation}
 
 \newpage
 \section{Braggova enačba}
@@ -580,6 +613,37 @@ Naj bo $\varphi$ kot med vpadnim žarkom in žarkom sipane svetlobe
         M = \frac{a f_{ob}}{f_{ok} (a - f_{ob})}
     \end{equation}
 \end{multicols}
+
+\newpage
+\subsection{Interferenca}
+\begin{table}[h!]
+    \begin{tabular}{cc}
+        \begin{tabular}{@{}c@{}}
+            $n_0 > n_1 > n_2$ \\
+            $n_0 < n_1 < n_2$ \\
+        \end{tabular}            
+        &
+        \begin{tabular}{@{}c@{}}
+            $n_0 > n_1 < n_2$ \\
+            $n_0 < n_1 > n_2$ \\
+        \end{tabular}
+        \\
+        \multicolumn{2}{c}{$2d n \cos(\beta) =$} \\
+        $\begin{cases}
+            2N \lambda \\
+            \qquad \text{za konstruktivno interferenco} \\
+            \frac{(2N + 1)}{2} \lambda \\
+            \qquad \text{za destruktivno interferenco}
+        \end{cases}$
+        &
+        $\begin{cases}
+            \frac{(2N + 1)}{2} \lambda \\
+            \qquad \text{za konstruktivno interferenco} \\
+            2N \lambda \\
+            \qquad \text{za destruktivno interferenco}
+        \end{cases}$
+    \end{tabular}
+\end{table}
 
 \subsection{Moderna fizika}
 \begin{multicols}{2}
