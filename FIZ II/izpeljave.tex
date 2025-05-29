@@ -5,6 +5,7 @@
 \graphicspath{ {./img/} }
 \usepackage{hyperref}
 \usepackage{fontspec}
+\usepackage{caption} % Required for specifying captions to tables and figures
 \usepackage{titlesec}
 \usepackage{eso-pic}
 \usepackage{multicol}
@@ -30,6 +31,8 @@
 
 \renewcommand{\arraystretch}{2}
 
+\setlength{\jot}{10pt}
+
 % \setlength{\parindent}{0pt} % Izklop zamika za paragraf
 % \setlength{\parskip}{1em} % Presledki med paragrafi
 
@@ -39,6 +42,12 @@
 \begin{titlingpage}
     \maketitle
 \end{titlingpage}
+
+% table of contents with only depth 1
+\setcounter{tocdepth}{1}
+\tableofcontents
+\newpage
+
 
 \section{Valovna enačba}
 \subsection{}
@@ -132,7 +141,6 @@ Faradejev \ref{eq:faradejev_zakon_diferencialna} in Amperov \ref{eq:amperov_zako
 
 
 \newpage
-
 \section{Lomni količnik}
 \subsection{}
 \begin{align}
@@ -141,7 +149,6 @@ Faradejev \ref{eq:faradejev_zakon_diferencialna} in Amperov \ref{eq:amperov_zako
 \end{align}
 
 \newpage
-
 \section{Lomni zakon} \label{sec:lomni_zakon}
 \subsection{}
 Minimiziramo čas preleta žarkov od točke A do točke B, ki sta v različnih medijih z različnimi $n$.
@@ -173,6 +180,7 @@ $L$ je razdalja med točkama po $y$ osi, ker je konstantna, je $dL = 0$
     \Rightarrow n_1 \sin(\alpha) = n_2 \sin(\beta)
 \end{align}
 
+\newpage
 \section{Odbojni zakon} \label{sec:odbojni_zakon}
 \begin{align}
     t  & = t_1 + t_2                                                                                         \\
@@ -189,17 +197,18 @@ $L$ je razdalja med točkama po $y$ osi, ker je konstantna, je $dL = 0$
     L = l_1 + l_2 = \frac{h}{\tan(\alpha)} + \frac{h}{\tan(\beta)}             \\
     dL = \frac{h}{\cos^2(\alpha)} d\alpha + \frac{h}{\cos^2(\beta)} d\beta = 0 \\
     \frac{h}{\cos^2(\alpha)} d\alpha = -\frac{h}{\cos^2(\beta)} d\beta         \\
-    \frac{d \alpha}{d \beta} = -\frac{\cos^2(\beta)}{\cos^2(\alpha)}
+    \frac{d \alpha}{d \beta} = -\frac{\cos^2(\alpha)}{\cos^2(\beta)}
 \end{align}
 
 \subsection{}
 \begin{align}
-    -\frac{\sin(\beta)}{\sin(\alpha)} \frac{\cos^2(\alpha)}{\cos^2(\beta)}= -\frac{\cos^2(\beta)}{\cos^2(\alpha)} \\
+    -\frac{\sin(\beta)}{\sin(\alpha)} \frac{\cos^2(\alpha)}{\cos^2(\beta)}= -\frac{\cos^2(\alpha)}{\cos^2(\beta)} \\
     \Rightarrow \frac{\sin(\beta)}{\sin(\alpha)} = 1                                                              \\
     \Rightarrow \sin(\alpha) = \sin(\beta)                                                                        \\
     \Rightarrow \alpha = \beta
 \end{align}
 
+\newpage
 \section{Mikroskop}\label{sec:mikroskop}
 \includegraphics[width=\textwidth]{mikroskop.png}
 
@@ -211,6 +220,7 @@ $L$ je razdalja med točkama po $y$ osi, ker je konstantna, je $dL = 0$
     M = \frac{e x_0}{f_{ok} f_{ob}}
 \end{align}
 
+\newpage
 \section{Daljnogled}\label{sec:daljnogled}
 \includegraphics[width=\textwidth]{daljnogled.png}
 \begin{align}
@@ -235,6 +245,7 @@ Tanko telo debeline $dx$ absorbira svetlobni tok $dj$
     j(x)                             & = j_0 e^{-\mu x}
 \end{align}
 
+\newpage
 \section{Okrogla luč po Lambertovem zakonu}
 \includegraphics[width=\textwidth]{lambertova_luc.png}
 \subsection{}
@@ -282,7 +293,7 @@ Tanko telo debeline $dx$ absorbira svetlobni tok $dj$
     \lim_{R \to \infty} E = \lim_{\beta \to \frac{\pi}{2}} \frac{B_0 \pi}{2} (1 - \cos(2\beta_0)) = \frac{B_0 \pi}{2} (1 - \cos(\pi)) = \frac{B_0 \pi}{2} (1 + 1) = B_0 \pi
 \end{equation}
 
-
+\newpage
 \section{Michelson-Morleyev interferometer}
 \includegraphics[width=\textwidth]{michelson.png}
 \subsection{}
@@ -297,15 +308,15 @@ Tanko telo debeline $dx$ absorbira svetlobni tok $dj$
 
 \subsection{}
 \begin{align}
-    T_l - T_t & = \frac{2L}{c} \left( \frac{1}{1 - \frac{v^2}{c^2}} - \frac{1}{\sqrt{1 - \frac{v^2}{c^2}}} \right) \\
-    (T_l - T_t) c = k \lambda & = 2L \left( (1 + \frac{v^2}{c^2}) - (1 + \frac 1 2 \frac{v^2}{c^2}) \right) \\
-    k \lambda & = 2L \frac{1}{2} \frac{v^2}{c^2} = L \frac{v^2}{c^2}
+    T_l - T_t                 & = \frac{2L}{c} \left( \frac{1}{1 - \frac{v^2}{c^2}} - \frac{1}{\sqrt{1 - \frac{v^2}{c^2}}} \right) \\
+    (T_l - T_t) c = k \lambda & = 2L \left( (1 + \frac{v^2}{c^2}) - (1 + \frac 1 2 \frac{v^2}{c^2}) \right)                        \\
+    k \lambda                 & = 2L \frac{1}{2} \frac{v^2}{c^2} = L \frac{v^2}{c^2}
 \end{align}
 
 \subsection{}
-Če interferometer zavrtimo za 90° lahko zapišemo $k \lambda = -L \frac{v^2}{c^2}$ 
+Če interferometer zavrtimo za 90° lahko zapišemo $k \lambda = -L \frac{v^2}{c^2}$
 \begin{align}
-    n = \frac{k_1\lambda - k_2\lambda}{\lambda} = \frac{L \frac{v^2}{c^2} + L \frac{v^2}{c^2}}{\lambda} = \frac{2 L}{\lambda} \frac{v^2}{c^2}\\
+    n = \frac{k_1\lambda - k_2\lambda}{\lambda} = \frac{L \frac{v^2}{c^2} + L \frac{v^2}{c^2}}{\lambda} = \frac{2 L}{\lambda} \frac{v^2}{c^2} \\
 \end{align}
 
 Žal se teoretični izračun ne ujema z eksperimentom
@@ -316,6 +327,7 @@ Tanko telo debeline $dx$ absorbira svetlobni tok $dj$
     T_l = \frac{2L\sqrt{1 - \frac{v^2}{c^2}}}{c} \frac{1}{1 - \frac{v^2}{c^2}} = \frac{2L}{c} \frac{1}{\sqrt{1 - \frac{v^2}{c^2}}} = T_t
 \end{equation}
 
+\newpage
 \section{Stefanov zakon}
 Lahko ga izpeljemo z integriranjem Planckovega zakona \ref{eq:planckov_zakon}
 \begin{equation}
@@ -325,12 +337,13 @@ Lahko ga izpeljemo z integriranjem Planckovega zakona \ref{eq:planckov_zakon}
 \subsection{}
 $x = \frac{hc_0}{\lambda k_B T} \Rightarrow d\lambda = -\frac{hc_0}{k_B T x^2} dx$ in $\lambda  \to 0 \Rightarrow x \to \infty, \lambda \to \infty \Rightarrow x \to 0$
 \begin{align}
-    j &= \int_\infty^0 \frac{2 \pi hc_0^2}{\left(\frac{hc_0}{k_B T x}\right)^5 \left(e^x - 1\right)} \left(-\frac{hc_0}{k_B T x^2}\right) dx \\
-    j &= \frac{2 \pi (k_B T)^4}{h^3 c_0^3} \int_0^\infty \frac{x^3}{e^x - 1} dx \\
-    j &= \frac{2 \pi (k_B T)^4}{h^3 c_0^3} \cdot \frac{\pi^4}{15} = \frac{2 \pi^5 k_B^4 T^4}{15 h^3 c_0^3} \\
-    j &= \sigma T^4; \sigma = \frac{2 \pi^5 k_B^4}{15 h^3 c_0^3} = 5,67 \cdot 10^{-8} \frac{\text{W}}{\text{m}^2 \text{K}^4}
+    j & = \int_\infty^0 \frac{2 \pi hc_0^2}{\left(\frac{hc_0}{k_B T x}\right)^5 \left(e^x - 1\right)} \left(-\frac{hc_0}{k_B T x^2}\right) dx \\
+    j & = \frac{2 \pi (k_B T)^4}{h^3 c_0^3} \int_0^\infty \frac{x^3}{e^x - 1} dx                                                              \\
+    j & = \frac{2 \pi (k_B T)^4}{h^3 c_0^3} \cdot \frac{\pi^4}{15} = \frac{2 \pi^5 k_B^4 T^4}{15 h^3 c_0^3}                                   \\
+    j & = \sigma T^4; \sigma = \frac{2 \pi^5 k_B^4}{15 h^3 c_0^3} = 5,67 \cdot 10^{-8} \frac{\text{W}}{\text{m}^2 \text{K}^4}
 \end{align}
 
+\newpage
 \section{Wienov zakon}
 Lahko ga izpeljemo z odvajanjem Planckovega zakona \ref{eq:planckov_zakon}
 \begin{align}
@@ -340,12 +353,12 @@ Lahko ga izpeljemo z odvajanjem Planckovega zakona \ref{eq:planckov_zakon}
 
 \subsection{}
 \begin{align}
-    \frac{dj}{dx} = A \frac{x^5}{e^x - 1} = 0 \\
+    \frac{dj}{dx} = A \frac{x^5}{e^x - 1} = 0        \\
     \frac{5x^4 (e^x - 1) - x^5 e^x}{(e^x - 1)^2} = 0 \\
-    5x^4 (e^x - 1) - x^5 e^x = 0 \\
-    5(e^x - 1) = x e^x \\
-    5 = x \frac{e^x}{e^x - 1} \\
-    x \approx 4.9651\\
+    5x^4 (e^x - 1) - x^5 e^x = 0                     \\
+    5(e^x - 1) = x e^x                               \\
+    5 = x \frac{e^x}{e^x - 1}                        \\
+    x \approx 4.9651                                 \\
 \end{align}
 
 \subsection{}
@@ -353,6 +366,128 @@ Lahko ga izpeljemo z odvajanjem Planckovega zakona \ref{eq:planckov_zakon}
     \lambda_{max} = \frac{hc_0}{k_B T x} = \frac{hc_0}{4.9651 k_B T} \\
     \lambda_{max} T = k_W = 2.898 \cdot 10^{-3} \text{m K}
 \end{align}
+
+\newpage
+\section{Gostota energijskega toka}
+\subsection{}
+\begin{itemize}[itemsep=-20pt]
+    \item $$\overline{j} = \overline{w} c_0$$
+    \item $$w_E = \frac{1}{2} \epsilon_0 E^2$$
+    \item $$w_B = \frac{1}{2} \mu_0 H^2 = \frac{1}{2} \frac{B^2}{\mu_0}$$
+    \item $$w = w_E + w_B = \frac{1}{2} \epsilon_0 E^2 + \frac{1}{2} \frac{B^2}{\mu_0}$$
+    \item $$\vec E = \vec B \times \vec c_0$$
+    \item $$c_0^2 = \frac{1}{\epsilon_0 \mu_0}$$
+\end{itemize}
+
+\begin{align}
+    E = E_0 \cos(\omega t - kx) \\
+    B = B_0 \cos(\omega t - kx)
+\end{align}
+
+\subsection{}
+\begin{align}
+    \overline{w} = \frac{1}{2} \epsilon_0 E_0^2 \overline{\cos(\omega t - kx)} + \frac{1}{2} \frac{B^2}{\mu_0} \overline{\cos(\omega t - kx)} \\
+    \overline{w} = \frac{1}{4} \epsilon_0 E_0^2 + \frac{1}{4} \frac{B^2}{\mu_0} \\
+    \overline{w} = \frac{1}{4} \epsilon_0 E_0^2 + \frac{1}{4} \frac{B^2}{\mu_0} \\
+    \overline{w} = \frac{1}{4} \epsilon_0 E_0^2 + \frac{1}{4} \frac{E_0^2}{\mu_0 c_0^2} \\
+    \overline{w} = \frac{1}{4} \epsilon_0 E_0^2 + \frac{1}{4} \epsilon_0 E_0^2 \\
+    \overline{w} = \frac{1}{2} \epsilon_0 E_0^2 = \frac{1}{2} \frac{B_0^2}{\mu_0} \\
+\end{align}
+
+\subsection{}
+\begin{equation}
+    \overline{j} = \overline{w} c_0 = \frac{1}{2} \epsilon_0 E_0^2 c_0 = \frac{1}{2} \frac{B_0^2}{\mu_0} c_0
+\end{equation}
+
+\newpage
+\section{Absorpcija svetlobe}
+
+\newpage
+\section{Polarizacija}
+
+\newpage
+\section{Braggova enačba}
+\includegraphics[width=\textwidth]{bragg.png}
+\captionof{figure}{https://en.wikipedia.org/wiki/Braggs\%27\_law}
+Da pride do konstruktivne interferencije mora biti razlika poti med dvema žarkoma, ki se odbijeta od dveh ploskev kristala, enaka celotnemu številu valovnih dolžin $\lambda$
+
+\begin{equation}
+    N\lambda = |AB| + |BC| - |AC'|
+\end{equation}
+
+\begin{align}
+    |AB| = |BC| = \frac{d}{\sin(\theta)} \\
+    |AC| = \frac{2d}{\tan(\theta)} \\
+    |AC'| = |AC| \cos(\theta) = \frac{2d \cos(\theta)}{\sin(\theta)} \cos{\theta} = \frac{2d \cos^2(\theta)}{\sin(\theta)} \\
+\end{align}
+
+\subsection{}
+\begin{align}
+    N\lambda & = \frac{d}{\sin(\theta)} + \frac{d}{\sin(\theta)} - \frac{2d \cos^2(\theta)}{\sin(\theta)} \\
+    N\lambda & = \frac{2d}{\sin(\theta)}(1 - \cos^2(\theta)) \\
+    N\lambda & = \frac{2d}{\sin(\theta)} \sin^2(\theta) \\
+    N\lambda & = 2d \sin(\theta)
+\end{align}
+\subsection{}
+Naj bo $\varphi$ kot med vpadnim žarkom in žarkom sipane svetlobe
+\begin{equation}
+    N \lambda = 2d \sin(\frac{1}{2} \varphi)
+\end{equation}
+
+\newpage
+\section{Comptonsko sipanje}
+\includegraphics[width=\textwidth]{compton.png}
+\captionof{figure}{https://en.wikipedia.org/wiki/Compton\_scattering}
+
+\begin{itemize}[itemsep=-15pt]
+    \item $$\Delta \sum_{i}E_i = 0$$
+    \item $$ \Delta \sum_{i}P_i = 0$$
+    \item $$ E = hf$$
+    \item $$ E_e = \sqrt{(p_e c_0)^2 + (m_e c_0^2)^2}$$
+    \item $$ E = P c_0$$
+\end{itemize}
+
+\subsection{}
+\begin{align}
+    E_\gamma + E_e = E_\gamma' + E_e' \\
+    E_\gamma = hf \\
+    E_e = m_e c_0^2; P_e = 0 \\
+    E_\gamma' = hf' \\
+    E_e' = \sqrt{(P_e' c_0)^2 + (m_e c_0^2)^2} \\
+    hf + m_e c_0^2 = hf' + \sqrt{(P_e' c_0)^2 + (m_e c_0^2)^2} \\
+    P_e'^2 c_0^2 = (hf + m_e c_0^2 - hf')^2 - m_e^2 c_0^4
+\end{align}
+
+\subsection{}
+\begin{align}
+    \vec{P_\gamma} + \vec{P_e} = \vec{P_\gamma'} + \vec{P_e'} \\
+    \vec{P_e'} = \vec{P_\gamma} + \vec{P_\gamma'}; P_e = 0 \\
+    P_e'^2 = \vec{P_e'} \cdot \vec{P_e'} = (\vec{P_\gamma} + \vec{P_\gamma'}) \cdot (\vec{P_\gamma} + \vec{P_\gamma'}) \\
+    P_e'^2 = P_\gamma^2 + P_\gamma'^2 - 2P_\gamma \cdot P_\gamma' \cos(\varphi) \\
+    P_e'^2 c_0^2 = P_\gamma^2 c_0^2 + P_\gamma'^2 c_0^2 - 2P_\gamma \cdot P_\gamma' \cos(\varphi) c_0^2 \\
+    P_e'^2 c_0^2 = (hf)^2 + (hf')^2 - 2hf hf' \cos(\varphi) \\
+    (hf + m_e c_0^2 - hf')^2 - m_e^2 c_0^4  = (hf)^2 + (hf')^2 - 2hf hf' \cos(\varphi) \\
+    ((hf)^2 + (m_e c_0^2)^2 + (hf')^2 + 2(hf)(m_e c_0^2) - 2(hf')(m_e c_0^2) - 2(hf)(hf')) + \nonumber \\
+    - m_e^2 c_0^4 = (hf)^2 + (hf')^2 - 2(hf)(hf') \cos(\varphi) \\
+    (hf)^2 + (hf')^2 + 2(hf)(m_e c_0^2) - 2(hf')(m_e c_0^2) - 2(hf)(hf') = \nonumber \\
+    = (hf)^2 + (hf')^2 - 2(hf)(hf') \cos(\varphi) \\
+    2(hf)(m_e c_0^2) - 2(hf')(m_e c_0^2) = -2(hf)(hf') \cos(\varphi) \\
+    f m_e c_0^2 - f' m_e c_0^2 = - h f f' \cos(\varphi) \\
+    f c_0^2 - f' c_0^2 = - \frac{h f f'}{m_e} \cos(\varphi) \\
+    \frac{c_0^2}{f'} - \frac{c_0^2}{f} = - \frac{h}{m_e} \cos(\varphi) \\
+    \frac{c_0}{f'} - \frac{c_0}{f} = - \frac{h}{m_e c^2} \cos(\varphi) \\
+    \lambda' - \lambda = - \frac{h}{m_e c_0^2} \cos(\varphi)
+\end{align}
+
+
+\newpage
+\section{Ciklotron}
+
+\newpage
+\section{Bohrov model atoma}
+
+
+
 
 
 \newpage
