@@ -317,7 +317,7 @@ Tanko telo debeline $dx$ absorbira svetlobni tok $dj$
 \end{equation}
 
 \section{Stefanov zakon}
-Lahko ga izpeljemo iz Planckovega zakona \ref{eq:planckov_zakon}
+Lahko ga izpeljemo z integriranjem Planckovega zakona \ref{eq:planckov_zakon}
 \begin{equation}
     j = \int_0^\infty \frac{dj}{d\lambda} d\lambda = \int_0^\infty \frac{2 \pi hc_0^2}{\lambda^5\left(e^{\frac{hc_0}{\lambda k_B T}} - 1\right)} d\lambda
 \end{equation}
@@ -328,10 +328,31 @@ $x = \frac{hc_0}{\lambda k_B T} \Rightarrow d\lambda = -\frac{hc_0}{k_B T x^2} d
     j &= \int_\infty^0 \frac{2 \pi hc_0^2}{\left(\frac{hc_0}{k_B T x}\right)^5 \left(e^x - 1\right)} \left(-\frac{hc_0}{k_B T x^2}\right) dx \\
     j &= \frac{2 \pi (k_B T)^4}{h^3 c_0^3} \int_0^\infty \frac{x^3}{e^x - 1} dx \\
     j &= \frac{2 \pi (k_B T)^4}{h^3 c_0^3} \cdot \frac{\pi^4}{15} = \frac{2 \pi^5 k_B^4 T^4}{15 h^3 c_0^3} \\
-    j &= \sigma T^4; \sigma = \frac{2 \pi^5 k_B^4}{15 h^3 c_0^3} = 5,67 \cdot 10^{-8} \frac{W}{m^2 K^4}
+    j &= \sigma T^4; \sigma = \frac{2 \pi^5 k_B^4}{15 h^3 c_0^3} = 5,67 \cdot 10^{-8} \frac{\text{W}}{\text{m}^2 \text{K}^4}
 \end{align}
 
+\section{Wienov zakon}
+Lahko ga izpeljemo z odvajanjem Planckovega zakona \ref{eq:planckov_zakon}
+\begin{align}
+    \frac{dj}{d\lambda} = \frac{2 \pi hc_0^2}{\lambda^5\left(e^{\frac{hc_0}{\lambda k_B T}} - 1\right)} \\
+    \frac{dj}{dx}= \frac{2 \pi k_B^5 T^5}{h^4 c_0^3} \frac{x^5}{e^x - 1}; x = \frac{hc_0}{\lambda k_B T}
+\end{align}
 
+\subsection{}
+\begin{align}
+    \frac{dj}{dx} = A \frac{x^5}{e^x - 1} = 0 \\
+    \frac{5x^4 (e^x - 1) - x^5 e^x}{(e^x - 1)^2} = 0 \\
+    5x^4 (e^x - 1) - x^5 e^x = 0 \\
+    5(e^x - 1) = x e^x \\
+    5 = x \frac{e^x}{e^x - 1} \\
+    x \approx 4.9651\\
+\end{align}
+
+\subsection{}
+\begin{align}
+    \lambda_{max} = \frac{hc_0}{k_B T x} = \frac{hc_0}{4.9651 k_B T} \\
+    \lambda_{max} T = k_W = 2.898 \cdot 10^{-3} \text{m K}
+\end{align}
 
 
 \newpage
