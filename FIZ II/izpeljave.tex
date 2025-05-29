@@ -204,76 +204,76 @@ $L$ je razdalja med točkama po $y$ osi, ker je konstantna, je $dL = 0$
 \includegraphics[width=\textwidth]{mikroskop.png}
 
 \begin{align}
-    \tan(\varphi_1) = \frac{p}{x_0} \\
-    \tan(\varphi_2) = \frac{i}{f_{ok}} \\
-    \frac{i}{e} = \frac{p}{f_{ob}} \\
+    \tan(\varphi_1) = \frac{p}{x_0}             \\
+    \tan(\varphi_2) = \frac{i}{f_{ok}}          \\
+    \frac{i}{e} = \frac{p}{f_{ob}}              \\
     M = \frac{\tan(\varphi_2)}{\tan(\varphi_1)} \\
-    M = \frac{e x_0}{f_{ok} f_{ob}} 
+    M = \frac{e x_0}{f_{ok} f_{ob}}
 \end{align}
 
 \section{Daljnogled}\label{sec:daljnogled}
 \includegraphics[width=\textwidth]{daljnogled.png}
 \begin{align}
-    \tan(\varphi_1) = \frac{p}{a} = \frac{s}{b}\\
-    \tan(\varphi_2) = \frac{s}{f_{ok}} \\
+    \tan(\varphi_1) = \frac{p}{a} = \frac{s}{b}                                              \\
+    \tan(\varphi_2) = \frac{s}{f_{ok}}                                                       \\
     \frac{1}{f_{ob}} = \frac{1}{a} + \frac{1}{b} \Rightarrow b = \frac{a f_{ob}}{a - f_{ob}} \\
-    M = \frac{\tan(\varphi_2)}{\tan(\varphi_1)} = \frac{b}{f_{ok}} \\
-    M = \frac{a f_{ob}}{f_{ok} (a - f_{ob})} 
+    M = \frac{\tan(\varphi_2)}{\tan(\varphi_1)} = \frac{b}{f_{ok}}                           \\
+    M = \frac{a f_{ob}}{f_{ok} (a - f_{ob})}
 \end{align}
 
 \newpage
 \section{Absorpcija EM valovanja}
-Telo debeline $x$ in koeficientom absorpcije $\mu$ bo absorbira svetlobni tok $j$. 
+Telo debeline $x$ in koeficientom absorpcije $\mu$ bo absorbira svetlobni tok $j$.
 Tanko telo debeline $dx$ absorbira svetlobni tok $dj$
 
 \begin{align}
-    dj & = -\mu j dx \\
-    \frac{1}{j} dj & = -\mu dx \\
+    dj                               & = -\mu j dx            \\
+    \frac{1}{j} dj                   & = -\mu dx              \\
     \int_{j_0}^{j(x)} \frac{1}{j} dj & = -\mu \int_{0}^{x} dx \\
-    \ln(j(x)) - \ln(j_0) & = -\mu x \\
-    \ln\left(\frac{j(x)}{j_0}\right) & = -\mu x \\
-    j(x) & = j_0 e^{-\mu x}
+    \ln(j(x)) - \ln(j_0)             & = -\mu x               \\
+    \ln\left(\frac{j(x)}{j_0}\right) & = -\mu x               \\
+    j(x)                             & = j_0 e^{-\mu x}
 \end{align}
 
 \section{Okrogla luč po Lambertovem zakonu}
 \includegraphics[width=\textwidth]{lambertova_luc.png}
 \subsection{}
 \begin{align}
-    B(\theta) & = B_0 \\
-    dI & = B(\theta) \cos(\beta) dS \\
-    dS & = x d\varphi dx \\
-    dS & = \int_0^{2 \pi} x dx d\varphi \\
-    dS & = 2 \pi x dx \\
-    dI & = B_0 \cos(\beta) 2 \pi x dx \\
-    dE & = \frac{dI}{r^2} \cos(\beta) \\
-    dE & = \frac{B_0}{r^2} \cos^2(\beta) 2 \pi x dx
+    B(\theta) & = B_0                                      \\
+    dI        & = B(\theta) \cos(\beta) dS                 \\
+    dS        & = x d\varphi dx                            \\
+    dS        & = \int_0^{2 \pi} x dx d\varphi             \\
+    dS        & = 2 \pi x dx                               \\
+    dI        & = B_0 \cos(\beta) 2 \pi x dx               \\
+    dE        & = \frac{dI}{r^2} \cos(\beta)               \\
+    dE        & = \frac{B_0}{r^2} \cos^2(\beta) 2 \pi x dx
 \end{align}
 
 \subsection{}
 \begin{align}
-    r = \sqrt{x^2 + h^2} \\
-    \cos(\beta) = \frac{h}{r} \\
-    r = \frac{h}{\cos(\beta)} \\
+    r = \sqrt{x^2 + h^2}                                     \\
+    \cos(\beta) = \frac{h}{r}                                \\
+    r = \frac{h}{\cos(\beta)}                                \\
     \tan(\beta)  = \frac{x}{h} \Rightarrow x = h \tan{\beta} \\
-    \frac{1}{\cos^2(\beta)} d \beta = \frac{1}{h} dx \\
+    \frac{1}{\cos^2(\beta)} d \beta = \frac{1}{h} dx         \\
     dx = h \frac{1}{\cos^2(\beta)} d\beta
 \end{align}
 
 \subsection{}
 \begin{align}
-    \beta(x) & = \arctan\left(\frac{x}{h}\right) \\
-    \beta(0) & = 0 \\
+    \beta(x) & = \arctan\left(\frac{x}{h}\right)           \\
+    \beta(0) & = 0                                         \\
     \beta(R) & = \beta_0 = \arctan\left(\frac{R}{h}\right)
 \end{align}
 
 \subsection{}
 \begin{align}
     E = \int dE = \int_0^{\beta} \frac{B_0 \cos^2(\beta) \cos^2(\beta) 2\pi h \sin(\beta) h}{h^2 \cos(\beta) \cos^2(\beta)} d\beta \\
-    E = \int_0^\beta B_0 \sin(\beta) \cos(\beta) 2 \pi d\beta \\
-    E = B_0 \pi \int_0^{\beta} \sin(2 \beta) d\beta \\
-    E = B_0 \pi \int_0^{2 \beta} \sin(u) du; u = 2\beta \Rightarrow du = 2 d\beta \\
-    E = \frac{B_0 \pi}{2} (-\cos(u)) \vert_{u=0}^{2\beta} \\
-    E = \frac{B_0 \pi}{2} (1 - \cos(2\beta)) \\
+    E = \int_0^\beta B_0 \sin(\beta) \cos(\beta) 2 \pi d\beta                                                                      \\
+    E = B_0 \pi \int_0^{\beta} \sin(2 \beta) d\beta                                                                                \\
+    E = B_0 \pi \int_0^{2 \beta} \sin(u) du; u = 2\beta \Rightarrow du = 2 d\beta                                                  \\
+    E = \frac{B_0 \pi}{2} (-\cos(u)) \vert_{u=0}^{2\beta}                                                                          \\
+    E = \frac{B_0 \pi}{2} (1 - \cos(2\beta))                                                                                       \\
 \end{align}
 
 \subsection{}
@@ -281,6 +281,55 @@ Tanko telo debeline $dx$ absorbira svetlobni tok $dj$
 \begin{equation}
     \lim_{R \to \infty} E = \lim_{\beta \to \frac{\pi}{2}} \frac{B_0 \pi}{2} (1 - \cos(2\beta_0)) = \frac{B_0 \pi}{2} (1 - \cos(\pi)) = \frac{B_0 \pi}{2} (1 + 1) = B_0 \pi
 \end{equation}
+
+
+\section{Michelson-Morleyev interferometer}
+\includegraphics[width=\textwidth]{michelson.png}
+\subsection{}
+\begin{table}[h!]
+    \centering
+    \begin{tabularx}{\textwidth}{YY}
+        $T_t = \frac{2L}{\sqrt{c^2 - v^2}}$                       & $T_l = \frac{L}{c-v} + \frac{L}{c+v} = \frac{L(c+v) + L(c-v)}{(c-v)(c+v)}$ \\
+        $T_t = \frac{2L}{\sqrt{c^2 (1 - \frac{v^2}{c^2})}}$       & $T_l = \frac{2L c}{c^2 - v^2}$                                             \\
+        $T_t = \frac{2L}{c} \frac{1}{\sqrt{1 - \frac{v^2}{c^2}}}$ & $T_l = \frac{2L}{c} \frac{1}{1- \frac{v^2}{c^2}}$                          \\
+    \end{tabularx}
+\end{table}
+
+\subsection{}
+\begin{align}
+    T_l - T_t & = \frac{2L}{c} \left( \frac{1}{1 - \frac{v^2}{c^2}} - \frac{1}{\sqrt{1 - \frac{v^2}{c^2}}} \right) \\
+    (T_l - T_t) c = k \lambda & = 2L \left( (1 + \frac{v^2}{c^2}) - (1 + \frac 1 2 \frac{v^2}{c^2}) \right) \\
+    k \lambda & = 2L \frac{1}{2} \frac{v^2}{c^2} = L \frac{v^2}{c^2}
+\end{align}
+
+\subsection{}
+Če interferometer zavrtimo za 90° lahko zapišemo $k \lambda = -L \frac{v^2}{c^2}$ 
+\begin{align}
+    n = \frac{k_1\lambda - k_2\lambda}{\lambda} = \frac{L \frac{v^2}{c^2} + L \frac{v^2}{c^2}}{\lambda} = \frac{2 L}{\lambda} \frac{v^2}{c^2}\\
+\end{align}
+
+Žal se teoretični izračun ne ujema z eksperimentom
+
+\subsection{}
+Če upoštevamo Lorentzovo transformacijo \ref{eq:lorentzova_transformacija} lahko zapišemo
+\begin{equation}
+    T_l = \frac{2L\sqrt{1 - \frac{v^2}{c^2}}}{c} \frac{1}{1 - \frac{v^2}{c^2}} = \frac{2L}{c} \frac{1}{\sqrt{1 - \frac{v^2}{c^2}}} = T_t
+\end{equation}
+
+\section{Stefanov zakon}
+Lahko ga izpeljemo iz Planckovega zakona \ref{eq:planckov_zakon}
+\begin{equation}
+    j = \int_0^\infty \frac{dj}{d\lambda} d\lambda = \int_0^\infty \frac{2 \pi hc_0^2}{\lambda^5\left(e^{\frac{hc_0}{\lambda k_B T}} - 1\right)} d\lambda
+\end{equation}
+
+\subsection{}
+$x = \frac{hc_0}{\lambda k_B T} \Rightarrow d\lambda = -\frac{hc_0}{k_B T x^2} dx$ in $\lambda  \to 0 \Rightarrow x \to \infty, \lambda \to \infty \Rightarrow x \to 0$
+\begin{align}
+    j &= \int_\infty^0 \frac{2 \pi hc_0^2}{\left(\frac{hc_0}{k_B T x}\right)^5 \left(e^x - 1\right)} \left(-\frac{hc_0}{k_B T x^2}\right) dx \\
+    j &= \frac{2 \pi (k_B T)^4}{h^3 c_0^3} \int_0^\infty \frac{x^3}{e^x - 1} dx \\
+    j &= \frac{2 \pi (k_B T)^4}{h^3 c_0^3} \cdot \frac{\pi^4}{15} = \frac{2 \pi^5 k_B^4 T^4}{15 h^3 c_0^3} \\
+    j &= \sigma T^4; \sigma = \frac{2 \pi^5 k_B^4}{15 h^3 c_0^3} = 5,67 \cdot 10^{-8} \frac{W}{m^2 K^4}
+\end{align}
 
 
 
@@ -351,11 +400,16 @@ Tanko telo debeline $dx$ absorbira svetlobni tok $dj$
 
     \paragraph{Enačba leče}
     \begin{equation}
-        \frac{1}{f} = (\frac{n_2}{n_1} - 1) ( \frac{1}{R_1} - \frac{1}{R_2} );
+        \frac{1}{f} = (\frac{n_2}{n_1} - 1) ( \frac{1}{R_1} + \frac{1}{R_2} );
     \end{equation}
-    $R > 0$, če je središče krivulje na levi strani
+    $R > 0$, če je središče krivulje na nasprotni strani leče, kot površina, ki jo opisuje
 
-    \paragraph{Lomni zakon (\ref{sec:lomni_zakon})} 
+    \paragraph{Skupek leč}
+    \begin{equation}
+        \frac{1}{f} = \frac{1}{f_1} + \frac{1}{f_2} - \frac{d}{f_1f_2}
+    \end{equation}
+
+    \paragraph{Lomni zakon (\ref{sec:lomni_zakon})}
     \begin{equation}
         n_1 \sin(\alpha) = n_2 \sin(\beta)
     \end{equation}
@@ -373,7 +427,7 @@ Tanko telo debeline $dx$ absorbira svetlobni tok $dj$
 
 \subsection{Moderna fizika}
 \begin{multicols}{2}
-    \paragraph{Lorentzova transformacija}
+    \paragraph{Lorentzova transformacija} \label{eq:lorentzova_transformacija}
     \begin{align}
         x' = \gamma (x - vt)              & \qquad x = \gamma (x' + vt')              \\
         y' = y                            & \qquad y = y'                             \\
@@ -386,6 +440,18 @@ Tanko telo debeline $dx$ absorbira svetlobni tok $dj$
         \gamma = \frac{1}{\sqrt{1 - \frac{v^2}{c^2}}}
     \end{equation}
 
+    \paragraph{Galilejeva transformacija}
+    \begin{align}
+        x' = x - vt & \qquad x = x' + vt' \\
+        y' = y      & \qquad y = y'       \\
+        z' = z      & \qquad z = z'       \\
+        t' = t      & \qquad t = t'
+    \end{align}
+
+    \paragraph{Planckov zakon} \label{eq:planckov_zakon}
+    \begin{equation}
+        \frac{dj}{d\lambda} = \frac{2 \pi hc^2}{\lambda^5\left(e^{\frac{hc}{\lambda k_B T}} - 1\right)}
+    \end{equation}
 \end{multicols}
 
 
